@@ -1,0 +1,3103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01a2733549260b97b191fa7c891afe71 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_01a2733549260b97b191fa7c891afe71" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_01a2733549260b97b191fa7c891afe71 = L.map(
+                "map_01a2733549260b97b191fa7c891afe71",
+                {
+                    center: [25.0478, 121.517],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1df8932a3d8ef06286a078355fcb8ca5 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1df8932a3d8ef06286a078355fcb8ca5.addTo(map_01a2733549260b97b191fa7c891afe71);
+        
+    
+            var circle_marker_3259bba986dcba84296876564ce74889 = L.circleMarker(
+                [25.0478, 121.517],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_01a2733549260b97b191fa7c891afe71);
+        
+    
+        var popup_782cecbd4105c462e5efc571172e48e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97a6cdf2434bd1e18bca94d1bda87b27 = $(`<div id="html_97a6cdf2434bd1e18bca94d1bda87b27" style="width: 100.0%; height: 100.0%;">台北車站(圓心)</div>`)[0];
+                popup_782cecbd4105c462e5efc571172e48e5.setContent(html_97a6cdf2434bd1e18bca94d1bda87b27);
+            
+        
+
+        circle_marker_3259bba986dcba84296876564ce74889.bindPopup(popup_782cecbd4105c462e5efc571172e48e5)
+        ;
+
+        
+    
+    
+            var marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_ac45f8ceb7b50bb0c6907fea3c6cf668 = L.circleMarker(
+                [25.04775, 121.51704],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_e0f0e976ebd29619e16eb10c93ce19b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5087ae0996cd12844ce0385cb3b3dc0b = $(`<div id="html_5087ae0996cd12844ce0385cb3b3dc0b" style="width: 100.0%; height: 100.0%;">臺鐵臺北車站，景點類型：歷史建築，距台北車站0.01公里</div>`)[0];
+                popup_e0f0e976ebd29619e16eb10c93ce19b2.setContent(html_5087ae0996cd12844ce0385cb3b3dc0b);
+            
+        
+
+        circle_marker_ac45f8ceb7b50bb0c6907fea3c6cf668.bindPopup(popup_e0f0e976ebd29619e16eb10c93ce19b2)
+        ;
+
+        
+    
+    
+            var circle_marker_098a3b9b619eb87e073d4dc89b04f668 = L.circleMarker(
+                [25.05072, 121.51892],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_91209e9fff833e96c11bc29688d90343 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0454f548bcbc2e4cfbdcc7a4bd3c8bc3 = $(`<div id="html_0454f548bcbc2e4cfbdcc7a4bd3c8bc3" style="width: 100.0%; height: 100.0%;">台北當代藝術館，景點類型：歷史建築，距台北車站0.38公里</div>`)[0];
+                popup_91209e9fff833e96c11bc29688d90343.setContent(html_0454f548bcbc2e4cfbdcc7a4bd3c8bc3);
+            
+        
+
+        circle_marker_098a3b9b619eb87e073d4dc89b04f668.bindPopup(popup_91209e9fff833e96c11bc29688d90343)
+        ;
+
+        
+    
+    
+            var circle_marker_6b403523a89c4b32b4da0f8ebd8c52a2 = L.circleMarker(
+                [25.04769734564248, 121.5124261379242],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_bc362999f1f27c3bf4c317fddfe07609 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfcdf638f92e41ba7dbd2b082bafd31f = $(`<div id="html_dfcdf638f92e41ba7dbd2b082bafd31f" style="width: 100.0%; height: 100.0%;">臺北記憶倉庫(三井倉庫)，景點類型：歷史建築，距台北車站0.46公里</div>`)[0];
+                popup_bc362999f1f27c3bf4c317fddfe07609.setContent(html_dfcdf638f92e41ba7dbd2b082bafd31f);
+            
+        
+
+        circle_marker_6b403523a89c4b32b4da0f8ebd8c52a2.bindPopup(popup_bc362999f1f27c3bf4c317fddfe07609)
+        ;
+
+        
+    
+    
+            var circle_marker_970dd030f596a6a6825fa4b352789a94 = L.circleMarker(
+                [25.04356, 121.51436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_8049d8294eeca9d074bc86f695719051 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_184e88739317161b453bf945e264b9d5 = $(`<div id="html_184e88739317161b453bf945e264b9d5" style="width: 100.0%; height: 100.0%;">國立臺灣博物館_古生物館，景點類型：歷史建築，距台北車站0.54公里</div>`)[0];
+                popup_8049d8294eeca9d074bc86f695719051.setContent(html_184e88739317161b453bf945e264b9d5);
+            
+        
+
+        circle_marker_970dd030f596a6a6825fa4b352789a94.bindPopup(popup_8049d8294eeca9d074bc86f695719051)
+        ;
+
+        
+    
+    
+            var circle_marker_343ea20e77ed8b17bf55460dc599d1bb = L.circleMarker(
+                [25.04692, 121.5114],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_286e8625fed966af369770738a77ed5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c97cd0048abc30a8841a90084047dca3 = $(`<div id="html_c97cd0048abc30a8841a90084047dca3" style="width: 100.0%; height: 100.0%;">臺北北門郵局_臺北901支，景點類型：歷史建築，距台北車站0.57公里</div>`)[0];
+                popup_286e8625fed966af369770738a77ed5b.setContent(html_c97cd0048abc30a8841a90084047dca3);
+            
+        
+
+        circle_marker_343ea20e77ed8b17bf55460dc599d1bb.bindPopup(popup_286e8625fed966af369770738a77ed5b)
+        ;
+
+        
+    
+    
+            var circle_marker_f90e359ab6f9f4d7749f6db5393387f7 = L.circleMarker(
+                [25.048833955296377, 121.51138342916964],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_893a44d70271574b1ad5daa70224dc96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5939985744ce9ce35d12338c748b09e = $(`<div id="html_c5939985744ce9ce35d12338c748b09e" style="width: 100.0%; height: 100.0%;">國立臺灣博物館_鐵道部園區，景點類型：歷史建築，距台北車站0.58公里</div>`)[0];
+                popup_893a44d70271574b1ad5daa70224dc96.setContent(html_c5939985744ce9ce35d12338c748b09e);
+            
+        
+
+        circle_marker_f90e359ab6f9f4d7749f6db5393387f7.bindPopup(popup_893a44d70271574b1ad5daa70224dc96)
+        ;
+
+        
+    
+    
+            var circle_marker_1e4b9583738c8010fb0136c61c545a8a = L.circleMarker(
+                [25.04773, 121.51123],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_6aff04f98d577b488d34772d95ad43c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8cffa59c7907163fc22d42f56a7dab3 = $(`<div id="html_c8cffa59c7907163fc22d42f56a7dab3" style="width: 100.0%; height: 100.0%;">北門_承恩門(目前暫停開放)，景點類型：歷史建築，距台北車站0.58公里</div>`)[0];
+                popup_6aff04f98d577b488d34772d95ad43c8.setContent(html_c8cffa59c7907163fc22d42f56a7dab3);
+            
+        
+
+        circle_marker_1e4b9583738c8010fb0136c61c545a8a.bindPopup(popup_6aff04f98d577b488d34772d95ad43c8)
+        ;
+
+        
+    
+    
+            var circle_marker_d14fe8e17d3bd245eaecfe2302e1413d = L.circleMarker(
+                [25.04276, 121.51503],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_c7fd8d0d5970b16233f66abe174b3521 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1010cff114a78f41640c7bf63ae351e1 = $(`<div id="html_1010cff114a78f41640c7bf63ae351e1" style="width: 100.0%; height: 100.0%;">國立臺灣博物館，景點類型：歷史建築，距台北車站0.59公里</div>`)[0];
+                popup_c7fd8d0d5970b16233f66abe174b3521.setContent(html_1010cff114a78f41640c7bf63ae351e1);
+            
+        
+
+        circle_marker_d14fe8e17d3bd245eaecfe2302e1413d.bindPopup(popup_c7fd8d0d5970b16233f66abe174b3521)
+        ;
+
+        
+    
+    
+            var circle_marker_d5fbe1d2c38d3e107a66b9d47d789590 = L.circleMarker(
+                [25.04671, 121.51081],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_fe116b96729c76fa9214d775dfc134ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1b94ce37242e362f63036b544fafbfd = $(`<div id="html_a1b94ce37242e362f63036b544fafbfd" style="width: 100.0%; height: 100.0%;">撫臺街洋樓 (《人民導報》舊址)(暫停營業)，景點類型：歷史建築，距台北車站0.64公里</div>`)[0];
+                popup_fe116b96729c76fa9214d775dfc134ff.setContent(html_a1b94ce37242e362f63036b544fafbfd);
+            
+        
+
+        circle_marker_d5fbe1d2c38d3e107a66b9d47d789590.bindPopup(popup_fe116b96729c76fa9214d775dfc134ff)
+        ;
+
+        
+    
+    
+            var circle_marker_2b32d5300a63fa6fc029d0a14306bf9d = L.circleMarker(
+                [25.04199, 121.51722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_efb29f5fa2fb58d5ffc59204b52c8b6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db3a4038fbde839e2989cb5092c4d137 = $(`<div id="html_db3a4038fbde839e2989cb5092c4d137" style="width: 100.0%; height: 100.0%;">國立臺灣大學醫學院附設醫院_西址，景點類型：歷史建築，距台北車站0.64公里</div>`)[0];
+                popup_efb29f5fa2fb58d5ffc59204b52c8b6f.setContent(html_db3a4038fbde839e2989cb5092c4d137);
+            
+        
+
+        circle_marker_2b32d5300a63fa6fc029d0a14306bf9d.bindPopup(popup_efb29f5fa2fb58d5ffc59204b52c8b6f)
+        ;
+
+        
+    
+    
+            var circle_marker_9e6a39b9d9018cd7886ea5ece7e72dd3 = L.circleMarker(
+                [25.05381, 121.51469],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_ad193a4a955b57f3477ac32c6529d563 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7108d309399a06f5bdeff6747ce1e801 = $(`<div id="html_7108d309399a06f5bdeff6747ce1e801" style="width: 100.0%; height: 100.0%;">建成圓環，景點類型：歷史建築，距台北車站0.71公里</div>`)[0];
+                popup_ad193a4a955b57f3477ac32c6529d563.setContent(html_7108d309399a06f5bdeff6747ce1e801);
+            
+        
+
+        circle_marker_9e6a39b9d9018cd7886ea5ece7e72dd3.bindPopup(popup_ad193a4a955b57f3477ac32c6529d563)
+        ;
+
+        
+    
+    
+            var circle_marker_ab8694aa4a4debb69e917bf3f7a38080 = L.circleMarker(
+                [25.04554341423583, 121.52467532241825],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_2866291ce634fa7eca965d8cf79541e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e28a4c2548dfc4dc97b49bc7f98002e = $(`<div id="html_7e28a4c2548dfc4dc97b49bc7f98002e" style="width: 100.0%; height: 100.0%;">蒲添生雕塑紀念館，景點類型：歷史建築，距台北車站0.81公里</div>`)[0];
+                popup_2866291ce634fa7eca965d8cf79541e9.setContent(html_7e28a4c2548dfc4dc97b49bc7f98002e);
+            
+        
+
+        circle_marker_ab8694aa4a4debb69e917bf3f7a38080.bindPopup(popup_2866291ce634fa7eca965d8cf79541e9)
+        ;
+
+        
+    
+    
+            var circle_marker_8f38d20876d3360ce2508f391cd0edd6 = L.circleMarker(
+                [25.05402115973732, 121.51216194033624],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_1f71d9f30490f58fee9d51a9a6228af6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea9aa05d8b1e5d338de884d526969303 = $(`<div id="html_ea9aa05d8b1e5d338de884d526969303" style="width: 100.0%; height: 100.0%;">天馬茶房，景點類型：歷史建築，距台北車站0.84公里</div>`)[0];
+                popup_1f71d9f30490f58fee9d51a9a6228af6.setContent(html_ea9aa05d8b1e5d338de884d526969303);
+            
+        
+
+        circle_marker_8f38d20876d3360ce2508f391cd0edd6.bindPopup(popup_1f71d9f30490f58fee9d51a9a6228af6)
+        ;
+
+        
+    
+    
+            var circle_marker_910cda5283a505a0f05bf3050f7f9e6f = L.circleMarker(
+                [25.04015, 121.51675],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_3277f0b422ea13e46ad7028c8e662327 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0de29ec28c2a8ab9efb52b80d1090f7 = $(`<div id="html_c0de29ec28c2a8ab9efb52b80d1090f7" style="width: 100.0%; height: 100.0%;">臺北賓館，景點類型：歷史建築，距台北車站0.85公里</div>`)[0];
+                popup_3277f0b422ea13e46ad7028c8e662327.setContent(html_c0de29ec28c2a8ab9efb52b80d1090f7);
+            
+        
+
+        circle_marker_910cda5283a505a0f05bf3050f7f9e6f.bindPopup(popup_3277f0b422ea13e46ad7028c8e662327)
+        ;
+
+        
+    
+    
+            var circle_marker_3b81b7a89dfae7135fc9ff696cd6410f = L.circleMarker(
+                [25.05564, 121.51592],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_b20a7523a2790f9a4957e31a6329f9fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f35474137c24aa739139112d2082df6f = $(`<div id="html_f35474137c24aa739139112d2082df6f" style="width: 100.0%; height: 100.0%;">陳德星堂，景點類型：歷史建築，距台北車站0.88公里</div>`)[0];
+                popup_b20a7523a2790f9a4957e31a6329f9fd.setContent(html_f35474137c24aa739139112d2082df6f);
+            
+        
+
+        circle_marker_3b81b7a89dfae7135fc9ff696cd6410f.bindPopup(popup_b20a7523a2790f9a4957e31a6329f9fd)
+        ;
+
+        
+    
+    
+            var circle_marker_e8433738c549834fc3d7f13582a0fc8a = L.circleMarker(
+                [25.04319, 121.50967],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_9b3b09270725fb019d189a0625fb4d56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03996437898e5963ff4d26a6755b7202 = $(`<div id="html_03996437898e5963ff4d26a6755b7202" style="width: 100.0%; height: 100.0%;">臺北市中山堂，景點類型：歷史建築，距台北車站0.9公里</div>`)[0];
+                popup_9b3b09270725fb019d189a0625fb4d56.setContent(html_03996437898e5963ff4d26a6755b7202);
+            
+        
+
+        circle_marker_e8433738c549834fc3d7f13582a0fc8a.bindPopup(popup_9b3b09270725fb019d189a0625fb4d56)
+        ;
+
+        
+    
+    
+            var circle_marker_8349d0d75846f2b05a176f1866604969 = L.circleMarker(
+                [25.03953, 121.51886],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_b99a8e6e556ca4214f92d48670cd4639 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8fb6a367eebbf92e0ee0d6c30101b48 = $(`<div id="html_d8fb6a367eebbf92e0ee0d6c30101b48" style="width: 100.0%; height: 100.0%;">國立臺灣大學博物館群_醫學人文博物館，景點類型：歷史建築，距台北車站0.94公里</div>`)[0];
+                popup_b99a8e6e556ca4214f92d48670cd4639.setContent(html_d8fb6a367eebbf92e0ee0d6c30101b48);
+            
+        
+
+        circle_marker_8349d0d75846f2b05a176f1866604969.bindPopup(popup_b99a8e6e556ca4214f92d48670cd4639)
+        ;
+
+        
+    
+    
+            var circle_marker_e01737bd6d9884b834083f79a32d874f = L.circleMarker(
+                [25.03907, 121.51765],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_92a7f114a2a985494570ae7e34222262 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cce93fce87663a6c9bc20332598d783d = $(`<div id="html_cce93fce87663a6c9bc20332598d783d" style="width: 100.0%; height: 100.0%;">東門_景福門，景點類型：歷史建築，距台北車站0.97公里</div>`)[0];
+                popup_92a7f114a2a985494570ae7e34222262.setContent(html_cce93fce87663a6c9bc20332598d783d);
+            
+        
+
+        circle_marker_e01737bd6d9884b834083f79a32d874f.bindPopup(popup_92a7f114a2a985494570ae7e34222262)
+        ;
+
+        
+    
+    
+            var circle_marker_692775346536b487bde11035ff69cc86 = L.circleMarker(
+                [25.04009, 121.51195],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_af2f566a260e447e57f492ba03148735 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53bcc44623733fc6f83860f5866f49d8 = $(`<div id="html_53bcc44623733fc6f83860f5866f49d8" style="width: 100.0%; height: 100.0%;">中華民國總統府，景點類型：歷史建築，距台北車站0.99公里</div>`)[0];
+                popup_af2f566a260e447e57f492ba03148735.setContent(html_53bcc44623733fc6f83860f5866f49d8);
+            
+        
+
+        circle_marker_692775346536b487bde11035ff69cc86.bindPopup(popup_af2f566a260e447e57f492ba03148735)
+        ;
+
+        
+    
+    
+            var circle_marker_b0cbed283a2e88cfd786eff64bd4585d = L.circleMarker(
+                [25.05578, 121.52199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_a1a934c05600fbeb2c25ace49bed2e35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f544c0e92e0012849c92d0fbdf3e0c61 = $(`<div id="html_f544c0e92e0012849c92d0fbdf3e0c61" style="width: 100.0%; height: 100.0%;">玫瑰古蹟_蔡瑞月舞蹈研究社，景點類型：歷史建築，距台北車站1.02公里</div>`)[0];
+                popup_a1a934c05600fbeb2c25ace49bed2e35.setContent(html_f544c0e92e0012849c92d0fbdf3e0c61);
+            
+        
+
+        circle_marker_b0cbed283a2e88cfd786eff64bd4585d.bindPopup(popup_a1a934c05600fbeb2c25ace49bed2e35)
+        ;
+
+        
+    
+    
+            var circle_marker_63ae9ad7ef1eb08ec00139547096c10b = L.circleMarker(
+                [25.05479, 121.50999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_fd4e3b307f8d9a778795f0ca7a5e6cd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a82c14d0a8f6bd8dd7c68ee0b767ab5f = $(`<div id="html_a82c14d0a8f6bd8dd7c68ee0b767ab5f" style="width: 100.0%; height: 100.0%;">臺北迪化街郵局，景點類型：歷史建築，距台北車站1.05公里</div>`)[0];
+                popup_fd4e3b307f8d9a778795f0ca7a5e6cd8.setContent(html_a82c14d0a8f6bd8dd7c68ee0b767ab5f);
+            
+        
+
+        circle_marker_63ae9ad7ef1eb08ec00139547096c10b.bindPopup(popup_fd4e3b307f8d9a778795f0ca7a5e6cd8)
+        ;
+
+        
+    
+    
+            var circle_marker_b12b38c1f30cb929e1c26c1f06c29ebc = L.circleMarker(
+                [25.03999, 121.51081],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_8c33dd3db4d71db897a2fc5e9a5e29a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb7066e3e09387ec1ec7edb4f35823b9 = $(`<div id="html_fb7066e3e09387ec1ec7edb4f35823b9" style="width: 100.0%; height: 100.0%;">國史館，景點類型：歷史建築，距台北車站1.07公里</div>`)[0];
+                popup_8c33dd3db4d71db897a2fc5e9a5e29a5.setContent(html_fb7066e3e09387ec1ec7edb4f35823b9);
+            
+        
+
+        circle_marker_b12b38c1f30cb929e1c26c1f06c29ebc.bindPopup(popup_8c33dd3db4d71db897a2fc5e9a5e29a5)
+        ;
+
+        
+    
+    
+            var circle_marker_69fd9e90e76d6d77381c890b3918511d = L.circleMarker(
+                [25.0556, 121.51017],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_b6c021aa578ad6389300640623c35ad8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa43c4ef2fa94fe81d2280791629a3f5 = $(`<div id="html_fa43c4ef2fa94fe81d2280791629a3f5" style="width: 100.0%; height: 100.0%;">台北霞海城隍廟，景點類型：歷史建築，距台北車站1.11公里</div>`)[0];
+                popup_b6c021aa578ad6389300640623c35ad8.setContent(html_fa43c4ef2fa94fe81d2280791629a3f5);
+            
+        
+
+        circle_marker_69fd9e90e76d6d77381c890b3918511d.bindPopup(popup_b6c021aa578ad6389300640623c35ad8)
+        ;
+
+        
+    
+    
+            var circle_marker_00ec49ac41da7013584e05b0e3df8084 = L.circleMarker(
+                [25.039189752077924, 121.52280628681184],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_df7da26ca988eef04d80cb2d807ace6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc10f1445dffd61320b409dc8448afc5 = $(`<div id="html_dc10f1445dffd61320b409dc8448afc5" style="width: 100.0%; height: 100.0%;">東和禪寺，景點類型：歷史建築，距台北車站1.12公里</div>`)[0];
+                popup_df7da26ca988eef04d80cb2d807ace6f.setContent(html_dc10f1445dffd61320b409dc8448afc5);
+            
+        
+
+        circle_marker_00ec49ac41da7013584e05b0e3df8084.bindPopup(popup_df7da26ca988eef04d80cb2d807ace6f)
+        ;
+
+        
+    
+    
+            var circle_marker_8b7b2370e4d21592d35a148885208ece = L.circleMarker(
+                [25.05707816037852, 121.51254817843436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_0de9143b03a0ccc0ae226102abab980a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2917edf5b49ed63d7c6070816418f6ea = $(`<div id="html_2917edf5b49ed63d7c6070816418f6ea" style="width: 100.0%; height: 100.0%;">新芳春茶行，景點類型：歷史建築，距台北車站1.12公里</div>`)[0];
+                popup_0de9143b03a0ccc0ae226102abab980a.setContent(html_2917edf5b49ed63d7c6070816418f6ea);
+            
+        
+
+        circle_marker_8b7b2370e4d21592d35a148885208ece.bindPopup(popup_0de9143b03a0ccc0ae226102abab980a)
+        ;
+
+        
+    
+    
+            var circle_marker_04a64e8aa6b2e509d353ca8cd7911482 = L.circleMarker(
+                [25.04007431657601, 121.50923162698746],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_9ef15fbe735951e536ff005b50093ff2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b7edb9b50de94122849d4106ec29bc9 = $(`<div id="html_4b7edb9b50de94122849d4106ec29bc9" style="width: 100.0%; height: 100.0%;">臺灣電力株式會社社長宿舍，景點類型：歷史建築，距台北車站1.16公里</div>`)[0];
+                popup_9ef15fbe735951e536ff005b50093ff2.setContent(html_4b7edb9b50de94122849d4106ec29bc9);
+            
+        
+
+        circle_marker_04a64e8aa6b2e509d353ca8cd7911482.bindPopup(popup_9ef15fbe735951e536ff005b50093ff2)
+        ;
+
+        
+    
+    
+            var circle_marker_f6f82afffe091ebb24f34a9ec11f359e = L.circleMarker(
+                [25.05518, 121.50871],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_53a89b601b5247392c428ceead56e897 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac957f5c26c289e91ee5edb52f294050 = $(`<div id="html_ac957f5c26c289e91ee5edb52f294050" style="width: 100.0%; height: 100.0%;">李臨秋故居，景點類型：歷史建築，距台北車站1.17公里</div>`)[0];
+                popup_53a89b601b5247392c428ceead56e897.setContent(html_ac957f5c26c289e91ee5edb52f294050);
+            
+        
+
+        circle_marker_f6f82afffe091ebb24f34a9ec11f359e.bindPopup(popup_53a89b601b5247392c428ceead56e897)
+        ;
+
+        
+    
+    
+            var circle_marker_e3cb47a411f7a29651d9693884e66807 = L.circleMarker(
+                [25.04207, 121.50693],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_0c7c8606a4e137e698b9487c3dc33dce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_602a966d7c3a1a1531e6bc1657a0b3c5 = $(`<div id="html_602a966d7c3a1a1531e6bc1657a0b3c5" style="width: 100.0%; height: 100.0%;">西門紅樓，景點類型：歷史建築，距台北車站1.2公里</div>`)[0];
+                popup_0c7c8606a4e137e698b9487c3dc33dce.setContent(html_602a966d7c3a1a1531e6bc1657a0b3c5);
+            
+        
+
+        circle_marker_e3cb47a411f7a29651d9693884e66807.bindPopup(popup_0c7c8606a4e137e698b9487c3dc33dce)
+        ;
+
+        
+    
+    
+            var circle_marker_d7317e75b4444ec869bf7ce29fec98cb = L.circleMarker(
+                [25.059341172539195, 121.5150386095047],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_02d34e7fd139a438c2f283dfe3d6cda1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6477ab5857be92c158c5184d50deda3 = $(`<div id="html_a6477ab5857be92c158c5184d50deda3" style="width: 100.0%; height: 100.0%;">臺灣新文化運動紀念館，景點類型：歷史建築，距台北車站1.29公里</div>`)[0];
+                popup_02d34e7fd139a438c2f283dfe3d6cda1.setContent(html_a6477ab5857be92c158c5184d50deda3);
+            
+        
+
+        circle_marker_d7317e75b4444ec869bf7ce29fec98cb.bindPopup(popup_02d34e7fd139a438c2f283dfe3d6cda1)
+        ;
+
+        
+    
+    
+            var circle_marker_e4a3f4c512461353299802714ef4c6ab = L.circleMarker(
+                [25.03619, 121.51868],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_dac6ed1909b4e862d2afc3e40ac0db29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e9527ca0b9fbe2ca1e4d0437971e276 = $(`<div id="html_3e9527ca0b9fbe2ca1e4d0437971e276" style="width: 100.0%; height: 100.0%;">國立中正紀念堂，景點類型：歷史建築，距台北車站1.3公里</div>`)[0];
+                popup_dac6ed1909b4e862d2afc3e40ac0db29.setContent(html_3e9527ca0b9fbe2ca1e4d0437971e276);
+            
+        
+
+        circle_marker_e4a3f4c512461353299802714ef4c6ab.bindPopup(popup_dac6ed1909b4e862d2afc3e40ac0db29)
+        ;
+
+        
+    
+    
+            var circle_marker_5694d1398ec4245f07d5c18db8ab0dff = L.circleMarker(
+                [25.04925, 121.51873],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_a357be9552762c8476f2849eb4e9f965 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab91082531baf9d1b96d7fd6eb757e89 = $(`<div id="html_ab91082531baf9d1b96d7fd6eb757e89" style="width: 100.0%; height: 100.0%;">臺北市交通資訊中心，景點類型：藝文館所，距台北車站0.24公里</div>`)[0];
+                popup_a357be9552762c8476f2849eb4e9f965.setContent(html_ab91082531baf9d1b96d7fd6eb757e89);
+            
+        
+
+        circle_marker_5694d1398ec4245f07d5c18db8ab0dff.bindPopup(popup_a357be9552762c8476f2849eb4e9f965)
+        ;
+
+        
+    
+    
+            var circle_marker_d3fd599dce2b2b34a0366e93ba85b2b0 = L.circleMarker(
+                [25.0498061, 121.5224323],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_1be7b3f1046f2eac57f140959ede5d88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_305a6c2ab99360e05fcd398a4fd275b1 = $(`<div id="html_305a6c2ab99360e05fcd398a4fd275b1" style="width: 100.0%; height: 100.0%;">非畫廊Beyond Gallery，景點類型：藝文館所，距台北車站0.59公里</div>`)[0];
+                popup_1be7b3f1046f2eac57f140959ede5d88.setContent(html_305a6c2ab99360e05fcd398a4fd275b1);
+            
+        
+
+        circle_marker_d3fd599dce2b2b34a0366e93ba85b2b0.bindPopup(popup_1be7b3f1046f2eac57f140959ede5d88)
+        ;
+
+        
+    
+    
+            var circle_marker_a89c7c626d4805ea502eab197750cb3d = L.circleMarker(
+                [25.046376653953534, 121.510950922966],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_254fe15e0b99af452aac1bd377cbb100 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36dd862867dfe9779b87ad927dd8295a = $(`<div id="html_36dd862867dfe9779b87ad927dd8295a" style="width: 100.0%; height: 100.0%;">順益台灣原住民博物館_美術分館，景點類型：藝文館所，距台北車站0.63公里</div>`)[0];
+                popup_254fe15e0b99af452aac1bd377cbb100.setContent(html_36dd862867dfe9779b87ad927dd8295a);
+            
+        
+
+        circle_marker_a89c7c626d4805ea502eab197750cb3d.bindPopup(popup_254fe15e0b99af452aac1bd377cbb100)
+        ;
+
+        
+    
+    
+            var circle_marker_186aa3b6f2a43c1fd53ee8bb3b4ac285 = L.circleMarker(
+                [25.04132, 121.51516],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_e2cbf7c5e9075e435871b2662cd6ab88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66542a573521bb042ef38479d4963645 = $(`<div id="html_66542a573521bb042ef38479d4963645" style="width: 100.0%; height: 100.0%;">二二八和平公園，景點類型：藝文館所，距台北車站0.74公里</div>`)[0];
+                popup_e2cbf7c5e9075e435871b2662cd6ab88.setContent(html_66542a573521bb042ef38479d4963645);
+            
+        
+
+        circle_marker_186aa3b6f2a43c1fd53ee8bb3b4ac285.bindPopup(popup_e2cbf7c5e9075e435871b2662cd6ab88)
+        ;
+
+        
+    
+    
+            var circle_marker_bdcf27964d7799a44a349763bbf8b4d8 = L.circleMarker(
+                [25.053290512001773, 121.52216026198344],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_6937e87d369a2f2d7c8f141d1d789f27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_476c9542e56aa8f44c0e913a8d0153da = $(`<div id="html_476c9542e56aa8f44c0e913a8d0153da" style="width: 100.0%; height: 100.0%;">SPOT光點台北電影館，景點類型：藝文館所，距台北車站0.8公里</div>`)[0];
+                popup_6937e87d369a2f2d7c8f141d1d789f27.setContent(html_476c9542e56aa8f44c0e913a8d0153da);
+            
+        
+
+        circle_marker_bdcf27964d7799a44a349763bbf8b4d8.bindPopup(popup_6937e87d369a2f2d7c8f141d1d789f27)
+        ;
+
+        
+    
+    
+            var circle_marker_c6ea0581697cfb99d8ec7730ad36811d = L.circleMarker(
+                [25.05472003963252, 121.51178140193224],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_2c2f0cbe65ec0ede5665147a3b448bf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f3ebc59a004d92c070983eb3879c71b = $(`<div id="html_7f3ebc59a004d92c070983eb3879c71b" style="width: 100.0%; height: 100.0%;">渭水驛站，景點類型：藝文館所，距台北車站0.93公里</div>`)[0];
+                popup_2c2f0cbe65ec0ede5665147a3b448bf5.setContent(html_7f3ebc59a004d92c070983eb3879c71b);
+            
+        
+
+        circle_marker_c6ea0581697cfb99d8ec7730ad36811d.bindPopup(popup_2c2f0cbe65ec0ede5665147a3b448bf5)
+        ;
+
+        
+    
+    
+            var circle_marker_20e190a14f81e33214d441348af32cb3 = L.circleMarker(
+                [25.05482, 121.51047],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_501e1e7ac1dc105576f0f7abffc590b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ada128a0e86f073f7e9a329793751664 = $(`<div id="html_ada128a0e86f073f7e9a329793751664" style="width: 100.0%; height: 100.0%;">大稻埕戲苑，景點類型：藝文館所，距台北車站1.02公里</div>`)[0];
+                popup_501e1e7ac1dc105576f0f7abffc590b8.setContent(html_ada128a0e86f073f7e9a329793751664);
+            
+        
+
+        circle_marker_20e190a14f81e33214d441348af32cb3.bindPopup(popup_501e1e7ac1dc105576f0f7abffc590b8)
+        ;
+
+        
+    
+    
+            var circle_marker_5312407e9464000d4f17e814620f2de4 = L.circleMarker(
+                [25.03872, 121.51871],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_b79db8002fceb50109a60d122e80a63f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba86ac77c430aa57a3acb032e4512c31 = $(`<div id="html_ba86ac77c430aa57a3acb032e4512c31" style="width: 100.0%; height: 100.0%;">長榮海事博物館，景點類型：藝文館所，距台北車站1.02公里</div>`)[0];
+                popup_b79db8002fceb50109a60d122e80a63f.setContent(html_ba86ac77c430aa57a3acb032e4512c31);
+            
+        
+
+        circle_marker_5312407e9464000d4f17e814620f2de4.bindPopup(popup_b79db8002fceb50109a60d122e80a63f)
+        ;
+
+        
+    
+    
+            var circle_marker_060be599c400680e42e2ab52587b32c3 = L.circleMarker(
+                [25.05511, 121.50825],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_8ca87a812e190df325f533ebb46cec7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4abb8dcf8ab5d4b34f3d98c32208e50 = $(`<div id="html_e4abb8dcf8ab5d4b34f3d98c32208e50" style="width: 100.0%; height: 100.0%;">李春生紀念教會，景點類型：宗教信仰，距台北車站1.2公里</div>`)[0];
+                popup_8ca87a812e190df325f533ebb46cec7a.setContent(html_e4abb8dcf8ab5d4b34f3d98c32208e50);
+            
+        
+
+        circle_marker_060be599c400680e42e2ab52587b32c3.bindPopup(popup_8ca87a812e190df325f533ebb46cec7a)
+        ;
+
+        
+    
+    
+            var circle_marker_6a78138daee90c001b1cd3678876fd1d = L.circleMarker(
+                [25.03704, 121.51925],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_a7a286e8003d39d234f81866629e9a66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e25c72e56c4bd243d5e9df543319dd3 = $(`<div id="html_6e25c72e56c4bd243d5e9df543319dd3" style="width: 100.0%; height: 100.0%;">國家兩廳院，景點類型：藝文館所，距台北車站1.21公里</div>`)[0];
+                popup_a7a286e8003d39d234f81866629e9a66.setContent(html_6e25c72e56c4bd243d5e9df543319dd3);
+            
+        
+
+        circle_marker_6a78138daee90c001b1cd3678876fd1d.bindPopup(popup_a7a286e8003d39d234f81866629e9a66)
+        ;
+
+        
+    
+    
+            var circle_marker_0dfe484189f033520916a0a4e6d67571 = L.circleMarker(
+                [25.04413, 121.5294],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_8ee1f8ae87bc86c7e6c2b83f48b9ecfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_303d617a8e0e8a4260fd7b796783634d = $(`<div id="html_303d617a8e0e8a4260fd7b796783634d" style="width: 100.0%; height: 100.0%;">華山1914文化創意產業園區，景點類型：歷史建築，距台北車站1.32公里</div>`)[0];
+                popup_8ee1f8ae87bc86c7e6c2b83f48b9ecfd.setContent(html_303d617a8e0e8a4260fd7b796783634d);
+            
+        
+
+        circle_marker_0dfe484189f033520916a0a4e6d67571.bindPopup(popup_8ee1f8ae87bc86c7e6c2b83f48b9ecfd)
+        ;
+
+        
+    
+    
+            var circle_marker_b4d2be6e692561773a9f323ffc6547ae = L.circleMarker(
+                [25.0406422, 121.5276709],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_6c6f9c0ee19a11f5dc3d922c6d843cc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32c5516f86068a2db56f0da16a48b58d = $(`<div id="html_32c5516f86068a2db56f0da16a48b58d" style="width: 100.0%; height: 100.0%;">李國鼎故居，景點類型：歷史建築，距台北車站1.34公里</div>`)[0];
+                popup_6c6f9c0ee19a11f5dc3d922c6d843cc0.setContent(html_32c5516f86068a2db56f0da16a48b58d);
+            
+        
+
+        circle_marker_b4d2be6e692561773a9f323ffc6547ae.bindPopup(popup_6c6f9c0ee19a11f5dc3d922c6d843cc0)
+        ;
+
+        
+    
+    
+            var circle_marker_fb018107b87fa63ec20d5437e553b7f2 = L.circleMarker(
+                [25.04774, 121.52007],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_6a1778168e1526b8abdc3550575cf2be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c944d5fe3be9c79dce6b75709e54f2cc = $(`<div id="html_c944d5fe3be9c79dce6b75709e54f2cc" style="width: 100.0%; height: 100.0%;">逸仙公園，景點類型：戶外踏青，距台北車站0.31公里</div>`)[0];
+                popup_6a1778168e1526b8abdc3550575cf2be.setContent(html_c944d5fe3be9c79dce6b75709e54f2cc);
+            
+        
+
+        circle_marker_fb018107b87fa63ec20d5437e553b7f2.bindPopup(popup_6a1778168e1526b8abdc3550575cf2be)
+        ;
+
+        
+    
+    
+            var circle_marker_f88802227155c9793e32eb9a9641124a = L.circleMarker(
+                [25.039508098827167, 121.51412934064864],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_a4ce5ea603fcb1057c167c644c8cf1a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5461b459b0527fe28b828b8beea2989 = $(`<div id="html_c5461b459b0527fe28b828b8beea2989" style="width: 100.0%; height: 100.0%;">白色恐怖政治受難者紀念碑，景點類型：戶外踏青，距台北車站0.96公里</div>`)[0];
+                popup_a4ce5ea603fcb1057c167c644c8cf1a9.setContent(html_c5461b459b0527fe28b828b8beea2989);
+            
+        
+
+        circle_marker_f88802227155c9793e32eb9a9641124a.bindPopup(popup_a4ce5ea603fcb1057c167c644c8cf1a9)
+        ;
+
+        
+    
+    
+            var circle_marker_d25525f726bad0543e297daa61dbd760 = L.circleMarker(
+                [25.04612, 121.52683],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_72c0c14d38befa3367f097bc0d35a52b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afda9f697002d76752726cce3273482d = $(`<div id="html_afda9f697002d76752726cce3273482d" style="width: 100.0%; height: 100.0%;">中央藝文公園_華山大草原遊戲場，景點類型：戶外踏青，距台北車站1.01公里</div>`)[0];
+                popup_72c0c14d38befa3367f097bc0d35a52b.setContent(html_afda9f697002d76752726cce3273482d);
+            
+        
+
+        circle_marker_d25525f726bad0543e297daa61dbd760.bindPopup(popup_72c0c14d38befa3367f097bc0d35a52b)
+        ;
+
+        
+    
+    
+            var circle_marker_7314008a169edd2471801217b81e9273 = L.circleMarker(
+                [25.05412, 121.50707],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_b44b6c0ed020e26d0bb77c5e945be33a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e418768f6cda551a723a569a0c65d6c3 = $(`<div id="html_e418768f6cda551a723a569a0c65d6c3" style="width: 100.0%; height: 100.0%;">延平河濱公園，景點類型：單車遊蹤，距台北車站1.22公里</div>`)[0];
+                popup_b44b6c0ed020e26d0bb77c5e945be33a.setContent(html_e418768f6cda551a723a569a0c65d6c3);
+            
+        
+
+        circle_marker_7314008a169edd2471801217b81e9273.bindPopup(popup_b44b6c0ed020e26d0bb77c5e945be33a)
+        ;
+
+        
+    
+    
+            var circle_marker_fecf44844383e53b642fb0e839b34272 = L.circleMarker(
+                [25.05995, 121.51674],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_db714427197825f7abaf734ef89e931b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26ae10ab2ab0e53ac572052db4840b90 = $(`<div id="html_26ae10ab2ab0e53ac572052db4840b90" style="width: 100.0%; height: 100.0%;">蔣渭水紀念公園，景點類型：戶外踏青，距台北車站1.35公里</div>`)[0];
+                popup_db714427197825f7abaf734ef89e931b.setContent(html_26ae10ab2ab0e53ac572052db4840b90);
+            
+        
+
+        circle_marker_fecf44844383e53b642fb0e839b34272.bindPopup(popup_db714427197825f7abaf734ef89e931b)
+        ;
+
+        
+    
+    
+            var circle_marker_299f5b56588840384592e175bf5eda14 = L.circleMarker(
+                [25.058610428582863, 121.51034608483316],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_b9101b03484a65ccdaf2f87d95ba5bf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a237bbcc34cef52d1d9477e60c92ea2 = $(`<div id="html_4a237bbcc34cef52d1d9477e60c92ea2" style="width: 100.0%; height: 100.0%;">大稻埕公園，景點類型：戶外踏青，距台北車站1.37公里</div>`)[0];
+                popup_b9101b03484a65ccdaf2f87d95ba5bf6.setContent(html_4a237bbcc34cef52d1d9477e60c92ea2);
+            
+        
+
+        circle_marker_299f5b56588840384592e175bf5eda14.bindPopup(popup_b9101b03484a65ccdaf2f87d95ba5bf6)
+        ;
+
+        
+    
+    
+            var circle_marker_93402558983506ab7b82eb4f955bb1e6 = L.circleMarker(
+                [25.031, 121.50866],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_f7fec8dfd8f5b7b9a5cdf39b2afcb75e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c40f64ef74d01bbabc6462a45117aeec = $(`<div id="html_c40f64ef74d01bbabc6462a45117aeec" style="width: 100.0%; height: 100.0%;">臺北植物園，景點類型：戶外踏青，距台北車站2.04公里</div>`)[0];
+                popup_f7fec8dfd8f5b7b9a5cdf39b2afcb75e.setContent(html_c40f64ef74d01bbabc6462a45117aeec);
+            
+        
+
+        circle_marker_93402558983506ab7b82eb4f955bb1e6.bindPopup(popup_f7fec8dfd8f5b7b9a5cdf39b2afcb75e)
+        ;
+
+        
+    
+    
+            var circle_marker_c09a286134b4d957b391ac9de03ef077 = L.circleMarker(
+                [25.03871, 121.49522],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_d836c04ae1b9fd8ede9e74704778b529 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19cbc067d00fba9d9f52a4865a728d5c = $(`<div id="html_19cbc067d00fba9d9f52a4865a728d5c" style="width: 100.0%; height: 100.0%;">華江雁鴨自然公園，景點類型：戶外踏青，距台北車站2.42公里</div>`)[0];
+                popup_d836c04ae1b9fd8ede9e74704778b529.setContent(html_19cbc067d00fba9d9f52a4865a728d5c);
+            
+        
+
+        circle_marker_c09a286134b4d957b391ac9de03ef077.bindPopup(popup_d836c04ae1b9fd8ede9e74704778b529)
+        ;
+
+        
+    
+    
+            var circle_marker_6c3be3027685cacb91d9eb5ebad97266 = L.circleMarker(
+                [25.03244, 121.5349],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_c59c9f7ac5340a4fdc07d6245632f6a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17dfee10ed0b3bdea1ae3a0e48deae80 = $(`<div id="html_17dfee10ed0b3bdea1ae3a0e48deae80" style="width: 100.0%; height: 100.0%;">大安森林公園，景點類型：戶外踏青，距台北車站2.48公里</div>`)[0];
+                popup_c59c9f7ac5340a4fdc07d6245632f6a2.setContent(html_17dfee10ed0b3bdea1ae3a0e48deae80);
+            
+        
+
+        circle_marker_6c3be3027685cacb91d9eb5ebad97266.bindPopup(popup_c59c9f7ac5340a4fdc07d6245632f6a2)
+        ;
+
+        
+    
+    
+            var circle_marker_9b21f3c88267f37321a69756c2d729d6 = L.circleMarker(
+                [25.06986, 121.52123],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_4e4e374de31dd7257d49fada89f32651 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a10596f9ff4bd94c60b2ec42a64f23e = $(`<div id="html_5a10596f9ff4bd94c60b2ec42a64f23e" style="width: 100.0%; height: 100.0%;">花博公園，景點類型：戶外踏青，距台北車站2.48公里</div>`)[0];
+                popup_4e4e374de31dd7257d49fada89f32651.setContent(html_5a10596f9ff4bd94c60b2ec42a64f23e);
+            
+        
+
+        circle_marker_9b21f3c88267f37321a69756c2d729d6.bindPopup(popup_4e4e374de31dd7257d49fada89f32651)
+        ;
+
+        
+    
+    
+            var circle_marker_9ec4a7bd77710420781a1cfc148e57dd = L.circleMarker(
+                [25.03271, 121.49721],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_0e73c6531506bf79b07e5d601cd02e13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67cdb3cb1d73576e0ba27a967253a7aa = $(`<div id="html_67cdb3cb1d73576e0ba27a967253a7aa" style="width: 100.0%; height: 100.0%;">和平青草園_萬華402號公園，景點類型：戶外踏青，距台北車站2.6公里</div>`)[0];
+                popup_0e73c6531506bf79b07e5d601cd02e13.setContent(html_67cdb3cb1d73576e0ba27a967253a7aa);
+            
+        
+
+        circle_marker_9ec4a7bd77710420781a1cfc148e57dd.bindPopup(popup_0e73c6531506bf79b07e5d601cd02e13)
+        ;
+
+        
+    
+    
+            var circle_marker_f5b768a69af7d3fc53f38aedac5ebde8 = L.circleMarker(
+                [25.05366, 121.54224],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_bdb06f585990aa3aaf38b5fbf44b69ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0909eee4c5c2c2f05d3f0cba936cfaa9 = $(`<div id="html_0909eee4c5c2c2f05d3f0cba936cfaa9" style="width: 100.0%; height: 100.0%;">遼寧公園，景點類型：戶外踏青，距台北車站2.63公里</div>`)[0];
+                popup_bdb06f585990aa3aaf38b5fbf44b69ca.setContent(html_0909eee4c5c2c2f05d3f0cba936cfaa9);
+            
+        
+
+        circle_marker_f5b768a69af7d3fc53f38aedac5ebde8.bindPopup(popup_bdb06f585990aa3aaf38b5fbf44b69ca)
+        ;
+
+        
+    
+    
+            var circle_marker_ee77fe98971e0603734ba5be5e27cc9c = L.circleMarker(
+                [25.06935125778754, 121.5287661552429],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_b944cdd1f0d8a4a412d8a29caffafb5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8783fdaea4b9a21687eeefd3d2073da = $(`<div id="html_f8783fdaea4b9a21687eeefd3d2073da" style="width: 100.0%; height: 100.0%;">新生公園_玫瑰園，景點類型：戶外踏青，距台北車站2.67公里</div>`)[0];
+                popup_b944cdd1f0d8a4a412d8a29caffafb5a.setContent(html_f8783fdaea4b9a21687eeefd3d2073da);
+            
+        
+
+        circle_marker_ee77fe98971e0603734ba5be5e27cc9c.bindPopup(popup_b944cdd1f0d8a4a412d8a29caffafb5a)
+        ;
+
+        
+    
+    
+            var circle_marker_f5155836bf0e51e1c34eb0f7b4c89db2 = L.circleMarker(
+                [25.023400174855908, 121.5131288766861],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_36083e4a345c1f090004a4c6de77f3e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f1ac52e815c3907ca206310ed7cd2f6 = $(`<div id="html_3f1ac52e815c3907ca206310ed7cd2f6" style="width: 100.0%; height: 100.0%;">中正河濱公園，景點類型：戶外踏青，距台北車站2.73公里</div>`)[0];
+                popup_36083e4a345c1f090004a4c6de77f3e6.setContent(html_3f1ac52e815c3907ca206310ed7cd2f6);
+            
+        
+
+        circle_marker_f5155836bf0e51e1c34eb0f7b4c89db2.bindPopup(popup_36083e4a345c1f090004a4c6de77f3e6)
+        ;
+
+        
+    
+    
+            var circle_marker_8a719a5ef4dbe35f938d03260819489d = L.circleMarker(
+                [25.06337, 121.53886],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_73147a84cafaeb8ee817d72fe6cbb4f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ea7c92a8e1231d04b79aea42be04d19 = $(`<div id="html_1ea7c92a8e1231d04b79aea42be04d19" style="width: 100.0%; height: 100.0%;">榮星花園公園，景點類型：戶外踏青，距台北車站2.8公里</div>`)[0];
+                popup_73147a84cafaeb8ee817d72fe6cbb4f5.setContent(html_1ea7c92a8e1231d04b79aea42be04d19);
+            
+        
+
+        circle_marker_8a719a5ef4dbe35f938d03260819489d.bindPopup(popup_73147a84cafaeb8ee817d72fe6cbb4f5)
+        ;
+
+        
+    
+    
+            var circle_marker_ba56213240546bb26d38b295c77e3360 = L.circleMarker(
+                [25.07259, 121.52485],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_b3a5c4dffbec181aee45bba530c00379 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad90f926d1350a88c1302b39e898a98f = $(`<div id="html_ad90f926d1350a88c1302b39e898a98f" style="width: 100.0%; height: 100.0%;">花博公園_花之隧道，景點類型：戶外踏青，距台北車站2.86公里</div>`)[0];
+                popup_b3a5c4dffbec181aee45bba530c00379.setContent(html_ad90f926d1350a88c1302b39e898a98f);
+            
+        
+
+        circle_marker_ba56213240546bb26d38b295c77e3360.bindPopup(popup_b3a5c4dffbec181aee45bba530c00379)
+        ;
+
+        
+    
+    
+            var circle_marker_c1a675a358ac077f1fdd9602befc5ee3 = L.circleMarker(
+                [25.02227, 121.50703],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_1b3b847d7268218007f7895335e3a8c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_853494fd514c7bfdb6b1c0f3f9562237 = $(`<div id="html_853494fd514c7bfdb6b1c0f3f9562237" style="width: 100.0%; height: 100.0%;">青年公園，景點類型：戶外踏青，距台北車站3.0公里</div>`)[0];
+                popup_1b3b847d7268218007f7895335e3a8c2.setContent(html_853494fd514c7bfdb6b1c0f3f9562237);
+            
+        
+
+        circle_marker_c1a675a358ac077f1fdd9602befc5ee3.bindPopup(popup_1b3b847d7268218007f7895335e3a8c2)
+        ;
+
+        
+    
+    
+            var circle_marker_e0fbf89f58529d9d51aa66fe4d39a45d = L.circleMarker(
+                [25.074992503671734, 121.522296667099],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_b9423df4755ff047d777ce6627fb32ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ae95a951fa7e22042b87762700c044c = $(`<div id="html_0ae95a951fa7e22042b87762700c044c" style="width: 100.0%; height: 100.0%;">圓山自然景觀公園，景點類型：戶外踏青，距台北車站3.06公里</div>`)[0];
+                popup_b9423df4755ff047d777ce6627fb32ba.setContent(html_0ae95a951fa7e22042b87762700c044c);
+            
+        
+
+        circle_marker_e0fbf89f58529d9d51aa66fe4d39a45d.bindPopup(popup_b9423df4755ff047d777ce6627fb32ba)
+        ;
+
+        
+    
+    
+            var circle_marker_91955ff227047ae115409f2092203322 = L.circleMarker(
+                [25.07301, 121.52956],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_152d608f3b7b6f38a35aadc94c0aee5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f806696afd1c3045ebef8b0518dea7f7 = $(`<div id="html_f806696afd1c3045ebef8b0518dea7f7" style="width: 100.0%; height: 100.0%;">基隆河河濱自行車道，景點類型：單車遊蹤，距台北車站3.07公里</div>`)[0];
+                popup_152d608f3b7b6f38a35aadc94c0aee5c.setContent(html_f806696afd1c3045ebef8b0518dea7f7);
+            
+        
+
+        circle_marker_91955ff227047ae115409f2092203322.bindPopup(popup_152d608f3b7b6f38a35aadc94c0aee5c)
+        ;
+
+        
+    
+    
+            var circle_marker_e528a9c3122dea909fec2882c36a5b8c = L.circleMarker(
+                [25.019817648473204, 121.52138739824296],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_9ed07cb56f9cbe62a21d3e7c988f8f5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbc4fa6ab6aaa13fb99da2311e464ec8 = $(`<div id="html_dbc4fa6ab6aaa13fb99da2311e464ec8" style="width: 100.0%; height: 100.0%;">古亭河濱公園，景點類型：單車遊蹤，距台北車站3.13公里</div>`)[0];
+                popup_9ed07cb56f9cbe62a21d3e7c988f8f5f.setContent(html_dbc4fa6ab6aaa13fb99da2311e464ec8);
+            
+        
+
+        circle_marker_e528a9c3122dea909fec2882c36a5b8c.bindPopup(popup_9ed07cb56f9cbe62a21d3e7c988f8f5f)
+        ;
+
+        
+    
+    
+            var circle_marker_0c8fbaf19d8e43486e7e2eb6f07386ec = L.circleMarker(
+                [25.02026, 121.52535],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_a19f8ef564e5295b488dd622844afcc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d22ca1b32af68e9d5754fcf81c22f193 = $(`<div id="html_d22ca1b32af68e9d5754fcf81c22f193" style="width: 100.0%; height: 100.0%;">臺北市客家文化主題公園，景點類型：藝文館所，距台北車站3.16公里</div>`)[0];
+                popup_a19f8ef564e5295b488dd622844afcc9.setContent(html_d22ca1b32af68e9d5754fcf81c22f193);
+            
+        
+
+        circle_marker_0c8fbaf19d8e43486e7e2eb6f07386ec.bindPopup(popup_a19f8ef564e5295b488dd622844afcc9)
+        ;
+
+        
+    
+    
+            var circle_marker_3f7f3616511983369ec639c5f6c1ec49 = L.circleMarker(
+                [25.01886, 121.50391],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_a1fbb3dd16cc7fc6e6815606f3eabbbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f627cd9422414a0a51753daf52df21a = $(`<div id="html_6f627cd9422414a0a51753daf52df21a" style="width: 100.0%; height: 100.0%;">馬場町河濱公園，景點類型：歷史建築，距台北車站3.47公里</div>`)[0];
+                popup_a1fbb3dd16cc7fc6e6815606f3eabbbd.setContent(html_6f627cd9422414a0a51753daf52df21a);
+            
+        
+
+        circle_marker_3f7f3616511983369ec639c5f6c1ec49.bindPopup(popup_a1fbb3dd16cc7fc6e6815606f3eabbbd)
+        ;
+
+        
+    
+    
+            var circle_marker_db336f3cb04d861dbe44b58e7903f832 = L.circleMarker(
+                [25.07912852335664, 121.52493998408316],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_934da91028f3fbf464629de6aa8760d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c4a92c93a70f9672ea8f7a0aa48cd3d = $(`<div id="html_8c4a92c93a70f9672ea8f7a0aa48cd3d" style="width: 100.0%; height: 100.0%;">五指山系_劍潭山親山步道，景點類型：戶外踏青，距台北車站3.56公里</div>`)[0];
+                popup_934da91028f3fbf464629de6aa8760d6.setContent(html_8c4a92c93a70f9672ea8f7a0aa48cd3d);
+            
+        
+
+        circle_marker_db336f3cb04d861dbe44b58e7903f832.bindPopup(popup_934da91028f3fbf464629de6aa8760d6)
+        ;
+
+        
+    
+    
+            var circle_marker_73dca9da23201da331d850e69f339e11 = L.circleMarker(
+                [25.01575376064181, 121.52717828750608],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_98f583584a3f42a3a18be389068b1473 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a48d8f7080d1006388ca61667468cfe2 = $(`<div id="html_a48d8f7080d1006388ca61667468cfe2" style="width: 100.0%; height: 100.0%;">嘉禾新村，景點類型：戶外踏青，距台北車站3.7公里</div>`)[0];
+                popup_98f583584a3f42a3a18be389068b1473.setContent(html_a48d8f7080d1006388ca61667468cfe2);
+            
+        
+
+        circle_marker_73dca9da23201da331d850e69f339e11.bindPopup(popup_98f583584a3f42a3a18be389068b1473)
+        ;
+
+        
+    
+    
+            var circle_marker_f05464dc5a9ad61a0f3ccfcbe97344f3 = L.circleMarker(
+                [25.07464, 121.54089],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_4558427eb06c79394c1e66c42d52b1f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11d959e9b97e43c39fe476cc2f9ba891 = $(`<div id="html_11d959e9b97e43c39fe476cc2f9ba891" style="width: 100.0%; height: 100.0%;">大佳河濱公園，景點類型：單車遊蹤，距台北車站3.83公里</div>`)[0];
+                popup_4558427eb06c79394c1e66c42d52b1f9.setContent(html_11d959e9b97e43c39fe476cc2f9ba891);
+            
+        
+
+        circle_marker_f05464dc5a9ad61a0f3ccfcbe97344f3.bindPopup(popup_4558427eb06c79394c1e66c42d52b1f9)
+        ;
+
+        
+    
+    
+            var circle_marker_b20f4f3f8c97086bbbdbc879c33ef6aa = L.circleMarker(
+                [25.03449, 121.55382],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_28609481a3a3e533f27d93c1f0fc2d52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a447ebc14f0ed00bd5c0165ce55cf5fc = $(`<div id="html_a447ebc14f0ed00bd5c0165ce55cf5fc" style="width: 100.0%; height: 100.0%;">敦安公園，景點類型：戶外踏青，距台北車站4.0公里</div>`)[0];
+                popup_28609481a3a3e533f27d93c1f0fc2d52.setContent(html_a447ebc14f0ed00bd5c0165ce55cf5fc);
+            
+        
+
+        circle_marker_b20f4f3f8c97086bbbdbc879c33ef6aa.bindPopup(popup_28609481a3a3e533f27d93c1f0fc2d52)
+        ;
+
+        
+    
+    
+            var circle_marker_25337db2ddfb43bb42d29017cc95b0e8 = L.circleMarker(
+                [25.0133312, 121.5306056],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_c0c75eb05e374c01490245b1f51776d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d08f76f3ed13bfbfb893f215e404aa9 = $(`<div id="html_9d08f76f3ed13bfbfb893f215e404aa9" style="width: 100.0%; height: 100.0%;">量水室，景點類型：歷史建築，距台北車站4.06公里</div>`)[0];
+                popup_c0c75eb05e374c01490245b1f51776d5.setContent(html_9d08f76f3ed13bfbfb893f215e404aa9);
+            
+        
+
+        circle_marker_25337db2ddfb43bb42d29017cc95b0e8.bindPopup(popup_c0c75eb05e374c01490245b1f51776d5)
+        ;
+
+        
+    
+    
+            var circle_marker_1d074bf14dfd7b2d963fc779338ef8e6 = L.circleMarker(
+                [25.01641, 121.4953],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_cee094b8f4f7770e40d1e57e7d73fa8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c987c732ea6499f9fadf69097cbdefa = $(`<div id="html_1c987c732ea6499f9fadf69097cbdefa" style="width: 100.0%; height: 100.0%;">新店溪河濱自行車道，景點類型：單車遊蹤，距台北車站4.11公里</div>`)[0];
+                popup_cee094b8f4f7770e40d1e57e7d73fa8b.setContent(html_1c987c732ea6499f9fadf69097cbdefa);
+            
+        
+
+        circle_marker_1d074bf14dfd7b2d963fc779338ef8e6.bindPopup(popup_cee094b8f4f7770e40d1e57e7d73fa8b)
+        ;
+
+        
+    
+    
+            var circle_marker_3a914d1f4f7c045c3f4de6f6333e45da = L.circleMarker(
+                [25.04954, 121.51018],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_e87c855a5649c8c2ab2f88ed3da335e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48d705e7c9e1cc7096b00bca3154ed4d = $(`<div id="html_48d705e7c9e1cc7096b00bca3154ed4d" style="width: 100.0%; height: 100.0%;">捷運北門站_台北鐵道局，景點類型：公共藝術，距台北車站0.71公里</div>`)[0];
+                popup_e87c855a5649c8c2ab2f88ed3da335e1.setContent(html_48d705e7c9e1cc7096b00bca3154ed4d);
+            
+        
+
+        circle_marker_3a914d1f4f7c045c3f4de6f6333e45da.bindPopup(popup_e87c855a5649c8c2ab2f88ed3da335e1)
+        ;
+
+        
+    
+    
+            var circle_marker_36c68ee32c9ebaa885a4ffc80654c75a = L.circleMarker(
+                [25.04270275990712, 121.50760285556316],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_67ec11739a5e86ff3cca711fe3169428 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d305e88f4c085539a010b7c6ccb6b0ee = $(`<div id="html_d305e88f4c085539a010b7c6ccb6b0ee" style="width: 100.0%; height: 100.0%;">6號彩虹 / Rainbow Six，景點類型：公共藝術，距台北車站1.1公里</div>`)[0];
+                popup_67ec11739a5e86ff3cca711fe3169428.setContent(html_d305e88f4c085539a010b7c6ccb6b0ee);
+            
+        
+
+        circle_marker_36c68ee32c9ebaa885a4ffc80654c75a.bindPopup(popup_67ec11739a5e86ff3cca711fe3169428)
+        ;
+
+        
+    
+    
+            var circle_marker_b8016b720909f7ecad80302cca9bafad = L.circleMarker(
+                [25.04, 121.50717],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_08ffba9ff821a246f967b5415c92941a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c16a44dae8459ec688ce9111bcdd7f9 = $(`<div id="html_3c16a44dae8459ec688ce9111bcdd7f9" style="width: 100.0%; height: 100.0%;">西本願寺廣場，景點類型：歷史建築，距台北車站1.32公里</div>`)[0];
+                popup_08ffba9ff821a246f967b5415c92941a.setContent(html_3c16a44dae8459ec688ce9111bcdd7f9);
+            
+        
+
+        circle_marker_b8016b720909f7ecad80302cca9bafad.bindPopup(popup_08ffba9ff821a246f967b5415c92941a)
+        ;
+
+        
+    
+    
+            var circle_marker_a1d20ef69e2cd3e0ae6ccf1f30d442ab = L.circleMarker(
+                [25.0559954, 121.5297908],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_ff4ad63658ffaf27089aeb04c9c9458d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2d42e097822cc1a27ea7f92b8b5c0a3 = $(`<div id="html_a2d42e097822cc1a27ea7f92b8b5c0a3" style="width: 100.0%; height: 100.0%;">敘舊布袋戲園，景點類型：藝文館所，距台北車站1.58公里</div>`)[0];
+                popup_ff4ad63658ffaf27089aeb04c9c9458d.setContent(html_a2d42e097822cc1a27ea7f92b8b5c0a3);
+            
+        
+
+        circle_marker_a1d20ef69e2cd3e0ae6ccf1f30d442ab.bindPopup(popup_ff4ad63658ffaf27089aeb04c9c9458d)
+        ;
+
+        
+    
+    
+            var circle_marker_91c5383ac4f37301c7e2e14ceef1f1ef = L.circleMarker(
+                [25.03356, 121.51155],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_60d5ffa88470c9f2cd74b73a73634fec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62eaad2376d005909da1d000f57a57c0 = $(`<div id="html_62eaad2376d005909da1d000f57a57c0" style="width: 100.0%; height: 100.0%;">孫運璿科技．人文紀念館，景點類型：歷史建築，距台北車站1.67公里</div>`)[0];
+                popup_60d5ffa88470c9f2cd74b73a73634fec.setContent(html_62eaad2376d005909da1d000f57a57c0);
+            
+        
+
+        circle_marker_91c5383ac4f37301c7e2e14ceef1f1ef.bindPopup(popup_60d5ffa88470c9f2cd74b73a73634fec)
+        ;
+
+        
+    
+    
+            var circle_marker_14cda9bcefc32ce6ce26b9eda7cc36e5 = L.circleMarker(
+                [25.03252, 121.5111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_90878058f003df92f4549688438ddb95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40fcd10d681eb5588dcd617519500248 = $(`<div id="html_40fcd10d681eb5588dcd617519500248" style="width: 100.0%; height: 100.0%;">南門町三二三，景點類型：歷史建築，距台北車站1.79公里</div>`)[0];
+                popup_90878058f003df92f4549688438ddb95.setContent(html_40fcd10d681eb5588dcd617519500248);
+            
+        
+
+        circle_marker_14cda9bcefc32ce6ce26b9eda7cc36e5.bindPopup(popup_90878058f003df92f4549688438ddb95)
+        ;
+
+        
+    
+    
+            var circle_marker_794ba0380d94ecb61cfc49daaeae20c2 = L.circleMarker(
+                [25.03167, 121.51477],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_0ddc8d576e575f6c46ed4c106f2c05b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c7e3673b8d2371d7425815f10669d26 = $(`<div id="html_5c7e3673b8d2371d7425815f10669d26" style="width: 100.0%; height: 100.0%;">郵政博物館，景點類型：藝文館所，距台北車站1.8公里</div>`)[0];
+                popup_0ddc8d576e575f6c46ed4c106f2c05b7.setContent(html_5c7e3673b8d2371d7425815f10669d26);
+            
+        
+
+        circle_marker_794ba0380d94ecb61cfc49daaeae20c2.bindPopup(popup_0ddc8d576e575f6c46ed4c106f2c05b7)
+        ;
+
+        
+    
+    
+            var circle_marker_0910438dea83acdb2df29c8458ccb67a = L.circleMarker(
+                [25.03666, 121.50327],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_89d818d016c91715c9ed5a836f8d8478 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6638ad8f2ce6b5223250631595a8a0d = $(`<div id="html_b6638ad8f2ce6b5223250631595a8a0d" style="width: 100.0%; height: 100.0%;">臺北市鄉土教育中心_剝皮寮歷史街區，景點類型：歷史建築，距台北車站1.86公里</div>`)[0];
+                popup_89d818d016c91715c9ed5a836f8d8478.setContent(html_b6638ad8f2ce6b5223250631595a8a0d);
+            
+        
+
+        circle_marker_0910438dea83acdb2df29c8458ccb67a.bindPopup(popup_89d818d016c91715c9ed5a836f8d8478)
+        ;
+
+        
+    
+    
+            var circle_marker_0b49257e95f6084e153b4c4659f63bba = L.circleMarker(
+                [25.03146, 121.51121],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_66230637310ed49b45050df55ddb4234 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d56a5ea458ddda7fad2f0bf0c67ab03 = $(`<div id="html_6d56a5ea458ddda7fad2f0bf0c67ab03" style="width: 100.0%; height: 100.0%;">國立歷史博物館，景點類型：藝文館所，距台北車站1.9公里</div>`)[0];
+                popup_66230637310ed49b45050df55ddb4234.setContent(html_6d56a5ea458ddda7fad2f0bf0c67ab03);
+            
+        
+
+        circle_marker_0b49257e95f6084e153b4c4659f63bba.bindPopup(popup_66230637310ed49b45050df55ddb4234)
+        ;
+
+        
+    
+    
+            var circle_marker_cb248e3cedb1a8c3e3ba7f655b1abfcd = L.circleMarker(
+                [25.05274791849884, 121.54037676751616],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_3a6ff589fc7f1bc87552f0e2e5b5992e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2c1a68810774c55c590027dbe7b24e0 = $(`<div id="html_c2c1a68810774c55c590027dbe7b24e0" style="width: 100.0%; height: 100.0%;">歪腰郵筒，景點類型：公共藝術，距台北車站2.42公里</div>`)[0];
+                popup_3a6ff589fc7f1bc87552f0e2e5b5992e.setContent(html_c2c1a68810774c55c590027dbe7b24e0);
+            
+        
+
+        circle_marker_cb248e3cedb1a8c3e3ba7f655b1abfcd.bindPopup(popup_3a6ff589fc7f1bc87552f0e2e5b5992e)
+        ;
+
+        
+    
+    
+            var circle_marker_23837541327bcd262f24c140c997f196 = L.circleMarker(
+                [25.06966, 121.52173],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_10a16671f5c6eaa12bf87f5f72c43833 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb57188008b36301a0c5e7d7f5991d2f = $(`<div id="html_bb57188008b36301a0c5e7d7f5991d2f" style="width: 100.0%; height: 100.0%;">MAJI集食行樂_圓山花博爭豔館，景點類型：藝文館所，距台北車站2.47公里</div>`)[0];
+                popup_10a16671f5c6eaa12bf87f5f72c43833.setContent(html_bb57188008b36301a0c5e7d7f5991d2f);
+            
+        
+
+        circle_marker_23837541327bcd262f24c140c997f196.bindPopup(popup_10a16671f5c6eaa12bf87f5f72c43833)
+        ;
+
+        
+    
+    
+            var circle_marker_1adb5e3c03e7e402a721d61d70662bab = L.circleMarker(
+                [25.07196, 121.52437],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_6d35bb17371a34286cc100c7e13d6e09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c81cf691f388f49486d8f971f880f1e6 = $(`<div id="html_c81cf691f388f49486d8f971f880f1e6" style="width: 100.0%; height: 100.0%;">臺北市立美術館，景點類型：藝文館所，距台北車站2.78公里</div>`)[0];
+                popup_6d35bb17371a34286cc100c7e13d6e09.setContent(html_c81cf691f388f49486d8f971f880f1e6);
+            
+        
+
+        circle_marker_1adb5e3c03e7e402a721d61d70662bab.bindPopup(popup_6d35bb17371a34286cc100c7e13d6e09)
+        ;
+
+        
+    
+    
+            var circle_marker_33b169e463f16c2ddd75687fe8f29453 = L.circleMarker(
+                [25.02154512463795, 121.5206715837121],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_9237f4f368d417f9077cdd51a8535abd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_952aabe514a89d7a6699bb5ab611c9c8 = $(`<div id="html_952aabe514a89d7a6699bb5ab611c9c8" style="width: 100.0%; height: 100.0%;">紀州庵文學森林，景點類型：藝文館所，距台北車站2.93公里</div>`)[0];
+                popup_9237f4f368d417f9077cdd51a8535abd.setContent(html_952aabe514a89d7a6699bb5ab611c9c8);
+            
+        
+
+        circle_marker_33b169e463f16c2ddd75687fe8f29453.bindPopup(popup_9237f4f368d417f9077cdd51a8535abd)
+        ;
+
+        
+    
+    
+            var circle_marker_983e39ea6d11142fd89483ddcf3534f7 = L.circleMarker(
+                [25.02418, 121.53199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_554ff5ff1cdab1b888768a8baa1532ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06d297e19e4d489c155d235d16d5c772 = $(`<div id="html_06d297e19e4d489c155d235d16d5c772" style="width: 100.0%; height: 100.0%;">殷海光故居，景點類型：歷史建築，距台北車站3.02公里</div>`)[0];
+                popup_554ff5ff1cdab1b888768a8baa1532ba.setContent(html_06d297e19e4d489c155d235d16d5c772);
+            
+        
+
+        circle_marker_983e39ea6d11142fd89483ddcf3534f7.bindPopup(popup_554ff5ff1cdab1b888768a8baa1532ba)
+        ;
+
+        
+    
+    
+            var circle_marker_173775cc068d70a3609e9405dd11d263 = L.circleMarker(
+                [25.0753, 121.50879],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_ecb881ab4911dd1eca09483d3fc9ca12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0db80e7d2b909d18c8a266f06bccb10 = $(`<div id="html_b0db80e7d2b909d18c8a266f06bccb10" style="width: 100.0%; height: 100.0%;">迪化運動公園跨堤景觀平臺，景點類型：公共藝術，距台北車站3.16公里</div>`)[0];
+                popup_ecb881ab4911dd1eca09483d3fc9ca12.setContent(html_b0db80e7d2b909d18c8a266f06bccb10);
+            
+        
+
+        circle_marker_173775cc068d70a3609e9405dd11d263.bindPopup(popup_ecb881ab4911dd1eca09483d3fc9ca12)
+        ;
+
+        
+    
+    
+            var circle_marker_429621e247e42996c680f2ea80d26bf7 = L.circleMarker(
+                [25.06423, 121.55082],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_cb95b3bdca83368a9466eee54bfb9762 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e90cf084205496f1a46abf6b457ce3ec = $(`<div id="html_e90cf084205496f1a46abf6b457ce3ec" style="width: 100.0%; height: 100.0%;">臺北松山機場觀景台，景點類型：公共藝術，距台北車站3.87公里</div>`)[0];
+                popup_cb95b3bdca83368a9466eee54bfb9762.setContent(html_e90cf084205496f1a46abf6b457ce3ec);
+            
+        
+
+        circle_marker_429621e247e42996c680f2ea80d26bf7.bindPopup(popup_cb95b3bdca83368a9466eee54bfb9762)
+        ;
+
+        
+    
+    
+            var circle_marker_b237faabab2369adb8572b4b1489b373 = L.circleMarker(
+                [25.08348060700447, 121.5069329738617],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_d5bbbace7a178d066f607ab2ed2a0108 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_233f9c9873e1c5829d528e6f3f14fe5e = $(`<div id="html_233f9c9873e1c5829d528e6f3f14fe5e" style="width: 100.0%; height: 100.0%;">葫蘆國小跨堤人行陸橋，景點類型：單車遊蹤，距台北車站4.08公里</div>`)[0];
+                popup_d5bbbace7a178d066f607ab2ed2a0108.setContent(html_233f9c9873e1c5829d528e6f3f14fe5e);
+            
+        
+
+        circle_marker_b237faabab2369adb8572b4b1489b373.bindPopup(popup_d5bbbace7a178d066f607ab2ed2a0108)
+        ;
+
+        
+    
+    
+            var circle_marker_f6671e8842fe2634f0c5d297c1f1452d = L.circleMarker(
+                [25.08512428910412, 121.52436900883912],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_27e52634f27b678502d6e35844e77664 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a246329df1c829b171502283458b4430 = $(`<div id="html_a246329df1c829b171502283458b4430" style="width: 100.0%; height: 100.0%;">臺北表演藝術中心，景點類型：藝文館所，距台北車站4.2公里</div>`)[0];
+                popup_27e52634f27b678502d6e35844e77664.setContent(html_a246329df1c829b171502283458b4430);
+            
+        
+
+        circle_marker_f6671e8842fe2634f0c5d297c1f1452d.bindPopup(popup_27e52634f27b678502d6e35844e77664)
+        ;
+
+        
+    
+    
+            var circle_marker_999c48ddacf46223e9f759f20ae04a21 = L.circleMarker(
+                [25.0424367, 121.5595066],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_a277754ad8743fa8933fc3c53d56124e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46222df000d17ae955464508b20574f6 = $(`<div id="html_46222df000d17ae955464508b20574f6" style="width: 100.0%; height: 100.0%;">臺北大巨蛋，景點類型：藝文館所，距台北車站4.33公里</div>`)[0];
+                popup_a277754ad8743fa8933fc3c53d56124e.setContent(html_46222df000d17ae955464508b20574f6);
+            
+        
+
+        circle_marker_999c48ddacf46223e9f759f20ae04a21.bindPopup(popup_a277754ad8743fa8933fc3c53d56124e)
+        ;
+
+        
+    
+    
+            var circle_marker_1ed784673284b53122f49490b8a7cc29 = L.circleMarker(
+                [25.01073, 121.53225],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_89595370f363831eb70a403520bde892 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5eba716f47202bb39171502db4df4fab = $(`<div id="html_5eba716f47202bb39171502db4df4fab" style="width: 100.0%; height: 100.0%;">寶藏巖國際藝術村，景點類型：藝文館所，距台北車站4.39公里</div>`)[0];
+                popup_89595370f363831eb70a403520bde892.setContent(html_5eba716f47202bb39171502db4df4fab);
+            
+        
+
+        circle_marker_1ed784673284b53122f49490b8a7cc29.bindPopup(popup_89595370f363831eb70a403520bde892)
+        ;
+
+        
+    
+    
+            var circle_marker_ce0a2ab043c3e5db697480509ebfa4a6 = L.circleMarker(
+                [25.04369, 121.56063],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_e8a3fc5c8185dd30370cd8ce8af5a3c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84a3fce2eaedfc2c98b7c08390faac91 = $(`<div id="html_84a3fce2eaedfc2c98b7c08390faac91" style="width: 100.0%; height: 100.0%;">松山文創園區，景點類型：歷史建築，距台北車站4.43公里</div>`)[0];
+                popup_e8a3fc5c8185dd30370cd8ce8af5a3c8.setContent(html_84a3fce2eaedfc2c98b7c08390faac91);
+            
+        
+
+        circle_marker_ce0a2ab043c3e5db697480509ebfa4a6.bindPopup(popup_e8a3fc5c8185dd30370cd8ce8af5a3c8)
+        ;
+
+        
+    
+    
+            var circle_marker_93156754ec0ba8e8739336fc580832af = L.circleMarker(
+                [25.053086883822644, 121.5249305963516],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_8b2f1bef522b24176fa8a9396202a066 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_665597be97576baaef66f6bdde4dd221 = $(`<div id="html_665597be97576baaef66f6bdde4dd221" style="width: 100.0%; height: 100.0%;">林森_康樂公園，景點類型：親子共遊，距台北車站0.99公里</div>`)[0];
+                popup_8b2f1bef522b24176fa8a9396202a066.setContent(html_665597be97576baaef66f6bdde4dd221);
+            
+        
+
+        circle_marker_93156754ec0ba8e8739336fc580832af.bindPopup(popup_8b2f1bef522b24176fa8a9396202a066)
+        ;
+
+        
+    
+    
+            var circle_marker_4add8a432eba92f47c40bcc95e526ca9 = L.circleMarker(
+                [25.0564, 121.50761],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_02c249452add2b46ca737851c0f4be74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74ecce69cf4d9122034401cb15b99b37 = $(`<div id="html_74ecce69cf4d9122034401cb15b99b37" style="width: 100.0%; height: 100.0%;">大稻埕碼頭_大稻埕碼頭貨櫃市集，景點類型：單車遊蹤，距台北車站1.34公里</div>`)[0];
+                popup_02c249452add2b46ca737851c0f4be74.setContent(html_74ecce69cf4d9122034401cb15b99b37);
+            
+        
+
+        circle_marker_4add8a432eba92f47c40bcc95e526ca9.bindPopup(popup_02c249452add2b46ca737851c0f4be74)
+        ;
+
+        
+    
+    
+            var circle_marker_4ff1773545ed85e1ede33e7c1c9f983f = L.circleMarker(
+                [25.04535, 121.53111],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_d571a4398b1693c5abe25f28a60f1297 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecf4426abf4f103922277a853f8c3803 = $(`<div id="html_ecf4426abf4f103922277a853f8c3803" style="width: 100.0%; height: 100.0%;">三創生活，景點類型：親子共遊，距台北車站1.45公里</div>`)[0];
+                popup_d571a4398b1693c5abe25f28a60f1297.setContent(html_ecf4426abf4f103922277a853f8c3803);
+            
+        
+
+        circle_marker_4ff1773545ed85e1ede33e7c1c9f983f.bindPopup(popup_d571a4398b1693c5abe25f28a60f1297)
+        ;
+
+        
+    
+    
+            var circle_marker_e6c4e0b60322b3b61cf87c62e4b08e22 = L.circleMarker(
+                [25.061383041216928, 121.5114488080144],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_dffc6617481f3aa87178d506055a7651 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b52abcd0f50bee7526fb2ce77951c1bd = $(`<div id="html_b52abcd0f50bee7526fb2ce77951c1bd" style="width: 100.0%; height: 100.0%;">太平國小，景點類型：親子共遊，距台北車站1.61公里</div>`)[0];
+                popup_dffc6617481f3aa87178d506055a7651.setContent(html_b52abcd0f50bee7526fb2ce77951c1bd);
+            
+        
+
+        circle_marker_e6c4e0b60322b3b61cf87c62e4b08e22.bindPopup(popup_dffc6617481f3aa87178d506055a7651)
+        ;
+
+        
+    
+    
+            var circle_marker_2e848758abc1baee7989e92d474b737a = L.circleMarker(
+                [25.04822, 121.53365],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_09fcb457371a1904cee818c7dd6e9dae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5001fcb8f1c3806500d521de3b43e5f = $(`<div id="html_b5001fcb8f1c3806500d521de3b43e5f" style="width: 100.0%; height: 100.0%;">樹火紀念紙博物館，景點類型：藝文館所，距台北車站1.68公里</div>`)[0];
+                popup_09fcb457371a1904cee818c7dd6e9dae.setContent(html_b5001fcb8f1c3806500d521de3b43e5f);
+            
+        
+
+        circle_marker_2e848758abc1baee7989e92d474b737a.bindPopup(popup_09fcb457371a1904cee818c7dd6e9dae)
+        ;
+
+        
+    
+    
+            var circle_marker_05dc55a815eab24e43c620b8680e2906 = L.circleMarker(
+                [25.03232, 121.51205],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_59e26fcb3a8e30829b39649731a7b6e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fbea4e8a63777e468407cdb174ab9a8 = $(`<div id="html_6fbea4e8a63777e468407cdb174ab9a8" style="width: 100.0%; height: 100.0%;">國立臺灣藝術教育館，景點類型：藝文館所，距台北車站1.79公里</div>`)[0];
+                popup_59e26fcb3a8e30829b39649731a7b6e9.setContent(html_6fbea4e8a63777e468407cdb174ab9a8);
+            
+        
+
+        circle_marker_05dc55a815eab24e43c620b8680e2906.bindPopup(popup_59e26fcb3a8e30829b39649731a7b6e9)
+        ;
+
+        
+    
+    
+            var circle_marker_8361cc518485a53634c871426f6ba5c1 = L.circleMarker(
+                [25.05035, 121.53614],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_099b53f54b54b784924c74f6903b5db0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_717cd13be6e63b25399225bf8d378cc2 = $(`<div id="html_717cd13be6e63b25399225bf8d378cc2" style="width: 100.0%; height: 100.0%;">袖珍博物館，景點類型：藝文館所，距台北車站1.95公里</div>`)[0];
+                popup_099b53f54b54b784924c74f6903b5db0.setContent(html_717cd13be6e63b25399225bf8d378cc2);
+            
+        
+
+        circle_marker_8361cc518485a53634c871426f6ba5c1.bindPopup(popup_099b53f54b54b784924c74f6903b5db0)
+        ;
+
+        
+    
+    
+            var circle_marker_ff451d9a6bfbdb2faff6766bb963c4d8 = L.circleMarker(
+                [25.05962, 121.53211],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_5bbb9d8908368b4ee09736f33640733c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e05a6dcb2d9300c241d07924aefdf69b = $(`<div id="html_e05a6dcb2d9300c241d07924aefdf69b" style="width: 100.0%; height: 100.0%;">松錦公園，景點類型：親子共遊，距台北車站2.01公里</div>`)[0];
+                popup_5bbb9d8908368b4ee09736f33640733c.setContent(html_e05a6dcb2d9300c241d07924aefdf69b);
+            
+        
+
+        circle_marker_ff451d9a6bfbdb2faff6766bb963c4d8.bindPopup(popup_5bbb9d8908368b4ee09736f33640733c)
+        ;
+
+        
+    
+    
+            var circle_marker_19ddc31de1ed1edf1a7599b40348f72d = L.circleMarker(
+                [25.068709859375648, 121.52402333915234],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_7d6eb40df1f1428aa0931c7d2e2842b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5758a0a560dc2d5cda91bf8cfcafad5b = $(`<div id="html_5758a0a560dc2d5cda91bf8cfcafad5b" style="width: 100.0%; height: 100.0%;">舞蝶共融遊戲場，景點類型：親子共遊，距台北車站2.42公里</div>`)[0];
+                popup_7d6eb40df1f1428aa0931c7d2e2842b1.setContent(html_5758a0a560dc2d5cda91bf8cfcafad5b);
+            
+        
+
+        circle_marker_19ddc31de1ed1edf1a7599b40348f72d.bindPopup(popup_7d6eb40df1f1428aa0931c7d2e2842b1)
+        ;
+
+        
+    
+    
+            var circle_marker_0de55b63803f88453e678d997e1ad710 = L.circleMarker(
+                [25.04956, 121.51389],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_8923c9f2b5e17ecafa1035a17b62441d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95fc42ddfd65abbb5474882c42de177b = $(`<div id="html_95fc42ddfd65abbb5474882c42de177b" style="width: 100.0%; height: 100.0%;">台北地下街，景點類型：主題商街，距台北車站0.37公里</div>`)[0];
+                popup_8923c9f2b5e17ecafa1035a17b62441d.setContent(html_95fc42ddfd65abbb5474882c42de177b);
+            
+        
+
+        circle_marker_0de55b63803f88453e678d997e1ad710.bindPopup(popup_8923c9f2b5e17ecafa1035a17b62441d)
+        ;
+
+        
+    
+    
+            var circle_marker_094c26f4759577767e43019a1ec39936 = L.circleMarker(
+                [25.05038, 121.51357],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_240979786bd7a7fdecf7218e3bad0a79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8c5d20b1c3a3d2d3cf9ed8de10cc254 = $(`<div id="html_e8c5d20b1c3a3d2d3cf9ed8de10cc254" style="width: 100.0%; height: 100.0%;">後站商圈，景點類型：主題商街，距台北車站0.45公里</div>`)[0];
+                popup_240979786bd7a7fdecf7218e3bad0a79.setContent(html_e8c5d20b1c3a3d2d3cf9ed8de10cc254);
+            
+        
+
+        circle_marker_094c26f4759577767e43019a1ec39936.bindPopup(popup_240979786bd7a7fdecf7218e3bad0a79)
+        ;
+
+        
+    
+    
+            var circle_marker_ba48593bfdaf51bcc5b665f7158ab45f = L.circleMarker(
+                [25.04459, 121.51322],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_8b45e5fea06a39f656de98607f663906 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34984241d053d1731b962f9b8f486f05 = $(`<div id="html_34984241d053d1731b962f9b8f486f05" style="width: 100.0%; height: 100.0%;">重慶南路_書店街，景點類型：主題商街，距台北車站0.52公里</div>`)[0];
+                popup_8b45e5fea06a39f656de98607f663906.setContent(html_34984241d053d1731b962f9b8f486f05);
+            
+        
+
+        circle_marker_ba48593bfdaf51bcc5b665f7158ab45f.bindPopup(popup_8b45e5fea06a39f656de98607f663906)
+        ;
+
+        
+    
+    
+            var circle_marker_b453258083b9956c9556fc838a2dbc95 = L.circleMarker(
+                [25.04533, 121.51139],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_a5be2780ebf17cf5b7cfeb3ebcc7dfaa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18c6f08e0570bd7f79341abab77b6156 = $(`<div id="html_18c6f08e0570bd7f79341abab77b6156" style="width: 100.0%; height: 100.0%;">博愛路_漢口街_相機街，景點類型：主題商街，距台北車站0.63公里</div>`)[0];
+                popup_a5be2780ebf17cf5b7cfeb3ebcc7dfaa.setContent(html_18c6f08e0570bd7f79341abab77b6156);
+            
+        
+
+        circle_marker_b453258083b9956c9556fc838a2dbc95.bindPopup(popup_a5be2780ebf17cf5b7cfeb3ebcc7dfaa)
+        ;
+
+        
+    
+    
+            var circle_marker_455c1c6ee4ad326b098ae59f5e3dac82 = L.circleMarker(
+                [25.043556619759634, 121.51222229003906],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_64d1fba294d987b029fb2f35d6990f6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1418c71bf1fc8adda203daee24933904 = $(`<div id="html_1418c71bf1fc8adda203daee24933904" style="width: 100.0%; height: 100.0%;">城中市場，景點類型：主題商街，距台北車站0.67公里</div>`)[0];
+                popup_64d1fba294d987b029fb2f35d6990f6e.setContent(html_1418c71bf1fc8adda203daee24933904);
+            
+        
+
+        circle_marker_455c1c6ee4ad326b098ae59f5e3dac82.bindPopup(popup_64d1fba294d987b029fb2f35d6990f6e)
+        ;
+
+        
+    
+    
+            var circle_marker_4fdc803bee1a22d65cd3fc0125eb57d7 = L.circleMarker(
+                [25.042876812931524, 121.512708440423],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_42fdaebfac846297aa9df3221876b61f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3d87341058ef79617086bcad6cbcabe = $(`<div id="html_d3d87341058ef79617086bcad6cbcabe" style="width: 100.0%; height: 100.0%;">沅陵商店街_鞋子街，景點類型：主題商街，距台北車站0.7公里</div>`)[0];
+                popup_42fdaebfac846297aa9df3221876b61f.setContent(html_d3d87341058ef79617086bcad6cbcabe);
+            
+        
+
+        circle_marker_4fdc803bee1a22d65cd3fc0125eb57d7.bindPopup(popup_42fdaebfac846297aa9df3221876b61f)
+        ;
+
+        
+    
+    
+            var circle_marker_b9bab90c035abb30c661ebd886ed8f75 = L.circleMarker(
+                [25.05165, 121.52264],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_27a248c1ed2f42551841e0155fcdb815 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e6c34e1329200ceff0293411f645609 = $(`<div id="html_6e6c34e1329200ceff0293411f645609" style="width: 100.0%; height: 100.0%;">中山北路條通商圈，景點類型：主題商街，距台北車站0.71公里</div>`)[0];
+                popup_27a248c1ed2f42551841e0155fcdb815.setContent(html_6e6c34e1329200ceff0293411f645609);
+            
+        
+
+        circle_marker_b9bab90c035abb30c661ebd886ed8f75.bindPopup(popup_27a248c1ed2f42551841e0155fcdb815)
+        ;
+
+        
+    
+    
+            var circle_marker_a02a1c578ebe69a834ac34c1850b5765 = L.circleMarker(
+                [25.05498580125868, 121.52057670056818],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_4947029b73a95a34a4f8749040777d0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0710d491c05038f1a939eb4a551646e8 = $(`<div id="html_0710d491c05038f1a939eb4a551646e8" style="width: 100.0%; height: 100.0%;">捷運中山地下書街_誠品R79，景點類型：主題商街，距台北車站0.87公里</div>`)[0];
+                popup_4947029b73a95a34a4f8749040777d0f.setContent(html_0710d491c05038f1a939eb4a551646e8);
+            
+        
+
+        circle_marker_a02a1c578ebe69a834ac34c1850b5765.bindPopup(popup_4947029b73a95a34a4f8749040777d0f)
+        ;
+
+        
+    
+    
+            var circle_marker_5385bb8067e102f0f51367803f951515 = L.circleMarker(
+                [25.05534602124012, 121.51960741728544],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_8fe33f47e0762f43c01d91d4653c544f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb706a8dcd1cf718ec6a961d46f3f111 = $(`<div id="html_fb706a8dcd1cf718ec6a961d46f3f111" style="width: 100.0%; height: 100.0%;">赤峰街，景點類型：主題商街，距台北車站0.88公里</div>`)[0];
+                popup_8fe33f47e0762f43c01d91d4653c544f.setContent(html_fb706a8dcd1cf718ec6a961d46f3f111);
+            
+        
+
+        circle_marker_5385bb8067e102f0f51367803f951515.bindPopup(popup_8fe33f47e0762f43c01d91d4653c544f)
+        ;
+
+        
+    
+    
+            var circle_marker_668a62a7651cacf75394c46687788321 = L.circleMarker(
+                [25.05582, 121.5206],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_b3e4b2bbbc270ade7bbbfdaa0250993b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d3800ffd95b51fd9c754da4f8d9b68c = $(`<div id="html_9d3800ffd95b51fd9c754da4f8d9b68c" style="width: 100.0%; height: 100.0%;">捷運中山站街區_心中山線形公園，景點類型：主題商街，距台北車站0.96公里</div>`)[0];
+                popup_b3e4b2bbbc270ade7bbbfdaa0250993b.setContent(html_9d3800ffd95b51fd9c754da4f8d9b68c);
+            
+        
+
+        circle_marker_668a62a7651cacf75394c46687788321.bindPopup(popup_b3e4b2bbbc270ade7bbbfdaa0250993b)
+        ;
+
+        
+    
+    
+            var circle_marker_3c3fe5c5ccc7c36b1807ae3a69c7fd85 = L.circleMarker(
+                [25.04458, 121.50753],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_06e2c349dce6143e5192fd0e1edc17b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_177131978345b753e4ff81abfdf5552a = $(`<div id="html_177131978345b753e4ff81abfdf5552a" style="width: 100.0%; height: 100.0%;">西門町，景點類型：主題商街，距台北車站1.02公里</div>`)[0];
+                popup_06e2c349dce6143e5192fd0e1edc17b2.setContent(html_177131978345b753e4ff81abfdf5552a);
+            
+        
+
+        circle_marker_3c3fe5c5ccc7c36b1807ae3a69c7fd85.bindPopup(popup_06e2c349dce6143e5192fd0e1edc17b2)
+        ;
+
+        
+    
+    
+            var circle_marker_47478b0356f4425ecbe918a91ddedaf4 = L.circleMarker(
+                [25.05491, 121.51032],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_42b665b783d8598befececbdda0e58e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ead642b03a0fe13e9189844f22ff52bc = $(`<div id="html_ead642b03a0fe13e9189844f22ff52bc" style="width: 100.0%; height: 100.0%;">迪化街年貨大街，景點類型：主題商街，距台北車站1.04公里</div>`)[0];
+                popup_42b665b783d8598befececbdda0e58e1.setContent(html_ead642b03a0fe13e9189844f22ff52bc);
+            
+        
+
+        circle_marker_47478b0356f4425ecbe918a91ddedaf4.bindPopup(popup_42b665b783d8598befececbdda0e58e1)
+        ;
+
+        
+    
+    
+            var circle_marker_2345d0711f759b7cf804baab7472eb1c = L.circleMarker(
+                [25.05505, 121.5105],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_eda518e180407a01a83134e8be2653a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e138e7ed23840610f4b91ccddacb423c = $(`<div id="html_e138e7ed23840610f4b91ccddacb423c" style="width: 100.0%; height: 100.0%;">永樂布業商場_永樂市場，景點類型：主題商街，距台北車站1.04公里</div>`)[0];
+                popup_eda518e180407a01a83134e8be2653a5.setContent(html_e138e7ed23840610f4b91ccddacb423c);
+            
+        
+
+        circle_marker_2345d0711f759b7cf804baab7472eb1c.bindPopup(popup_eda518e180407a01a83134e8be2653a5)
+        ;
+
+        
+    
+    
+            var circle_marker_a0cc774dfa9306ff303e27bc925b53f8 = L.circleMarker(
+                [25.0584, 121.51297],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_811d43d37434375a5fe1c43ce3ed13d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9bebc4578b7128a2e170628211aa5f1 = $(`<div id="html_f9bebc4578b7128a2e170628211aa5f1" style="width: 100.0%; height: 100.0%;">甘州街_茶葉街，景點類型：主題商街，距台北車站1.24公里</div>`)[0];
+                popup_811d43d37434375a5fe1c43ce3ed13d3.setContent(html_f9bebc4578b7128a2e170628211aa5f1);
+            
+        
+
+        circle_marker_a0cc774dfa9306ff303e27bc925b53f8.bindPopup(popup_811d43d37434375a5fe1c43ce3ed13d3)
+        ;
+
+        
+    
+    
+            var circle_marker_ed7d8aee72c1ecde3de234b6ca796dfd = L.circleMarker(
+                [25.05916, 121.52313],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_4a4b9c12944ed85a6cd423ac4a8428ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83b0f87d742507a595bac1013b7a0769 = $(`<div id="html_83b0f87d742507a595bac1013b7a0769" style="width: 100.0%; height: 100.0%;">中山北路婚紗街，景點類型：主題商街，距台北車站1.4公里</div>`)[0];
+                popup_4a4b9c12944ed85a6cd423ac4a8428ca.setContent(html_83b0f87d742507a595bac1013b7a0769);
+            
+        
+
+        circle_marker_ed7d8aee72c1ecde3de234b6ca796dfd.bindPopup(popup_4a4b9c12944ed85a6cd423ac4a8428ca)
+        ;
+
+        
+    
+    
+            var circle_marker_4e8899b70ea260d7e4a701e76b616aac = L.circleMarker(
+                [25.06047, 121.51188],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_e7ef30b12cfaee47eba2b93184c1984e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7eed549ce32caf4ee8cb93f6b08c4165 = $(`<div id="html_7eed549ce32caf4ee8cb93f6b08c4165" style="width: 100.0%; height: 100.0%;">慈聖宮前小吃區，景點類型：主題商街，距台北車站1.5公里</div>`)[0];
+                popup_e7ef30b12cfaee47eba2b93184c1984e.setContent(html_7eed549ce32caf4ee8cb93f6b08c4165);
+            
+        
+
+        circle_marker_4e8899b70ea260d7e4a701e76b616aac.bindPopup(popup_e7ef30b12cfaee47eba2b93184c1984e)
+        ;
+
+        
+    
+    
+            var circle_marker_48806543490b6983c25b51cf7a7bdbd0 = L.circleMarker(
+                [25.03348002638185, 121.5197230875492],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_a4c05d1d81ea0ef8bdccd97565c3b36a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f65d809bd4d9a6bf169852dfe5d5e002 = $(`<div id="html_f65d809bd4d9a6bf169852dfe5d5e002" style="width: 100.0%; height: 100.0%;">愛國東路_婚紗街，景點類型：主題商街，距台北車站1.61公里</div>`)[0];
+                popup_a4c05d1d81ea0ef8bdccd97565c3b36a.setContent(html_f65d809bd4d9a6bf169852dfe5d5e002);
+            
+        
+
+        circle_marker_48806543490b6983c25b51cf7a7bdbd0.bindPopup(popup_a4c05d1d81ea0ef8bdccd97565c3b36a)
+        ;
+
+        
+    
+    
+            var circle_marker_9039fda15648331f0c93c62e5d013e18 = L.circleMarker(
+                [25.04471, 121.53318],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_55bda2ea362eacf0c4f990591d06b139 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75ef1008a102c065bc8c3a9d0c7e6c05 = $(`<div id="html_75ef1008a102c065bc8c3a9d0c7e6c05" style="width: 100.0%; height: 100.0%;">光華玉市，景點類型：主題商街，距台北車站1.67公里</div>`)[0];
+                popup_55bda2ea362eacf0c4f990591d06b139.setContent(html_75ef1008a102c065bc8c3a9d0c7e6c05);
+            
+        
+
+        circle_marker_9039fda15648331f0c93c62e5d013e18.bindPopup(popup_55bda2ea362eacf0c4f990591d06b139)
+        ;
+
+        
+    
+    
+            var circle_marker_20d87c97cbed83d4e1db28fa9d9e8dc7 = L.circleMarker(
+                [25.05367, 121.53409],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_c372352d309fd3c268483c9c6f7019b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff2a485440630f5e5be3df66f8dec6a3 = $(`<div id="html_ff2a485440630f5e5be3df66f8dec6a3" style="width: 100.0%; height: 100.0%;">四平陽光商圈，景點類型：主題商街，距台北車站1.84公里</div>`)[0];
+                popup_c372352d309fd3c268483c9c6f7019b8.setContent(html_ff2a485440630f5e5be3df66f8dec6a3);
+            
+        
+
+        circle_marker_20d87c97cbed83d4e1db28fa9d9e8dc7.bindPopup(popup_c372352d309fd3c268483c9c6f7019b8)
+        ;
+
+        
+    
+    
+            var circle_marker_01790eb5009f2b8dc2de8f379e92316a = L.circleMarker(
+                [25.04014568122635, 121.50059979733447],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_39826d859216030303d1d4bd9a97914f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_919f633ce502f827c77849b4c447698f = $(`<div id="html_919f633ce502f827c77849b4c447698f" style="width: 100.0%; height: 100.0%;">艋舺老街(台北第一街)，景點類型：主題商街，距台北車站1.86公里</div>`)[0];
+                popup_39826d859216030303d1d4bd9a97914f.setContent(html_919f633ce502f827c77849b4c447698f);
+            
+        
+
+        circle_marker_01790eb5009f2b8dc2de8f379e92316a.bindPopup(popup_39826d859216030303d1d4bd9a97914f)
+        ;
+
+        
+    
+    
+            var circle_marker_9fbbefb6c7a976b7cc3421ba9f58b3c7 = L.circleMarker(
+                [25.06437, 121.52288],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_0956fbc790be1468a698dba8b77bfefe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b6772389876c9c3ec8564be7d161e49 = $(`<div id="html_0b6772389876c9c3ec8564be7d161e49" style="width: 100.0%; height: 100.0%;">晴光市場，景點類型：主題商街，距台北車站1.93公里</div>`)[0];
+                popup_0956fbc790be1468a698dba8b77bfefe.setContent(html_0b6772389876c9c3ec8564be7d161e49);
+            
+        
+
+        circle_marker_9fbbefb6c7a976b7cc3421ba9f58b3c7.bindPopup(popup_0956fbc790be1468a698dba8b77bfefe)
+        ;
+
+        
+    
+    
+            var circle_marker_43cdd510a8c15791a95b0930705a422f = L.circleMarker(
+                [25.03484, 121.50367],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_a829b26a3b354a4482b0908f943f55b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_781123e3e7881eecb8773e0ea3dda3bd = $(`<div id="html_781123e3e7881eecb8773e0ea3dda3bd" style="width: 100.0%; height: 100.0%;">和平西路三段_鳥店街，景點類型：主題商街，距台北車站1.97公里</div>`)[0];
+                popup_a829b26a3b354a4482b0908f943f55b6.setContent(html_781123e3e7881eecb8773e0ea3dda3bd);
+            
+        
+
+        circle_marker_43cdd510a8c15791a95b0930705a422f.bindPopup(popup_a829b26a3b354a4482b0908f943f55b6)
+        ;
+
+        
+    
+    
+            var circle_marker_8b72cd01352a6c4f048122984b8e11b2 = L.circleMarker(
+                [25.03602, 121.5019],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_4cb5bac15d934726a79ce29f8752dafa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22a98c23bb438ee5425ac801aa9c3668 = $(`<div id="html_22a98c23bb438ee5425ac801aa9c3668" style="width: 100.0%; height: 100.0%;">東三水街市場_新富市場，景點類型：主題商街，距台北車站2.01公里</div>`)[0];
+                popup_4cb5bac15d934726a79ce29f8752dafa.setContent(html_22a98c23bb438ee5425ac801aa9c3668);
+            
+        
+
+        circle_marker_8b72cd01352a6c4f048122984b8e11b2.bindPopup(popup_4cb5bac15d934726a79ce29f8752dafa)
+        ;
+
+        
+    
+    
+            var circle_marker_3fc2fc752198b2f0132e86fff3d4d6fb = L.circleMarker(
+                [25.03797, 121.49972],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_a690eafe8874a297a3910eafd347b216 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1b3e0179932612a9468bdd5f1d52581 = $(`<div id="html_f1b3e0179932612a9468bdd5f1d52581" style="width: 100.0%; height: 100.0%;">西園路_佛具街，景點類型：主題商街，距台北車站2.06公里</div>`)[0];
+                popup_a690eafe8874a297a3910eafd347b216.setContent(html_f1b3e0179932612a9468bdd5f1d52581);
+            
+        
+
+        circle_marker_3fc2fc752198b2f0132e86fff3d4d6fb.bindPopup(popup_a690eafe8874a297a3910eafd347b216)
+        ;
+
+        
+    
+    
+            var circle_marker_8b0997718f5c566ac725d18738fdfc28 = L.circleMarker(
+                [25.03326697678456, 121.52988281551627],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_d1ab59e85fafaad1074e67731394f563 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0529b6ac7795fc76d974971c91583a2 = $(`<div id="html_d0529b6ac7795fc76d974971c91583a2" style="width: 100.0%; height: 100.0%;">永康街區，景點類型：主題商街，距台北車站2.07公里</div>`)[0];
+                popup_d1ab59e85fafaad1074e67731394f563.setContent(html_d0529b6ac7795fc76d974971c91583a2);
+            
+        
+
+        circle_marker_8b0997718f5c566ac725d18738fdfc28.bindPopup(popup_d1ab59e85fafaad1074e67731394f563)
+        ;
+
+        
+    
+    
+            var circle_marker_42c6bbd05fda9601bef21dae31a8d12b = L.circleMarker(
+                [25.03693608862788, 121.50026097893716],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_651dfd3445556d8b2b621a289384c05c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34712169ebc5dca160fa9d51a8201343 = $(`<div id="html_34712169ebc5dca160fa9d51a8201343" style="width: 100.0%; height: 100.0%;">西昌街-青草巷，景點類型：主題商街，距台北車站2.07公里</div>`)[0];
+                popup_651dfd3445556d8b2b621a289384c05c.setContent(html_34712169ebc5dca160fa9d51a8201343);
+            
+        
+
+        circle_marker_42c6bbd05fda9601bef21dae31a8d12b.bindPopup(popup_651dfd3445556d8b2b621a289384c05c)
+        ;
+
+        
+    
+    
+            var circle_marker_e88f2cdcffd8bb5bb2169e10d384e481 = L.circleMarker(
+                [25.03607, 121.49989],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_dee2d60963d45216813676c2713a2501 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8c554902247e6344871f5c3fdddb7da = $(`<div id="html_b8c554902247e6344871f5c3fdddb7da" style="width: 100.0%; height: 100.0%;">龍山寺地下街，景點類型：主題商街，距台北車站2.16公里</div>`)[0];
+                popup_dee2d60963d45216813676c2713a2501.setContent(html_b8c554902247e6344871f5c3fdddb7da);
+            
+        
+
+        circle_marker_e88f2cdcffd8bb5bb2169e10d384e481.bindPopup(popup_dee2d60963d45216813676c2713a2501)
+        ;
+
+        
+    
+    
+            var circle_marker_46dba161d309741e8ad3a368379dbabc = L.circleMarker(
+                [25.03434, 121.49936],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_86eb21479dc60ab2b20f1d6d936d2079 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8761d49647916059c25d92510ee23921 = $(`<div id="html_8761d49647916059c25d92510ee23921" style="width: 100.0%; height: 100.0%;">艋舺服飾商圈，景點類型：主題商街，距台北車站2.32公里</div>`)[0];
+                popup_86eb21479dc60ab2b20f1d6d936d2079.setContent(html_8761d49647916059c25d92510ee23921);
+            
+        
+
+        circle_marker_46dba161d309741e8ad3a368379dbabc.bindPopup(popup_86eb21479dc60ab2b20f1d6d936d2079)
+        ;
+
+        
+    
+    
+            var circle_marker_c236dfcc22052bdd7677cb420777950c = L.circleMarker(
+                [25.06262, 121.53329],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 1.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a);
+        
+    
+        var popup_12f545be37347dd5d42769c66130320d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_effc3e054aac075cf97ffaee8aa5cd84 = $(`<div id="html_effc3e054aac075cf97ffaee8aa5cd84" style="width: 100.0%; height: 100.0%;">命理街，景點類型：主題商街，距台北車站2.32公里</div>`)[0];
+                popup_12f545be37347dd5d42769c66130320d.setContent(html_effc3e054aac075cf97ffaee8aa5cd84);
+            
+        
+
+        circle_marker_c236dfcc22052bdd7677cb420777950c.bindPopup(popup_12f545be37347dd5d42769c66130320d)
+        ;
+
+        
+    
+    
+            marker_cluster_4bf88f8b7b0aaf7a1940e5597856736a.addTo(map_01a2733549260b97b191fa7c891afe71);
+        
+</script>
+</html>

@@ -1,0 +1,250 @@
+{
+    "RelatedAttractions": [
+        {
+            "AttractionID": "Attraction_379000000A_000104",
+            "AttractionName": "國立臺灣博物館",
+            "PositionLat": 25.04276,
+            "PositionLon": 121.51503
+        },
+        {
+            "AttractionID": "Attraction_379000000A_000137",
+            "AttractionName": "二二八和平公園",
+            "PositionLat": 25.04132,
+            "PositionLon": 121.51516
+        },
+        {
+            "AttractionID": "Attraction_379000000A_000141",
+            "AttractionName": "台北當代藝術館",
+            "PositionLat": 25.05072,
+            "PositionLon": 121.51892
+        },
+        {
+            "AttractionID": "Attraction_379000000A_000158",
+            "AttractionName": "SPOT光點台北電影館",
+            "PositionLat": 25.05325,
+            "PositionLon": 121.52225
+        },
+        {
+            "AttractionID": "Attraction_379000000A_000368",
+            "AttractionName": "北門_承恩門",
+            "PositionLat": 25.04773,
+            "PositionLon": 121.51123
+        },
+        {
+            "AttractionID": "Attraction_379000000A_000385",
+            "AttractionName": "國立臺灣大學醫學院附設醫院_西址",
+            "PositionLat": 25.04199,
+            "PositionLon": 121.51722
+        },
+        {
+            "AttractionID": "Attraction_379000000A_000387",
+            "AttractionName": "東門_景福門",
+            "PositionLat": 25.03907,
+            "PositionLon": 121.51765
+        },
+        {
+            "AttractionID": "Attraction_379000000A_000389",
+            "AttractionName": "台灣基督長老教會_中山教會",
+            "PositionLat": 25.04903,
+            "PositionLon": 121.52438
+        },
+        {
+            "AttractionID": "Attraction_379000000A_000394",
+            "AttractionName": "臺北賓館",
+            "PositionLat": 25.04015,
+            "PositionLon": 121.51675
+        },
+        {
+            "AttractionID": "Attraction_379000000A_000401",
+            "AttractionName": "臺北北門郵局_臺北901支",
+            "PositionLat": 25.04692,
+            "PositionLon": 121.5114
+        },
+        {
+            "AttractionID": "Attraction_379000000A_000588",
+            "AttractionName": "臺北市中山堂",
+            "PositionLat": 25.04319,
+            "PositionLon": 121.50967
+        },
+        {
+            "AttractionID": "Attraction_379000000A_001248",
+            "AttractionName": "國立臺灣大學博物館群_醫學人文博物館",
+            "PositionLat": 25.03953,
+            "PositionLon": 121.51886
+        },
+        {
+            "AttractionID": "Attraction_379000000A_001436",
+            "AttractionName": "蒲添生故居",
+            "PositionLat": 25.04549,
+            "PositionLon": 121.52466
+        },
+        {
+            "AttractionID": "Attraction_379000000A_001440",
+            "AttractionName": "建成圓環",
+            "PositionLat": 25.05381,
+            "PositionLon": 121.51469
+        },
+        {
+            "AttractionID": "Attraction_379000000A_001572",
+            "AttractionName": "國立臺灣博物館_古生物館",
+            "PositionLat": 25.04356,
+            "PositionLon": 121.51436
+        },
+        {
+            "AttractionID": "Attraction_379000000A_001574",
+            "AttractionName": "撫臺街洋樓 (《人民導報》舊址)",
+            "PositionLat": 25.04671,
+            "PositionLon": 121.51081
+        },
+        {
+            "AttractionID": "Attraction_379000000A_001865",
+            "AttractionName": "Art Space 金魚空間",
+            "PositionLat": 25.053532,
+            "PositionLon": 121.518553
+        },
+        {
+            "AttractionID": "Attraction_379000000A_001875",
+            "AttractionName": "非畫廊Beyond Gallery",
+            "PositionLat": 25.049806,
+            "PositionLon": 121.522432
+        },
+        {
+            "AttractionID": "Attraction_379000000A_002263",
+            "AttractionName": "赤峰街",
+            "PositionLat": 25.055346,
+            "PositionLon": 121.519607
+        },
+        {
+            "AttractionID": "Attraction_379000000A_002533",
+            "AttractionName": "臺北市交通資訊中心",
+            "PositionLat": 25.04925,
+            "PositionLon": 121.51873
+        },
+        {
+            "AttractionID": "Attraction_379000000A_002576",
+            "AttractionName": "國立臺灣博物館_鐵道部園區",
+            "PositionLat": 25.048834,
+            "PositionLon": 121.511383
+        },
+        {
+            "AttractionID": "Attraction_379000000A_002597",
+            "AttractionName": "臺灣省城隍廟",
+            "PositionLat": 25.04395,
+            "PositionLon": 121.51271
+        },
+        {
+            "AttractionID": "Attraction_379000000A_002641",
+            "AttractionName": "順益台灣原住民博物館_美術分館",
+            "PositionLat": 25.046377,
+            "PositionLon": 121.510951
+        },
+        {
+            "AttractionID": "Attraction_379000000A_002650",
+            "AttractionName": "城中市場",
+            "PositionLat": 25.043557,
+            "PositionLon": 121.512222
+        },
+        {
+            "AttractionID": "Attraction_379000000A_002994",
+            "AttractionName": "捷運北門站_台北鐵道局",
+            "PositionLat": 25.04954,
+            "PositionLon": 121.51018
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003084",
+            "AttractionName": "陳德星堂",
+            "PositionLat": 25.05564,
+            "PositionLon": 121.51592
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003109",
+            "AttractionName": "博愛路_漢口街_相機街",
+            "PositionLat": 25.04533,
+            "PositionLon": 121.51139
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003111",
+            "AttractionName": "重慶南路_書店街",
+            "PositionLat": 25.04459,
+            "PositionLon": 121.51322
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003113",
+            "AttractionName": "沅陵商店街_鞋子街",
+            "PositionLat": 25.042877,
+            "PositionLon": 121.512708
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003122",
+            "AttractionName": "捷運中山地下書街_誠品R79",
+            "PositionLat": 25.054986,
+            "PositionLon": 121.520577
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003148",
+            "AttractionName": "後站商圈",
+            "PositionLat": 25.05038,
+            "PositionLon": 121.51357
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003153",
+            "AttractionName": "捷運中山站街區_心中山線形公園",
+            "PositionLat": 25.05582,
+            "PositionLon": 121.5206
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003154",
+            "AttractionName": "中山北路條通商圈",
+            "PositionLat": 25.05165,
+            "PositionLon": 121.52264
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003156",
+            "AttractionName": "台北地下街",
+            "PositionLat": 25.04956,
+            "PositionLon": 121.51389
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003163",
+            "AttractionName": "臺鐵臺北車站",
+            "PositionLat": 25.04775,
+            "PositionLon": 121.51704
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003169",
+            "AttractionName": "逸仙公園",
+            "PositionLat": 25.04774,
+            "PositionLon": 121.52007
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003673",
+            "AttractionName": "國際書局(舊址)",
+            "PositionLat": 25.053777,
+            "PositionLon": 121.511891
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003674",
+            "AttractionName": "天馬茶房",
+            "PositionLat": 25.054021,
+            "PositionLon": 121.512162
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003676",
+            "AttractionName": "臺北記憶倉庫(三井倉庫)",
+            "PositionLat": 25.047697,
+            "PositionLon": 121.512426
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003677",
+            "AttractionName": "渭水驛站",
+            "PositionLat": 25.05472,
+            "PositionLon": 121.511781
+        },
+        {
+            "AttractionID": "Attraction_379000000A_003678",
+            "AttractionName": "白色恐怖政治受難者紀念碑",
+            "PositionLat": 25.039508,
+            "PositionLon": 121.514129
+        }
+    ]
+}

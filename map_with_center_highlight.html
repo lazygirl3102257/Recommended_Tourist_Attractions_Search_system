@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ce3736a6b4a1238f51c30efd5bf9d2a0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ce3736a6b4a1238f51c30efd5bf9d2a0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ce3736a6b4a1238f51c30efd5bf9d2a0 = L.map(
+                "map_ce3736a6b4a1238f51c30efd5bf9d2a0",
+                {
+                    center: [25.0478, 121.517],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_47a3eeb39447c2a6e42bff7cb8d8929e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_47a3eeb39447c2a6e42bff7cb8d8929e.addTo(map_ce3736a6b4a1238f51c30efd5bf9d2a0);
+        
+    
+            var circle_marker_b1c7d4ddd8dfaf09574321126471f42d = L.circleMarker(
+                [25.0478, 121.517],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_ce3736a6b4a1238f51c30efd5bf9d2a0);
+        
+    
+        var popup_b026bc00160dad71d29f6db2eced6606 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fac0a720c9dcded431c892f1d8dc2a5 = $(`<div id="html_3fac0a720c9dcded431c892f1d8dc2a5" style="width: 100.0%; height: 100.0%;">台北車站(圓心)</div>`)[0];
+                popup_b026bc00160dad71d29f6db2eced6606.setContent(html_3fac0a720c9dcded431c892f1d8dc2a5);
+            
+        
+
+        circle_marker_b1c7d4ddd8dfaf09574321126471f42d.bindPopup(popup_b026bc00160dad71d29f6db2eced6606)
+        ;
+
+        
+    
+    
+            var marker_cluster_bb67cf8722376f552235e580236122b9 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_5cf9224847ca2122f2ff3c9d7fd6c6d7 = L.circleMarker(
+                [25.04276, 121.51503],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_8a6183bd80c95f677f8301d5a63fcb95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc8aa83353c37d86db9887a9a42f0d50 = $(`<div id="html_dc8aa83353c37d86db9887a9a42f0d50" style="width: 100.0%; height: 100.0%;">國立臺灣博物館</div>`)[0];
+                popup_8a6183bd80c95f677f8301d5a63fcb95.setContent(html_dc8aa83353c37d86db9887a9a42f0d50);
+            
+        
+
+        circle_marker_5cf9224847ca2122f2ff3c9d7fd6c6d7.bindPopup(popup_8a6183bd80c95f677f8301d5a63fcb95)
+        ;
+
+        
+    
+    
+            var circle_marker_142119a08a86821c2a50976c6981b624 = L.circleMarker(
+                [25.04132, 121.51516],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_669edb8ab333b08947e553d75bd97cd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f327f6236229fd5b31fb06a261f084bd = $(`<div id="html_f327f6236229fd5b31fb06a261f084bd" style="width: 100.0%; height: 100.0%;">二二八和平公園</div>`)[0];
+                popup_669edb8ab333b08947e553d75bd97cd0.setContent(html_f327f6236229fd5b31fb06a261f084bd);
+            
+        
+
+        circle_marker_142119a08a86821c2a50976c6981b624.bindPopup(popup_669edb8ab333b08947e553d75bd97cd0)
+        ;
+
+        
+    
+    
+            var circle_marker_2c744f9d8ac4e32b4be5f20770e2bf81 = L.circleMarker(
+                [25.05072, 121.51892],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_314523cf2b687522e70cca1a0e19c912 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4dd94470daaf864b08109caf16deca80 = $(`<div id="html_4dd94470daaf864b08109caf16deca80" style="width: 100.0%; height: 100.0%;">台北當代藝術館</div>`)[0];
+                popup_314523cf2b687522e70cca1a0e19c912.setContent(html_4dd94470daaf864b08109caf16deca80);
+            
+        
+
+        circle_marker_2c744f9d8ac4e32b4be5f20770e2bf81.bindPopup(popup_314523cf2b687522e70cca1a0e19c912)
+        ;
+
+        
+    
+    
+            var circle_marker_2082f5292c3869ac87575f3f2c781403 = L.circleMarker(
+                [25.05325, 121.52225],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_d6235bd85ecb4ac9d2d329909bfad5ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd006a75c40bfccabc99c8513963f770 = $(`<div id="html_bd006a75c40bfccabc99c8513963f770" style="width: 100.0%; height: 100.0%;">SPOT光點台北電影館</div>`)[0];
+                popup_d6235bd85ecb4ac9d2d329909bfad5ac.setContent(html_bd006a75c40bfccabc99c8513963f770);
+            
+        
+
+        circle_marker_2082f5292c3869ac87575f3f2c781403.bindPopup(popup_d6235bd85ecb4ac9d2d329909bfad5ac)
+        ;
+
+        
+    
+    
+            var circle_marker_e9ecef5c499f6fdbcaf1036d53746f70 = L.circleMarker(
+                [25.04773, 121.51123],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_422bc68f59b018d967b4504cc722cc1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e47eab60c493bafa2c1a886a35795d8d = $(`<div id="html_e47eab60c493bafa2c1a886a35795d8d" style="width: 100.0%; height: 100.0%;">北門_承恩門</div>`)[0];
+                popup_422bc68f59b018d967b4504cc722cc1f.setContent(html_e47eab60c493bafa2c1a886a35795d8d);
+            
+        
+
+        circle_marker_e9ecef5c499f6fdbcaf1036d53746f70.bindPopup(popup_422bc68f59b018d967b4504cc722cc1f)
+        ;
+
+        
+    
+    
+            var circle_marker_2ee3a122c3862d2468a1d6290208c8dd = L.circleMarker(
+                [25.04199, 121.51722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_607795bb10432102dda9a878a945a5a2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc9927aa52a26464d3ed92f693ba19ab = $(`<div id="html_fc9927aa52a26464d3ed92f693ba19ab" style="width: 100.0%; height: 100.0%;">國立臺灣大學醫學院附設醫院_西址</div>`)[0];
+                popup_607795bb10432102dda9a878a945a5a2.setContent(html_fc9927aa52a26464d3ed92f693ba19ab);
+            
+        
+
+        circle_marker_2ee3a122c3862d2468a1d6290208c8dd.bindPopup(popup_607795bb10432102dda9a878a945a5a2)
+        ;
+
+        
+    
+    
+            var circle_marker_c219404e2137bf8f7bdab60876cb2a84 = L.circleMarker(
+                [25.03907, 121.51765],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_08ac96119b0fa5dad1288d0f17b26fc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de847c32231e8bef2205260540881f09 = $(`<div id="html_de847c32231e8bef2205260540881f09" style="width: 100.0%; height: 100.0%;">東門_景福門</div>`)[0];
+                popup_08ac96119b0fa5dad1288d0f17b26fc3.setContent(html_de847c32231e8bef2205260540881f09);
+            
+        
+
+        circle_marker_c219404e2137bf8f7bdab60876cb2a84.bindPopup(popup_08ac96119b0fa5dad1288d0f17b26fc3)
+        ;
+
+        
+    
+    
+            var circle_marker_cc70f824b02a9f86f1b7d4a9b6d156fb = L.circleMarker(
+                [25.04903, 121.52438],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_fd6bb7395c3357db127f4f8b8a8ef38c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74586b9d9c1c5291e22ed2099a22571e = $(`<div id="html_74586b9d9c1c5291e22ed2099a22571e" style="width: 100.0%; height: 100.0%;">台灣基督長老教會_中山教會</div>`)[0];
+                popup_fd6bb7395c3357db127f4f8b8a8ef38c.setContent(html_74586b9d9c1c5291e22ed2099a22571e);
+            
+        
+
+        circle_marker_cc70f824b02a9f86f1b7d4a9b6d156fb.bindPopup(popup_fd6bb7395c3357db127f4f8b8a8ef38c)
+        ;
+
+        
+    
+    
+            var circle_marker_9f72c53682cbc9978cd23957b06c815b = L.circleMarker(
+                [25.04015, 121.51675],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_f6f1068affeec0feb0053afc2e98d2b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5c824fa2ab607289790654a7f0ec6dd = $(`<div id="html_e5c824fa2ab607289790654a7f0ec6dd" style="width: 100.0%; height: 100.0%;">臺北賓館</div>`)[0];
+                popup_f6f1068affeec0feb0053afc2e98d2b8.setContent(html_e5c824fa2ab607289790654a7f0ec6dd);
+            
+        
+
+        circle_marker_9f72c53682cbc9978cd23957b06c815b.bindPopup(popup_f6f1068affeec0feb0053afc2e98d2b8)
+        ;
+
+        
+    
+    
+            var circle_marker_257414dd6b6e337b498a53ce6e56eada = L.circleMarker(
+                [25.04692, 121.5114],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_6a35cf1edbdbcee12de5c8faa6b2da68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61c76afa943353c288691a5ab65bb90c = $(`<div id="html_61c76afa943353c288691a5ab65bb90c" style="width: 100.0%; height: 100.0%;">臺北北門郵局_臺北901支</div>`)[0];
+                popup_6a35cf1edbdbcee12de5c8faa6b2da68.setContent(html_61c76afa943353c288691a5ab65bb90c);
+            
+        
+
+        circle_marker_257414dd6b6e337b498a53ce6e56eada.bindPopup(popup_6a35cf1edbdbcee12de5c8faa6b2da68)
+        ;
+
+        
+    
+    
+            var circle_marker_af8fa3aa6de4753554017d3c327a2874 = L.circleMarker(
+                [25.04319, 121.50967],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_171d3db2ec94c3906a2ce1a8d9e31415 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73209e4fa24e2e48ee19dd17a60bd662 = $(`<div id="html_73209e4fa24e2e48ee19dd17a60bd662" style="width: 100.0%; height: 100.0%;">臺北市中山堂</div>`)[0];
+                popup_171d3db2ec94c3906a2ce1a8d9e31415.setContent(html_73209e4fa24e2e48ee19dd17a60bd662);
+            
+        
+
+        circle_marker_af8fa3aa6de4753554017d3c327a2874.bindPopup(popup_171d3db2ec94c3906a2ce1a8d9e31415)
+        ;
+
+        
+    
+    
+            var circle_marker_939f06ad1d7df8e963331ea4e32eceb6 = L.circleMarker(
+                [25.03953, 121.51886],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_cd3de5390bc0dd2ab6e561bc9c4ae054 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07535d44fd31dba79ea7e6dc1fab15eb = $(`<div id="html_07535d44fd31dba79ea7e6dc1fab15eb" style="width: 100.0%; height: 100.0%;">國立臺灣大學博物館群_醫學人文博物館</div>`)[0];
+                popup_cd3de5390bc0dd2ab6e561bc9c4ae054.setContent(html_07535d44fd31dba79ea7e6dc1fab15eb);
+            
+        
+
+        circle_marker_939f06ad1d7df8e963331ea4e32eceb6.bindPopup(popup_cd3de5390bc0dd2ab6e561bc9c4ae054)
+        ;
+
+        
+    
+    
+            var circle_marker_4e68b99c9c34cc684d8d97658b0d9949 = L.circleMarker(
+                [25.04549, 121.52466],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_177772bf44499cba56e33e4c6c69305b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96ca7c5f4aa4087e3857c7658b7c9d42 = $(`<div id="html_96ca7c5f4aa4087e3857c7658b7c9d42" style="width: 100.0%; height: 100.0%;">蒲添生故居</div>`)[0];
+                popup_177772bf44499cba56e33e4c6c69305b.setContent(html_96ca7c5f4aa4087e3857c7658b7c9d42);
+            
+        
+
+        circle_marker_4e68b99c9c34cc684d8d97658b0d9949.bindPopup(popup_177772bf44499cba56e33e4c6c69305b)
+        ;
+
+        
+    
+    
+            var circle_marker_7fc8f7314caefa9d8e030718f33db3b9 = L.circleMarker(
+                [25.05381, 121.51469],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_fed89cb44314059d23b755e4516b1bb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41271a369d33094cc8cb29d1d45b17d5 = $(`<div id="html_41271a369d33094cc8cb29d1d45b17d5" style="width: 100.0%; height: 100.0%;">建成圓環</div>`)[0];
+                popup_fed89cb44314059d23b755e4516b1bb6.setContent(html_41271a369d33094cc8cb29d1d45b17d5);
+            
+        
+
+        circle_marker_7fc8f7314caefa9d8e030718f33db3b9.bindPopup(popup_fed89cb44314059d23b755e4516b1bb6)
+        ;
+
+        
+    
+    
+            var circle_marker_3419e7645abe9e38cff9b5f9067e82d3 = L.circleMarker(
+                [25.04356, 121.51436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_f46b91233dfbf8ee4487675e47fad2d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f4f2f51cdb3b5e8f444b9f76094be9e = $(`<div id="html_3f4f2f51cdb3b5e8f444b9f76094be9e" style="width: 100.0%; height: 100.0%;">國立臺灣博物館_古生物館</div>`)[0];
+                popup_f46b91233dfbf8ee4487675e47fad2d8.setContent(html_3f4f2f51cdb3b5e8f444b9f76094be9e);
+            
+        
+
+        circle_marker_3419e7645abe9e38cff9b5f9067e82d3.bindPopup(popup_f46b91233dfbf8ee4487675e47fad2d8)
+        ;
+
+        
+    
+    
+            var circle_marker_f3b10a15f7ff8fc3bf6ab1b85726859d = L.circleMarker(
+                [25.04671, 121.51081],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_24d3df7706849b17c9e928f3f50875f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a393dac72cca97de93b12ecd8c856c6 = $(`<div id="html_2a393dac72cca97de93b12ecd8c856c6" style="width: 100.0%; height: 100.0%;">撫臺街洋樓 (《人民導報》舊址)</div>`)[0];
+                popup_24d3df7706849b17c9e928f3f50875f1.setContent(html_2a393dac72cca97de93b12ecd8c856c6);
+            
+        
+
+        circle_marker_f3b10a15f7ff8fc3bf6ab1b85726859d.bindPopup(popup_24d3df7706849b17c9e928f3f50875f1)
+        ;
+
+        
+    
+    
+            var circle_marker_bf7e46ac6d71f4030c300b6312a87012 = L.circleMarker(
+                [25.053532, 121.518553],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_d69a431a2c36e8eb251642cba3055b26 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5ceca068b9b3c5fe3cdfe931ec7c61e = $(`<div id="html_d5ceca068b9b3c5fe3cdfe931ec7c61e" style="width: 100.0%; height: 100.0%;">Art Space 金魚空間</div>`)[0];
+                popup_d69a431a2c36e8eb251642cba3055b26.setContent(html_d5ceca068b9b3c5fe3cdfe931ec7c61e);
+            
+        
+
+        circle_marker_bf7e46ac6d71f4030c300b6312a87012.bindPopup(popup_d69a431a2c36e8eb251642cba3055b26)
+        ;
+
+        
+    
+    
+            var circle_marker_1612f3bff74122a0c291c1510eb6016c = L.circleMarker(
+                [25.049806, 121.522432],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_676edd15a761274dd3347b9d2052a368 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_127d7d896b79deecb7d392c95928734e = $(`<div id="html_127d7d896b79deecb7d392c95928734e" style="width: 100.0%; height: 100.0%;">非畫廊Beyond Gallery</div>`)[0];
+                popup_676edd15a761274dd3347b9d2052a368.setContent(html_127d7d896b79deecb7d392c95928734e);
+            
+        
+
+        circle_marker_1612f3bff74122a0c291c1510eb6016c.bindPopup(popup_676edd15a761274dd3347b9d2052a368)
+        ;
+
+        
+    
+    
+            var circle_marker_afe786617e1a424e5dc72cff1ab23388 = L.circleMarker(
+                [25.055346, 121.519607],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_e9a7779208c43eb515011c56277928af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f64aca1fa9db783d4c41e9fca0965cdd = $(`<div id="html_f64aca1fa9db783d4c41e9fca0965cdd" style="width: 100.0%; height: 100.0%;">赤峰街</div>`)[0];
+                popup_e9a7779208c43eb515011c56277928af.setContent(html_f64aca1fa9db783d4c41e9fca0965cdd);
+            
+        
+
+        circle_marker_afe786617e1a424e5dc72cff1ab23388.bindPopup(popup_e9a7779208c43eb515011c56277928af)
+        ;
+
+        
+    
+    
+            var circle_marker_d4c1131688e654437c457171518e1e94 = L.circleMarker(
+                [25.04925, 121.51873],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_36b1b6824f53ff21a590cf78aacda359 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75a088a3a6f6feb39a7f5a98a2f245b8 = $(`<div id="html_75a088a3a6f6feb39a7f5a98a2f245b8" style="width: 100.0%; height: 100.0%;">臺北市交通資訊中心</div>`)[0];
+                popup_36b1b6824f53ff21a590cf78aacda359.setContent(html_75a088a3a6f6feb39a7f5a98a2f245b8);
+            
+        
+
+        circle_marker_d4c1131688e654437c457171518e1e94.bindPopup(popup_36b1b6824f53ff21a590cf78aacda359)
+        ;
+
+        
+    
+    
+            var circle_marker_b6adbdca57a90c303d3dda888e01574a = L.circleMarker(
+                [25.048834, 121.511383],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_b67613c31db7ac10cab400e3a2fe8f46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f9fd8d8b5363a8124d2cccd67479016 = $(`<div id="html_2f9fd8d8b5363a8124d2cccd67479016" style="width: 100.0%; height: 100.0%;">國立臺灣博物館_鐵道部園區</div>`)[0];
+                popup_b67613c31db7ac10cab400e3a2fe8f46.setContent(html_2f9fd8d8b5363a8124d2cccd67479016);
+            
+        
+
+        circle_marker_b6adbdca57a90c303d3dda888e01574a.bindPopup(popup_b67613c31db7ac10cab400e3a2fe8f46)
+        ;
+
+        
+    
+    
+            var circle_marker_23dfa3a992d81824ff4276b1d2c35385 = L.circleMarker(
+                [25.04395, 121.51271],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_c7ae188dbccd0d0411a925806326edf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d9df91036da44d3ace60108e3c0b919 = $(`<div id="html_2d9df91036da44d3ace60108e3c0b919" style="width: 100.0%; height: 100.0%;">臺灣省城隍廟</div>`)[0];
+                popup_c7ae188dbccd0d0411a925806326edf0.setContent(html_2d9df91036da44d3ace60108e3c0b919);
+            
+        
+
+        circle_marker_23dfa3a992d81824ff4276b1d2c35385.bindPopup(popup_c7ae188dbccd0d0411a925806326edf0)
+        ;
+
+        
+    
+    
+            var circle_marker_16c157b5714f3f2e0584095cde78b181 = L.circleMarker(
+                [25.046377, 121.510951],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_261c3a5290d5d681a5f1de4a15ed22d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c3475bb8a5a357aa552448f7f498334 = $(`<div id="html_1c3475bb8a5a357aa552448f7f498334" style="width: 100.0%; height: 100.0%;">順益台灣原住民博物館_美術分館</div>`)[0];
+                popup_261c3a5290d5d681a5f1de4a15ed22d8.setContent(html_1c3475bb8a5a357aa552448f7f498334);
+            
+        
+
+        circle_marker_16c157b5714f3f2e0584095cde78b181.bindPopup(popup_261c3a5290d5d681a5f1de4a15ed22d8)
+        ;
+
+        
+    
+    
+            var circle_marker_fd4b44a64442c656a84855609a9fcd78 = L.circleMarker(
+                [25.043557, 121.512222],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_c942cffbef0d42ce932ffa2c66c7bbe8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7565e87b46c14077108fa556c2e1ef4 = $(`<div id="html_e7565e87b46c14077108fa556c2e1ef4" style="width: 100.0%; height: 100.0%;">城中市場</div>`)[0];
+                popup_c942cffbef0d42ce932ffa2c66c7bbe8.setContent(html_e7565e87b46c14077108fa556c2e1ef4);
+            
+        
+
+        circle_marker_fd4b44a64442c656a84855609a9fcd78.bindPopup(popup_c942cffbef0d42ce932ffa2c66c7bbe8)
+        ;
+
+        
+    
+    
+            var circle_marker_82f9a84ee13882731a1629814825aafa = L.circleMarker(
+                [25.04954, 121.51018],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_dbf60595afd594217fbca6e1f8264e49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8d5f81c12e9bf2d5c9f048749295590 = $(`<div id="html_c8d5f81c12e9bf2d5c9f048749295590" style="width: 100.0%; height: 100.0%;">捷運北門站_台北鐵道局</div>`)[0];
+                popup_dbf60595afd594217fbca6e1f8264e49.setContent(html_c8d5f81c12e9bf2d5c9f048749295590);
+            
+        
+
+        circle_marker_82f9a84ee13882731a1629814825aafa.bindPopup(popup_dbf60595afd594217fbca6e1f8264e49)
+        ;
+
+        
+    
+    
+            var circle_marker_d674188938187ed6ba62e13f77060aa2 = L.circleMarker(
+                [25.05564, 121.51592],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_428f19b2b50b76d348c62065b02c24ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0566eb485c86b614e19e2dfdef856017 = $(`<div id="html_0566eb485c86b614e19e2dfdef856017" style="width: 100.0%; height: 100.0%;">陳德星堂</div>`)[0];
+                popup_428f19b2b50b76d348c62065b02c24ee.setContent(html_0566eb485c86b614e19e2dfdef856017);
+            
+        
+
+        circle_marker_d674188938187ed6ba62e13f77060aa2.bindPopup(popup_428f19b2b50b76d348c62065b02c24ee)
+        ;
+
+        
+    
+    
+            var circle_marker_7ba6cb65aa98026287ed0ccc5d93e06c = L.circleMarker(
+                [25.04533, 121.51139],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_1b16a50dc0593fc48e7ebf5c3c72f28d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12c673df5def5aea3590272e39e6fc36 = $(`<div id="html_12c673df5def5aea3590272e39e6fc36" style="width: 100.0%; height: 100.0%;">博愛路_漢口街_相機街</div>`)[0];
+                popup_1b16a50dc0593fc48e7ebf5c3c72f28d.setContent(html_12c673df5def5aea3590272e39e6fc36);
+            
+        
+
+        circle_marker_7ba6cb65aa98026287ed0ccc5d93e06c.bindPopup(popup_1b16a50dc0593fc48e7ebf5c3c72f28d)
+        ;
+
+        
+    
+    
+            var circle_marker_8d8b502199425beaf6f55f16cae2051c = L.circleMarker(
+                [25.04459, 121.51322],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_e1d7dd98f835f8b10b005fed0126bcfd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_552ef28d6937e56d69e97e742f1767df = $(`<div id="html_552ef28d6937e56d69e97e742f1767df" style="width: 100.0%; height: 100.0%;">重慶南路_書店街</div>`)[0];
+                popup_e1d7dd98f835f8b10b005fed0126bcfd.setContent(html_552ef28d6937e56d69e97e742f1767df);
+            
+        
+
+        circle_marker_8d8b502199425beaf6f55f16cae2051c.bindPopup(popup_e1d7dd98f835f8b10b005fed0126bcfd)
+        ;
+
+        
+    
+    
+            var circle_marker_5ee44d2150d5d0c3c38bf7768aa19bb1 = L.circleMarker(
+                [25.042877, 121.512708],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_5abb3effde0410672a8aae6cb3790428 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d7607e4ccaebb5e7b28d55f635bf745 = $(`<div id="html_5d7607e4ccaebb5e7b28d55f635bf745" style="width: 100.0%; height: 100.0%;">沅陵商店街_鞋子街</div>`)[0];
+                popup_5abb3effde0410672a8aae6cb3790428.setContent(html_5d7607e4ccaebb5e7b28d55f635bf745);
+            
+        
+
+        circle_marker_5ee44d2150d5d0c3c38bf7768aa19bb1.bindPopup(popup_5abb3effde0410672a8aae6cb3790428)
+        ;
+
+        
+    
+    
+            var circle_marker_68d7d6b9de1f0806e24b4719353db0aa = L.circleMarker(
+                [25.054986, 121.520577],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_5504951864db23ca661e26d4b397400e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e98be52750c0bf67d9f2f4d1d127dd9 = $(`<div id="html_1e98be52750c0bf67d9f2f4d1d127dd9" style="width: 100.0%; height: 100.0%;">捷運中山地下書街_誠品R79</div>`)[0];
+                popup_5504951864db23ca661e26d4b397400e.setContent(html_1e98be52750c0bf67d9f2f4d1d127dd9);
+            
+        
+
+        circle_marker_68d7d6b9de1f0806e24b4719353db0aa.bindPopup(popup_5504951864db23ca661e26d4b397400e)
+        ;
+
+        
+    
+    
+            var circle_marker_b23694d45dfd98d6549b634a7893ffdb = L.circleMarker(
+                [25.05038, 121.51357],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_9248af333b9473cfd7f6cb030eb02a9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39f794869aad081f4d178b5060f820ac = $(`<div id="html_39f794869aad081f4d178b5060f820ac" style="width: 100.0%; height: 100.0%;">後站商圈</div>`)[0];
+                popup_9248af333b9473cfd7f6cb030eb02a9e.setContent(html_39f794869aad081f4d178b5060f820ac);
+            
+        
+
+        circle_marker_b23694d45dfd98d6549b634a7893ffdb.bindPopup(popup_9248af333b9473cfd7f6cb030eb02a9e)
+        ;
+
+        
+    
+    
+            var circle_marker_72b35730403144b377a6100e5da3fd7a = L.circleMarker(
+                [25.05582, 121.5206],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_bbc67c0f7972fe71c255a08f4f57ed18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51cbf3c67e3b99f2e58c43fdd6a5a57d = $(`<div id="html_51cbf3c67e3b99f2e58c43fdd6a5a57d" style="width: 100.0%; height: 100.0%;">捷運中山站街區_心中山線形公園</div>`)[0];
+                popup_bbc67c0f7972fe71c255a08f4f57ed18.setContent(html_51cbf3c67e3b99f2e58c43fdd6a5a57d);
+            
+        
+
+        circle_marker_72b35730403144b377a6100e5da3fd7a.bindPopup(popup_bbc67c0f7972fe71c255a08f4f57ed18)
+        ;
+
+        
+    
+    
+            var circle_marker_83542bd9464a094a7d4c932bc6d9f62f = L.circleMarker(
+                [25.05165, 121.52264],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_d1403d9c93bfd3db715f94f2f8f15c3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c981c7c9a3ee2897741eef71fdf8602 = $(`<div id="html_4c981c7c9a3ee2897741eef71fdf8602" style="width: 100.0%; height: 100.0%;">中山北路條通商圈</div>`)[0];
+                popup_d1403d9c93bfd3db715f94f2f8f15c3d.setContent(html_4c981c7c9a3ee2897741eef71fdf8602);
+            
+        
+
+        circle_marker_83542bd9464a094a7d4c932bc6d9f62f.bindPopup(popup_d1403d9c93bfd3db715f94f2f8f15c3d)
+        ;
+
+        
+    
+    
+            var circle_marker_44f1a6b414eeb81bdc1ef2d28b491bfc = L.circleMarker(
+                [25.04956, 121.51389],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_44281658da8c760e37c3bcdbca0db627 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb04b2969b18789f3d039ed3de6f0c40 = $(`<div id="html_cb04b2969b18789f3d039ed3de6f0c40" style="width: 100.0%; height: 100.0%;">台北地下街</div>`)[0];
+                popup_44281658da8c760e37c3bcdbca0db627.setContent(html_cb04b2969b18789f3d039ed3de6f0c40);
+            
+        
+
+        circle_marker_44f1a6b414eeb81bdc1ef2d28b491bfc.bindPopup(popup_44281658da8c760e37c3bcdbca0db627)
+        ;
+
+        
+    
+    
+            var circle_marker_94593beccfc6029a20f822876e54c194 = L.circleMarker(
+                [25.04775, 121.51704],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_13a2efc95a0defb44a87d4e12a58e815 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f8958c3d9ff0206e6116020e4f01aa8 = $(`<div id="html_2f8958c3d9ff0206e6116020e4f01aa8" style="width: 100.0%; height: 100.0%;">臺鐵臺北車站</div>`)[0];
+                popup_13a2efc95a0defb44a87d4e12a58e815.setContent(html_2f8958c3d9ff0206e6116020e4f01aa8);
+            
+        
+
+        circle_marker_94593beccfc6029a20f822876e54c194.bindPopup(popup_13a2efc95a0defb44a87d4e12a58e815)
+        ;
+
+        
+    
+    
+            var circle_marker_d8d15e15da5a12d81461bdb65fcdb2af = L.circleMarker(
+                [25.04774, 121.52007],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_8fa19deb3d5194a43bc4a14f15682f97 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52944a071e59e259c5a9285aec2bbe46 = $(`<div id="html_52944a071e59e259c5a9285aec2bbe46" style="width: 100.0%; height: 100.0%;">逸仙公園</div>`)[0];
+                popup_8fa19deb3d5194a43bc4a14f15682f97.setContent(html_52944a071e59e259c5a9285aec2bbe46);
+            
+        
+
+        circle_marker_d8d15e15da5a12d81461bdb65fcdb2af.bindPopup(popup_8fa19deb3d5194a43bc4a14f15682f97)
+        ;
+
+        
+    
+    
+            var circle_marker_d278ebc8647be3b75c9891a5b10d33ee = L.circleMarker(
+                [25.053777, 121.511891],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_858a8700f44e33822a2e9e0fff46072d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62ba19dfcfca73fb9bf05141f1eb1425 = $(`<div id="html_62ba19dfcfca73fb9bf05141f1eb1425" style="width: 100.0%; height: 100.0%;">國際書局(舊址)</div>`)[0];
+                popup_858a8700f44e33822a2e9e0fff46072d.setContent(html_62ba19dfcfca73fb9bf05141f1eb1425);
+            
+        
+
+        circle_marker_d278ebc8647be3b75c9891a5b10d33ee.bindPopup(popup_858a8700f44e33822a2e9e0fff46072d)
+        ;
+
+        
+    
+    
+            var circle_marker_f47b2692fc075dea0858cedb201e583f = L.circleMarker(
+                [25.054021, 121.512162],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_336e3f44b5fd1e678fb7029a5bffa097 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da825b296ef4f2c2c998f074bad991e4 = $(`<div id="html_da825b296ef4f2c2c998f074bad991e4" style="width: 100.0%; height: 100.0%;">天馬茶房</div>`)[0];
+                popup_336e3f44b5fd1e678fb7029a5bffa097.setContent(html_da825b296ef4f2c2c998f074bad991e4);
+            
+        
+
+        circle_marker_f47b2692fc075dea0858cedb201e583f.bindPopup(popup_336e3f44b5fd1e678fb7029a5bffa097)
+        ;
+
+        
+    
+    
+            var circle_marker_adbd2d5fd1bdbec0c33846936db2a027 = L.circleMarker(
+                [25.047697, 121.512426],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_5afa17b33134654dd01eb3a8d8896d3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c48d1c5c89c762c5f3384c0051a2210 = $(`<div id="html_1c48d1c5c89c762c5f3384c0051a2210" style="width: 100.0%; height: 100.0%;">臺北記憶倉庫(三井倉庫)</div>`)[0];
+                popup_5afa17b33134654dd01eb3a8d8896d3c.setContent(html_1c48d1c5c89c762c5f3384c0051a2210);
+            
+        
+
+        circle_marker_adbd2d5fd1bdbec0c33846936db2a027.bindPopup(popup_5afa17b33134654dd01eb3a8d8896d3c)
+        ;
+
+        
+    
+    
+            var circle_marker_d1f9efc9760c1a4916e6a032d36ac173 = L.circleMarker(
+                [25.05472, 121.511781],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_1da19849882687391413462afa022c7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e304271cca067003e3654b84d0eb6e98 = $(`<div id="html_e304271cca067003e3654b84d0eb6e98" style="width: 100.0%; height: 100.0%;">渭水驛站</div>`)[0];
+                popup_1da19849882687391413462afa022c7e.setContent(html_e304271cca067003e3654b84d0eb6e98);
+            
+        
+
+        circle_marker_d1f9efc9760c1a4916e6a032d36ac173.bindPopup(popup_1da19849882687391413462afa022c7e)
+        ;
+
+        
+    
+    
+            var circle_marker_47c2146d7778a463a0be72076a71302b = L.circleMarker(
+                [25.039508, 121.514129],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_bb67cf8722376f552235e580236122b9);
+        
+    
+        var popup_fca0b62951d30e1b70c4b1318cdd9197 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaf4b4d14e711d6e0c2bbefa059670c0 = $(`<div id="html_aaf4b4d14e711d6e0c2bbefa059670c0" style="width: 100.0%; height: 100.0%;">白色恐怖政治受難者紀念碑</div>`)[0];
+                popup_fca0b62951d30e1b70c4b1318cdd9197.setContent(html_aaf4b4d14e711d6e0c2bbefa059670c0);
+            
+        
+
+        circle_marker_47c2146d7778a463a0be72076a71302b.bindPopup(popup_fca0b62951d30e1b70c4b1318cdd9197)
+        ;
+
+        
+    
+    
+            marker_cluster_bb67cf8722376f552235e580236122b9.addTo(map_ce3736a6b4a1238f51c30efd5bf9d2a0);
+        
+</script>
+</html>

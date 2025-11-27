@@ -1,0 +1,3103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c99ef032045517d0672294466089c85a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c99ef032045517d0672294466089c85a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c99ef032045517d0672294466089c85a = L.map(
+                "map_c99ef032045517d0672294466089c85a",
+                {
+                    center: [25.0478, 121.517],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ca41b4a6db3bf3e1ea9a64e4fc5407a3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ca41b4a6db3bf3e1ea9a64e4fc5407a3.addTo(map_c99ef032045517d0672294466089c85a);
+        
+    
+            var circle_marker_7a82b1b42115da23a045512a4e82984e = L.circleMarker(
+                [25.0478, 121.517],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c99ef032045517d0672294466089c85a);
+        
+    
+        var popup_82d98785ae48fcfc87c6463bc9f05c88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bb9b00195f366d70603a3475b323728 = $(`<div id="html_2bb9b00195f366d70603a3475b323728" style="width: 100.0%; height: 100.0%;">台北車站(圓心)</div>`)[0];
+                popup_82d98785ae48fcfc87c6463bc9f05c88.setContent(html_2bb9b00195f366d70603a3475b323728);
+            
+        
+
+        circle_marker_7a82b1b42115da23a045512a4e82984e.bindPopup(popup_82d98785ae48fcfc87c6463bc9f05c88)
+        ;
+
+        
+    
+    
+            var marker_cluster_c8c0d30ddc81455fcef0b016be14e777 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_56ba8bf37c38277c6c1d4376db9473e3 = L.circleMarker(
+                [25.04775, 121.51704],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_c4d538adf99b8e48becbc60cea182077 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e3e42069c47c7995e60b6d8afd448a9 = $(`<div id="html_2e3e42069c47c7995e60b6d8afd448a9" style="width: 100.0%; height: 100.0%;">臺鐵臺北車站，景點類型：歷史建築</div>`)[0];
+                popup_c4d538adf99b8e48becbc60cea182077.setContent(html_2e3e42069c47c7995e60b6d8afd448a9);
+            
+        
+
+        circle_marker_56ba8bf37c38277c6c1d4376db9473e3.bindPopup(popup_c4d538adf99b8e48becbc60cea182077)
+        ;
+
+        
+    
+    
+            var circle_marker_fea44f8677acc0687cd0a68158bb9524 = L.circleMarker(
+                [25.05072, 121.51892],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_c5f05d617e20067109b32f6468f13db4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86d75646dad684aa3dab4dd10d5974cb = $(`<div id="html_86d75646dad684aa3dab4dd10d5974cb" style="width: 100.0%; height: 100.0%;">台北當代藝術館，景點類型：歷史建築</div>`)[0];
+                popup_c5f05d617e20067109b32f6468f13db4.setContent(html_86d75646dad684aa3dab4dd10d5974cb);
+            
+        
+
+        circle_marker_fea44f8677acc0687cd0a68158bb9524.bindPopup(popup_c5f05d617e20067109b32f6468f13db4)
+        ;
+
+        
+    
+    
+            var circle_marker_ae7ad5a92bea5fcf884649809409fd09 = L.circleMarker(
+                [25.04769734564248, 121.5124261379242],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_dd72ac9832742ec8289c8cffb65e13ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72555528375e207e6e5b450e5f2fae78 = $(`<div id="html_72555528375e207e6e5b450e5f2fae78" style="width: 100.0%; height: 100.0%;">臺北記憶倉庫(三井倉庫)，景點類型：歷史建築</div>`)[0];
+                popup_dd72ac9832742ec8289c8cffb65e13ff.setContent(html_72555528375e207e6e5b450e5f2fae78);
+            
+        
+
+        circle_marker_ae7ad5a92bea5fcf884649809409fd09.bindPopup(popup_dd72ac9832742ec8289c8cffb65e13ff)
+        ;
+
+        
+    
+    
+            var circle_marker_87ab878bee51e1248922403febfa71e7 = L.circleMarker(
+                [25.04356, 121.51436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_78305f0c742be0408b61ae0bdd0ae8d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_775a9b190e9743737556f6268e34f9c2 = $(`<div id="html_775a9b190e9743737556f6268e34f9c2" style="width: 100.0%; height: 100.0%;">國立臺灣博物館_古生物館，景點類型：歷史建築</div>`)[0];
+                popup_78305f0c742be0408b61ae0bdd0ae8d4.setContent(html_775a9b190e9743737556f6268e34f9c2);
+            
+        
+
+        circle_marker_87ab878bee51e1248922403febfa71e7.bindPopup(popup_78305f0c742be0408b61ae0bdd0ae8d4)
+        ;
+
+        
+    
+    
+            var circle_marker_ab3129416cf92c6b0d7b955473ac5cf0 = L.circleMarker(
+                [25.04692, 121.5114],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_22ebb2b2c699eab45c2a623d10e2aeb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44e8aec377cac1e34c08e2834d649c89 = $(`<div id="html_44e8aec377cac1e34c08e2834d649c89" style="width: 100.0%; height: 100.0%;">臺北北門郵局_臺北901支，景點類型：歷史建築</div>`)[0];
+                popup_22ebb2b2c699eab45c2a623d10e2aeb2.setContent(html_44e8aec377cac1e34c08e2834d649c89);
+            
+        
+
+        circle_marker_ab3129416cf92c6b0d7b955473ac5cf0.bindPopup(popup_22ebb2b2c699eab45c2a623d10e2aeb2)
+        ;
+
+        
+    
+    
+            var circle_marker_b70edf69418b8fc93de6193a59afee82 = L.circleMarker(
+                [25.048833955296377, 121.51138342916964],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_3aa3cf463bf7c4028b9a921d22337323 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7edf5aa0dc985476846f13c9c05c8d52 = $(`<div id="html_7edf5aa0dc985476846f13c9c05c8d52" style="width: 100.0%; height: 100.0%;">國立臺灣博物館_鐵道部園區，景點類型：歷史建築</div>`)[0];
+                popup_3aa3cf463bf7c4028b9a921d22337323.setContent(html_7edf5aa0dc985476846f13c9c05c8d52);
+            
+        
+
+        circle_marker_b70edf69418b8fc93de6193a59afee82.bindPopup(popup_3aa3cf463bf7c4028b9a921d22337323)
+        ;
+
+        
+    
+    
+            var circle_marker_29f5b1c2ebec247c58d6378191f72ec8 = L.circleMarker(
+                [25.04773, 121.51123],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_5b9517e3c69f376dd021cf1582dfd392 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88eda534c329ebd31c3c741230981fd0 = $(`<div id="html_88eda534c329ebd31c3c741230981fd0" style="width: 100.0%; height: 100.0%;">北門_承恩門(目前暫停開放)，景點類型：歷史建築</div>`)[0];
+                popup_5b9517e3c69f376dd021cf1582dfd392.setContent(html_88eda534c329ebd31c3c741230981fd0);
+            
+        
+
+        circle_marker_29f5b1c2ebec247c58d6378191f72ec8.bindPopup(popup_5b9517e3c69f376dd021cf1582dfd392)
+        ;
+
+        
+    
+    
+            var circle_marker_ab05c6307f186c6c2639d7c6020f1402 = L.circleMarker(
+                [25.04276, 121.51503],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_7520f4f172a6dfeb64e4fae25e920866 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37d5b2899eb2a8eba93bd7d4e98038fb = $(`<div id="html_37d5b2899eb2a8eba93bd7d4e98038fb" style="width: 100.0%; height: 100.0%;">國立臺灣博物館，景點類型：歷史建築</div>`)[0];
+                popup_7520f4f172a6dfeb64e4fae25e920866.setContent(html_37d5b2899eb2a8eba93bd7d4e98038fb);
+            
+        
+
+        circle_marker_ab05c6307f186c6c2639d7c6020f1402.bindPopup(popup_7520f4f172a6dfeb64e4fae25e920866)
+        ;
+
+        
+    
+    
+            var circle_marker_76cbad9403562cd9ec7f10c0082147f6 = L.circleMarker(
+                [25.04671, 121.51081],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_03779002ece110b1e01d92fc9f03dfad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_051fbf58f6a6064a6425013b37695fa0 = $(`<div id="html_051fbf58f6a6064a6425013b37695fa0" style="width: 100.0%; height: 100.0%;">撫臺街洋樓 (《人民導報》舊址)(暫停營業)，景點類型：歷史建築</div>`)[0];
+                popup_03779002ece110b1e01d92fc9f03dfad.setContent(html_051fbf58f6a6064a6425013b37695fa0);
+            
+        
+
+        circle_marker_76cbad9403562cd9ec7f10c0082147f6.bindPopup(popup_03779002ece110b1e01d92fc9f03dfad)
+        ;
+
+        
+    
+    
+            var circle_marker_a940660e397d3416775c1a5c2f178b6c = L.circleMarker(
+                [25.04199, 121.51722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_0d106cfbc7ae8e76b925668bec67ad05 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_777fc12e15f01ebdba379574c165d73f = $(`<div id="html_777fc12e15f01ebdba379574c165d73f" style="width: 100.0%; height: 100.0%;">國立臺灣大學醫學院附設醫院_西址，景點類型：歷史建築</div>`)[0];
+                popup_0d106cfbc7ae8e76b925668bec67ad05.setContent(html_777fc12e15f01ebdba379574c165d73f);
+            
+        
+
+        circle_marker_a940660e397d3416775c1a5c2f178b6c.bindPopup(popup_0d106cfbc7ae8e76b925668bec67ad05)
+        ;
+
+        
+    
+    
+            var circle_marker_1644d3052678e56b0deabc6999a1cd49 = L.circleMarker(
+                [25.05381, 121.51469],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_c437d65ec90609c681160ca3cfdf60ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77e78fde159f448249d3a803a4026a2f = $(`<div id="html_77e78fde159f448249d3a803a4026a2f" style="width: 100.0%; height: 100.0%;">建成圓環，景點類型：歷史建築</div>`)[0];
+                popup_c437d65ec90609c681160ca3cfdf60ca.setContent(html_77e78fde159f448249d3a803a4026a2f);
+            
+        
+
+        circle_marker_1644d3052678e56b0deabc6999a1cd49.bindPopup(popup_c437d65ec90609c681160ca3cfdf60ca)
+        ;
+
+        
+    
+    
+            var circle_marker_bf075960f618db4f36629b6e5e1e1e5d = L.circleMarker(
+                [25.04554341423583, 121.52467532241825],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_0bb665ede06d836e78d16e6ce4a54dc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac7ca607141e3de7a5cb25d2e4296608 = $(`<div id="html_ac7ca607141e3de7a5cb25d2e4296608" style="width: 100.0%; height: 100.0%;">蒲添生雕塑紀念館，景點類型：歷史建築</div>`)[0];
+                popup_0bb665ede06d836e78d16e6ce4a54dc0.setContent(html_ac7ca607141e3de7a5cb25d2e4296608);
+            
+        
+
+        circle_marker_bf075960f618db4f36629b6e5e1e1e5d.bindPopup(popup_0bb665ede06d836e78d16e6ce4a54dc0)
+        ;
+
+        
+    
+    
+            var circle_marker_7409571c80bc6f2a03cc116f7d520dfc = L.circleMarker(
+                [25.05402115973732, 121.51216194033624],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_b3f8a6d6a85a4a12047217e9c8b8c4af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_893979b49b748f21661c907cab4f5d5b = $(`<div id="html_893979b49b748f21661c907cab4f5d5b" style="width: 100.0%; height: 100.0%;">天馬茶房，景點類型：歷史建築</div>`)[0];
+                popup_b3f8a6d6a85a4a12047217e9c8b8c4af.setContent(html_893979b49b748f21661c907cab4f5d5b);
+            
+        
+
+        circle_marker_7409571c80bc6f2a03cc116f7d520dfc.bindPopup(popup_b3f8a6d6a85a4a12047217e9c8b8c4af)
+        ;
+
+        
+    
+    
+            var circle_marker_91ec8f6a486bbde9ee332f78e73d2c69 = L.circleMarker(
+                [25.04015, 121.51675],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_50095b8ba88dd091e16d90796df5c51c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2ae6f41fa0a080fc65bfdd3500470db = $(`<div id="html_b2ae6f41fa0a080fc65bfdd3500470db" style="width: 100.0%; height: 100.0%;">臺北賓館，景點類型：歷史建築</div>`)[0];
+                popup_50095b8ba88dd091e16d90796df5c51c.setContent(html_b2ae6f41fa0a080fc65bfdd3500470db);
+            
+        
+
+        circle_marker_91ec8f6a486bbde9ee332f78e73d2c69.bindPopup(popup_50095b8ba88dd091e16d90796df5c51c)
+        ;
+
+        
+    
+    
+            var circle_marker_b44650cf07bcc7dbffaf8900ccee97fd = L.circleMarker(
+                [25.05564, 121.51592],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_510693d9d83d74a0fdc14bfd404af9c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d08adf9241810ec5f67f0961641100ba = $(`<div id="html_d08adf9241810ec5f67f0961641100ba" style="width: 100.0%; height: 100.0%;">陳德星堂，景點類型：歷史建築</div>`)[0];
+                popup_510693d9d83d74a0fdc14bfd404af9c5.setContent(html_d08adf9241810ec5f67f0961641100ba);
+            
+        
+
+        circle_marker_b44650cf07bcc7dbffaf8900ccee97fd.bindPopup(popup_510693d9d83d74a0fdc14bfd404af9c5)
+        ;
+
+        
+    
+    
+            var circle_marker_39d74ff5819e7ba10d964368204fc4ce = L.circleMarker(
+                [25.04319, 121.50967],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_278d74288f79a7c1bf6c089b320c488b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b84552fc6185fe3828f9a56e90258985 = $(`<div id="html_b84552fc6185fe3828f9a56e90258985" style="width: 100.0%; height: 100.0%;">臺北市中山堂，景點類型：歷史建築</div>`)[0];
+                popup_278d74288f79a7c1bf6c089b320c488b.setContent(html_b84552fc6185fe3828f9a56e90258985);
+            
+        
+
+        circle_marker_39d74ff5819e7ba10d964368204fc4ce.bindPopup(popup_278d74288f79a7c1bf6c089b320c488b)
+        ;
+
+        
+    
+    
+            var circle_marker_52d9bc9be2bf881a881595ab8aa12464 = L.circleMarker(
+                [25.03953, 121.51886],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_5184540d4129f569255223d2f895a9f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf422cddc6941e50f03779779d0b6935 = $(`<div id="html_bf422cddc6941e50f03779779d0b6935" style="width: 100.0%; height: 100.0%;">國立臺灣大學博物館群_醫學人文博物館，景點類型：歷史建築</div>`)[0];
+                popup_5184540d4129f569255223d2f895a9f0.setContent(html_bf422cddc6941e50f03779779d0b6935);
+            
+        
+
+        circle_marker_52d9bc9be2bf881a881595ab8aa12464.bindPopup(popup_5184540d4129f569255223d2f895a9f0)
+        ;
+
+        
+    
+    
+            var circle_marker_6b0614e0c8810dde46dd7c1b4ec74c38 = L.circleMarker(
+                [25.03907, 121.51765],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_0372579bc6f284c8286512fb9c3f0bd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bb4ba5b3a88a110f1fadfe886a8f476 = $(`<div id="html_1bb4ba5b3a88a110f1fadfe886a8f476" style="width: 100.0%; height: 100.0%;">東門_景福門，景點類型：歷史建築</div>`)[0];
+                popup_0372579bc6f284c8286512fb9c3f0bd9.setContent(html_1bb4ba5b3a88a110f1fadfe886a8f476);
+            
+        
+
+        circle_marker_6b0614e0c8810dde46dd7c1b4ec74c38.bindPopup(popup_0372579bc6f284c8286512fb9c3f0bd9)
+        ;
+
+        
+    
+    
+            var circle_marker_4f952c0dc7abda0fa2bdcfb9fda69c25 = L.circleMarker(
+                [25.04009, 121.51195],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_d6d1a4579c8d1be5bcd3f1783d95d855 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c5491e9766e5c8838d7696d1b9c81cc = $(`<div id="html_3c5491e9766e5c8838d7696d1b9c81cc" style="width: 100.0%; height: 100.0%;">中華民國總統府，景點類型：歷史建築</div>`)[0];
+                popup_d6d1a4579c8d1be5bcd3f1783d95d855.setContent(html_3c5491e9766e5c8838d7696d1b9c81cc);
+            
+        
+
+        circle_marker_4f952c0dc7abda0fa2bdcfb9fda69c25.bindPopup(popup_d6d1a4579c8d1be5bcd3f1783d95d855)
+        ;
+
+        
+    
+    
+            var circle_marker_0b9346142b5a8f06bcb8bdfa6a7d2b86 = L.circleMarker(
+                [25.05578, 121.52199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_bbfee4ea5517f830092e58d8568a69b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80b8939533ca595a74f4f3d841f3079b = $(`<div id="html_80b8939533ca595a74f4f3d841f3079b" style="width: 100.0%; height: 100.0%;">玫瑰古蹟_蔡瑞月舞蹈研究社，景點類型：歷史建築</div>`)[0];
+                popup_bbfee4ea5517f830092e58d8568a69b7.setContent(html_80b8939533ca595a74f4f3d841f3079b);
+            
+        
+
+        circle_marker_0b9346142b5a8f06bcb8bdfa6a7d2b86.bindPopup(popup_bbfee4ea5517f830092e58d8568a69b7)
+        ;
+
+        
+    
+    
+            var circle_marker_48cb867a6b55a22bef9871b85211300b = L.circleMarker(
+                [25.05479, 121.50999],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_7ecfe6c16518d6f92f35ea304fb79abb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b8eeaff045d6a273473a6920a6742c8 = $(`<div id="html_3b8eeaff045d6a273473a6920a6742c8" style="width: 100.0%; height: 100.0%;">臺北迪化街郵局，景點類型：歷史建築</div>`)[0];
+                popup_7ecfe6c16518d6f92f35ea304fb79abb.setContent(html_3b8eeaff045d6a273473a6920a6742c8);
+            
+        
+
+        circle_marker_48cb867a6b55a22bef9871b85211300b.bindPopup(popup_7ecfe6c16518d6f92f35ea304fb79abb)
+        ;
+
+        
+    
+    
+            var circle_marker_060051c4d4bf172e99ec6681347f7e38 = L.circleMarker(
+                [25.03999, 121.51081],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_23f8bf220faeb4247c5168f0d393efdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8256891af98606187b2fc114558c8a37 = $(`<div id="html_8256891af98606187b2fc114558c8a37" style="width: 100.0%; height: 100.0%;">國史館，景點類型：歷史建築</div>`)[0];
+                popup_23f8bf220faeb4247c5168f0d393efdb.setContent(html_8256891af98606187b2fc114558c8a37);
+            
+        
+
+        circle_marker_060051c4d4bf172e99ec6681347f7e38.bindPopup(popup_23f8bf220faeb4247c5168f0d393efdb)
+        ;
+
+        
+    
+    
+            var circle_marker_beaba2a363062063d651eb3299df1ea4 = L.circleMarker(
+                [25.0556, 121.51017],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_0af28a7d7ca7fadf7d5684ca9dc5d3c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69e88c0bb7d871dfb1aec745b607dc9a = $(`<div id="html_69e88c0bb7d871dfb1aec745b607dc9a" style="width: 100.0%; height: 100.0%;">台北霞海城隍廟，景點類型：歷史建築</div>`)[0];
+                popup_0af28a7d7ca7fadf7d5684ca9dc5d3c7.setContent(html_69e88c0bb7d871dfb1aec745b607dc9a);
+            
+        
+
+        circle_marker_beaba2a363062063d651eb3299df1ea4.bindPopup(popup_0af28a7d7ca7fadf7d5684ca9dc5d3c7)
+        ;
+
+        
+    
+    
+            var circle_marker_7efe5b4f0c1c204ab36909b728cc1016 = L.circleMarker(
+                [25.039189752077924, 121.52280628681184],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_5f79334c30bb5470e019baac5dfd8e0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63e4c7192367403dc042cf109e70283e = $(`<div id="html_63e4c7192367403dc042cf109e70283e" style="width: 100.0%; height: 100.0%;">東和禪寺，景點類型：歷史建築</div>`)[0];
+                popup_5f79334c30bb5470e019baac5dfd8e0a.setContent(html_63e4c7192367403dc042cf109e70283e);
+            
+        
+
+        circle_marker_7efe5b4f0c1c204ab36909b728cc1016.bindPopup(popup_5f79334c30bb5470e019baac5dfd8e0a)
+        ;
+
+        
+    
+    
+            var circle_marker_847fc34235dc81681a0e51bc5b8cf851 = L.circleMarker(
+                [25.05707816037852, 121.51254817843436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_c1b1034ab8fc6f371363a738fb263cd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6bd9a4216176bc679a11413b9863b859 = $(`<div id="html_6bd9a4216176bc679a11413b9863b859" style="width: 100.0%; height: 100.0%;">新芳春茶行，景點類型：歷史建築</div>`)[0];
+                popup_c1b1034ab8fc6f371363a738fb263cd4.setContent(html_6bd9a4216176bc679a11413b9863b859);
+            
+        
+
+        circle_marker_847fc34235dc81681a0e51bc5b8cf851.bindPopup(popup_c1b1034ab8fc6f371363a738fb263cd4)
+        ;
+
+        
+    
+    
+            var circle_marker_08505fc5fbaed78e7d0c1ca467a5fba5 = L.circleMarker(
+                [25.04007431657601, 121.50923162698746],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_055a044cf641f3cead1c097d499ad12a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbcb24797402185e608c1f538a7b0e65 = $(`<div id="html_fbcb24797402185e608c1f538a7b0e65" style="width: 100.0%; height: 100.0%;">臺灣電力株式會社社長宿舍，景點類型：歷史建築</div>`)[0];
+                popup_055a044cf641f3cead1c097d499ad12a.setContent(html_fbcb24797402185e608c1f538a7b0e65);
+            
+        
+
+        circle_marker_08505fc5fbaed78e7d0c1ca467a5fba5.bindPopup(popup_055a044cf641f3cead1c097d499ad12a)
+        ;
+
+        
+    
+    
+            var circle_marker_884f225bc32705ce18bf3f29722c8342 = L.circleMarker(
+                [25.05518, 121.50871],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_9434798e837a204fd41e5f70430e3fac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cd3887fafe10c6882e74211c7d17730 = $(`<div id="html_8cd3887fafe10c6882e74211c7d17730" style="width: 100.0%; height: 100.0%;">李臨秋故居，景點類型：歷史建築</div>`)[0];
+                popup_9434798e837a204fd41e5f70430e3fac.setContent(html_8cd3887fafe10c6882e74211c7d17730);
+            
+        
+
+        circle_marker_884f225bc32705ce18bf3f29722c8342.bindPopup(popup_9434798e837a204fd41e5f70430e3fac)
+        ;
+
+        
+    
+    
+            var circle_marker_7722991ece1f658d8c1ade1517ec9833 = L.circleMarker(
+                [25.04207, 121.50693],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_896e01e47fa18c77d64e82f98dd5ef7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cbf5f44a7402306dc4c5734ba7f334e4 = $(`<div id="html_cbf5f44a7402306dc4c5734ba7f334e4" style="width: 100.0%; height: 100.0%;">西門紅樓，景點類型：歷史建築</div>`)[0];
+                popup_896e01e47fa18c77d64e82f98dd5ef7f.setContent(html_cbf5f44a7402306dc4c5734ba7f334e4);
+            
+        
+
+        circle_marker_7722991ece1f658d8c1ade1517ec9833.bindPopup(popup_896e01e47fa18c77d64e82f98dd5ef7f)
+        ;
+
+        
+    
+    
+            var circle_marker_a332bd87c8e70c9ce0e6b30a8f102071 = L.circleMarker(
+                [25.059341172539195, 121.5150386095047],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_826dff6129f4be455d6308f44ab1670b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd52c87e688e2e83821ed8b45f1419c1 = $(`<div id="html_bd52c87e688e2e83821ed8b45f1419c1" style="width: 100.0%; height: 100.0%;">臺灣新文化運動紀念館，景點類型：歷史建築</div>`)[0];
+                popup_826dff6129f4be455d6308f44ab1670b.setContent(html_bd52c87e688e2e83821ed8b45f1419c1);
+            
+        
+
+        circle_marker_a332bd87c8e70c9ce0e6b30a8f102071.bindPopup(popup_826dff6129f4be455d6308f44ab1670b)
+        ;
+
+        
+    
+    
+            var circle_marker_e90e4231783b6abe182d109efadf2fab = L.circleMarker(
+                [25.03619, 121.51868],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_59b7d9896c67ebf9d341e75841d83bad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e9eb4f4b38bfcb14023c1b2a0ac84b6 = $(`<div id="html_2e9eb4f4b38bfcb14023c1b2a0ac84b6" style="width: 100.0%; height: 100.0%;">國立中正紀念堂，景點類型：歷史建築</div>`)[0];
+                popup_59b7d9896c67ebf9d341e75841d83bad.setContent(html_2e9eb4f4b38bfcb14023c1b2a0ac84b6);
+            
+        
+
+        circle_marker_e90e4231783b6abe182d109efadf2fab.bindPopup(popup_59b7d9896c67ebf9d341e75841d83bad)
+        ;
+
+        
+    
+    
+            var circle_marker_d47597a7cdf467cc342de6a10634b04b = L.circleMarker(
+                [25.04925, 121.51873],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_ebb35897196a06a287199c85e46f3f3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b1b484e35bc491463c4eb15fdda5848 = $(`<div id="html_5b1b484e35bc491463c4eb15fdda5848" style="width: 100.0%; height: 100.0%;">臺北市交通資訊中心，景點類型：藝文館所</div>`)[0];
+                popup_ebb35897196a06a287199c85e46f3f3f.setContent(html_5b1b484e35bc491463c4eb15fdda5848);
+            
+        
+
+        circle_marker_d47597a7cdf467cc342de6a10634b04b.bindPopup(popup_ebb35897196a06a287199c85e46f3f3f)
+        ;
+
+        
+    
+    
+            var circle_marker_1041f7015f3fd97fa2f7e706b25c6edd = L.circleMarker(
+                [25.0498061, 121.5224323],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_165d16b5bd4a35736bac9e01584d0730 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f4c6a8648ddd34e4eba4f8d4a1ccfb7 = $(`<div id="html_2f4c6a8648ddd34e4eba4f8d4a1ccfb7" style="width: 100.0%; height: 100.0%;">非畫廊Beyond Gallery，景點類型：藝文館所</div>`)[0];
+                popup_165d16b5bd4a35736bac9e01584d0730.setContent(html_2f4c6a8648ddd34e4eba4f8d4a1ccfb7);
+            
+        
+
+        circle_marker_1041f7015f3fd97fa2f7e706b25c6edd.bindPopup(popup_165d16b5bd4a35736bac9e01584d0730)
+        ;
+
+        
+    
+    
+            var circle_marker_ca795934bb7614a329116d9f4cc65cfd = L.circleMarker(
+                [25.046376653953534, 121.510950922966],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_f124c2eebca47ecb042e670d5961932f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_887c8d6ee1122ddea9175293a96e9cf8 = $(`<div id="html_887c8d6ee1122ddea9175293a96e9cf8" style="width: 100.0%; height: 100.0%;">順益台灣原住民博物館_美術分館，景點類型：藝文館所</div>`)[0];
+                popup_f124c2eebca47ecb042e670d5961932f.setContent(html_887c8d6ee1122ddea9175293a96e9cf8);
+            
+        
+
+        circle_marker_ca795934bb7614a329116d9f4cc65cfd.bindPopup(popup_f124c2eebca47ecb042e670d5961932f)
+        ;
+
+        
+    
+    
+            var circle_marker_cf3fdbd5ff427974935c808efa7d2122 = L.circleMarker(
+                [25.04132, 121.51516],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_3cbb0d0e4a4238e933a0ef2926c67eb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7303a0719dc50cadd4457e911da19b02 = $(`<div id="html_7303a0719dc50cadd4457e911da19b02" style="width: 100.0%; height: 100.0%;">二二八和平公園，景點類型：藝文館所</div>`)[0];
+                popup_3cbb0d0e4a4238e933a0ef2926c67eb9.setContent(html_7303a0719dc50cadd4457e911da19b02);
+            
+        
+
+        circle_marker_cf3fdbd5ff427974935c808efa7d2122.bindPopup(popup_3cbb0d0e4a4238e933a0ef2926c67eb9)
+        ;
+
+        
+    
+    
+            var circle_marker_cd41df2f742ad267cb9b58fe78c28d99 = L.circleMarker(
+                [25.053290512001773, 121.52216026198344],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_27203c6f932752e5fbcfdf1d7b6d5d5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9faa5753f0c1f67d17d690bea4488c8b = $(`<div id="html_9faa5753f0c1f67d17d690bea4488c8b" style="width: 100.0%; height: 100.0%;">SPOT光點台北電影館，景點類型：藝文館所</div>`)[0];
+                popup_27203c6f932752e5fbcfdf1d7b6d5d5e.setContent(html_9faa5753f0c1f67d17d690bea4488c8b);
+            
+        
+
+        circle_marker_cd41df2f742ad267cb9b58fe78c28d99.bindPopup(popup_27203c6f932752e5fbcfdf1d7b6d5d5e)
+        ;
+
+        
+    
+    
+            var circle_marker_6a240695089e42a1d0cbe0aae790c7e9 = L.circleMarker(
+                [25.05472003963252, 121.51178140193224],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_f1e2ff3b3facc6d59f3c5a29c34b32f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1f60695ea062713cddb0a3e3fac9f9a = $(`<div id="html_c1f60695ea062713cddb0a3e3fac9f9a" style="width: 100.0%; height: 100.0%;">渭水驛站，景點類型：藝文館所</div>`)[0];
+                popup_f1e2ff3b3facc6d59f3c5a29c34b32f7.setContent(html_c1f60695ea062713cddb0a3e3fac9f9a);
+            
+        
+
+        circle_marker_6a240695089e42a1d0cbe0aae790c7e9.bindPopup(popup_f1e2ff3b3facc6d59f3c5a29c34b32f7)
+        ;
+
+        
+    
+    
+            var circle_marker_28a38b848fa899ca873d8087621cd0fd = L.circleMarker(
+                [25.05482, 121.51047],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_1a8d005e8edf3696a8bc3316d3138b15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_669e06c6fbb1364305ab48f6048d0446 = $(`<div id="html_669e06c6fbb1364305ab48f6048d0446" style="width: 100.0%; height: 100.0%;">大稻埕戲苑，景點類型：藝文館所</div>`)[0];
+                popup_1a8d005e8edf3696a8bc3316d3138b15.setContent(html_669e06c6fbb1364305ab48f6048d0446);
+            
+        
+
+        circle_marker_28a38b848fa899ca873d8087621cd0fd.bindPopup(popup_1a8d005e8edf3696a8bc3316d3138b15)
+        ;
+
+        
+    
+    
+            var circle_marker_da9bc861e005c44fa65521c8ba85ba1d = L.circleMarker(
+                [25.03872, 121.51871],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_1b653830a9350a56c26e598ce33fd167 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d55c5fb707702e634f332dd72af3c917 = $(`<div id="html_d55c5fb707702e634f332dd72af3c917" style="width: 100.0%; height: 100.0%;">長榮海事博物館，景點類型：藝文館所</div>`)[0];
+                popup_1b653830a9350a56c26e598ce33fd167.setContent(html_d55c5fb707702e634f332dd72af3c917);
+            
+        
+
+        circle_marker_da9bc861e005c44fa65521c8ba85ba1d.bindPopup(popup_1b653830a9350a56c26e598ce33fd167)
+        ;
+
+        
+    
+    
+            var circle_marker_07c27a5cfaa8e90c1655bfd2109ea417 = L.circleMarker(
+                [25.05511, 121.50825],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_e45970340a84e5f2eed5ab3f087fb96c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d10ce583cf5418efc818754f9e15b633 = $(`<div id="html_d10ce583cf5418efc818754f9e15b633" style="width: 100.0%; height: 100.0%;">李春生紀念教會，景點類型：宗教信仰</div>`)[0];
+                popup_e45970340a84e5f2eed5ab3f087fb96c.setContent(html_d10ce583cf5418efc818754f9e15b633);
+            
+        
+
+        circle_marker_07c27a5cfaa8e90c1655bfd2109ea417.bindPopup(popup_e45970340a84e5f2eed5ab3f087fb96c)
+        ;
+
+        
+    
+    
+            var circle_marker_78a6427a3d67e47aa472055cc3943d8e = L.circleMarker(
+                [25.03704, 121.51925],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_5207d2e27a7c4672634611e03848f5c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed432a2c8868d36f927559be4a58bf43 = $(`<div id="html_ed432a2c8868d36f927559be4a58bf43" style="width: 100.0%; height: 100.0%;">國家兩廳院，景點類型：藝文館所</div>`)[0];
+                popup_5207d2e27a7c4672634611e03848f5c0.setContent(html_ed432a2c8868d36f927559be4a58bf43);
+            
+        
+
+        circle_marker_78a6427a3d67e47aa472055cc3943d8e.bindPopup(popup_5207d2e27a7c4672634611e03848f5c0)
+        ;
+
+        
+    
+    
+            var circle_marker_32610c74f8be2aff88eab5a4618e6358 = L.circleMarker(
+                [25.04413, 121.5294],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_1a7998ad32285e8bb5a6a7749ac0fd63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ee75d8b4ea14736cb6408108141d3c8 = $(`<div id="html_0ee75d8b4ea14736cb6408108141d3c8" style="width: 100.0%; height: 100.0%;">華山1914文化創意產業園區，景點類型：歷史建築</div>`)[0];
+                popup_1a7998ad32285e8bb5a6a7749ac0fd63.setContent(html_0ee75d8b4ea14736cb6408108141d3c8);
+            
+        
+
+        circle_marker_32610c74f8be2aff88eab5a4618e6358.bindPopup(popup_1a7998ad32285e8bb5a6a7749ac0fd63)
+        ;
+
+        
+    
+    
+            var circle_marker_5b2e3248cde3984e2c2a8f39a14c60a1 = L.circleMarker(
+                [25.0406422, 121.5276709],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_16dd8f793ce6130386c7eaef4b7be36f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_298e962d770fe239c3702159c2ad7c60 = $(`<div id="html_298e962d770fe239c3702159c2ad7c60" style="width: 100.0%; height: 100.0%;">李國鼎故居，景點類型：歷史建築</div>`)[0];
+                popup_16dd8f793ce6130386c7eaef4b7be36f.setContent(html_298e962d770fe239c3702159c2ad7c60);
+            
+        
+
+        circle_marker_5b2e3248cde3984e2c2a8f39a14c60a1.bindPopup(popup_16dd8f793ce6130386c7eaef4b7be36f)
+        ;
+
+        
+    
+    
+            var circle_marker_9728aa1b620af1c4256bc4c8d1f02ebd = L.circleMarker(
+                [25.04774, 121.52007],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_442b94bb27a6a033f9e0be753b2c5791 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80fcee7792dca426e609fff5141a913e = $(`<div id="html_80fcee7792dca426e609fff5141a913e" style="width: 100.0%; height: 100.0%;">逸仙公園，景點類型：戶外踏青</div>`)[0];
+                popup_442b94bb27a6a033f9e0be753b2c5791.setContent(html_80fcee7792dca426e609fff5141a913e);
+            
+        
+
+        circle_marker_9728aa1b620af1c4256bc4c8d1f02ebd.bindPopup(popup_442b94bb27a6a033f9e0be753b2c5791)
+        ;
+
+        
+    
+    
+            var circle_marker_8ea27ef61d156e1fb4d38e7762af925e = L.circleMarker(
+                [25.039508098827167, 121.51412934064864],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_6df570d98d3a800575125c4e244175d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_24a3365840a22c37f040478036f2aa04 = $(`<div id="html_24a3365840a22c37f040478036f2aa04" style="width: 100.0%; height: 100.0%;">白色恐怖政治受難者紀念碑，景點類型：戶外踏青</div>`)[0];
+                popup_6df570d98d3a800575125c4e244175d2.setContent(html_24a3365840a22c37f040478036f2aa04);
+            
+        
+
+        circle_marker_8ea27ef61d156e1fb4d38e7762af925e.bindPopup(popup_6df570d98d3a800575125c4e244175d2)
+        ;
+
+        
+    
+    
+            var circle_marker_f073de4f2df10ee7e2fe75c33b92b8ec = L.circleMarker(
+                [25.04612, 121.52683],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_28222a637863edfde4a87d00e4d927ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac3b56745e152446107f60fbd1184626 = $(`<div id="html_ac3b56745e152446107f60fbd1184626" style="width: 100.0%; height: 100.0%;">中央藝文公園_華山大草原遊戲場，景點類型：戶外踏青</div>`)[0];
+                popup_28222a637863edfde4a87d00e4d927ad.setContent(html_ac3b56745e152446107f60fbd1184626);
+            
+        
+
+        circle_marker_f073de4f2df10ee7e2fe75c33b92b8ec.bindPopup(popup_28222a637863edfde4a87d00e4d927ad)
+        ;
+
+        
+    
+    
+            var circle_marker_1239533c69fb1390ff14b8db158caa74 = L.circleMarker(
+                [25.05412, 121.50707],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_5c653f527294f178890214fd619a0bf3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d24d31a9fcb82a10599a6f30c40949d1 = $(`<div id="html_d24d31a9fcb82a10599a6f30c40949d1" style="width: 100.0%; height: 100.0%;">延平河濱公園，景點類型：單車遊蹤</div>`)[0];
+                popup_5c653f527294f178890214fd619a0bf3.setContent(html_d24d31a9fcb82a10599a6f30c40949d1);
+            
+        
+
+        circle_marker_1239533c69fb1390ff14b8db158caa74.bindPopup(popup_5c653f527294f178890214fd619a0bf3)
+        ;
+
+        
+    
+    
+            var circle_marker_9244bbd1c7a08a82d3b0cb82bb263e3a = L.circleMarker(
+                [25.05995, 121.51674],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_4887ce5ce3906e7da00d017faf34361e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e620ee328e349933be1a36d25e249519 = $(`<div id="html_e620ee328e349933be1a36d25e249519" style="width: 100.0%; height: 100.0%;">蔣渭水紀念公園，景點類型：戶外踏青</div>`)[0];
+                popup_4887ce5ce3906e7da00d017faf34361e.setContent(html_e620ee328e349933be1a36d25e249519);
+            
+        
+
+        circle_marker_9244bbd1c7a08a82d3b0cb82bb263e3a.bindPopup(popup_4887ce5ce3906e7da00d017faf34361e)
+        ;
+
+        
+    
+    
+            var circle_marker_e07cae95c07831fb93212068b1ee062d = L.circleMarker(
+                [25.058610428582863, 121.51034608483316],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_998b08f290db1b9a0d91c21ad2bfa563 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9061c4bc8356a210db6ccfa781c2e8b9 = $(`<div id="html_9061c4bc8356a210db6ccfa781c2e8b9" style="width: 100.0%; height: 100.0%;">大稻埕公園，景點類型：戶外踏青</div>`)[0];
+                popup_998b08f290db1b9a0d91c21ad2bfa563.setContent(html_9061c4bc8356a210db6ccfa781c2e8b9);
+            
+        
+
+        circle_marker_e07cae95c07831fb93212068b1ee062d.bindPopup(popup_998b08f290db1b9a0d91c21ad2bfa563)
+        ;
+
+        
+    
+    
+            var circle_marker_848a79ca71ea8ab130ea8a8ddf502fd5 = L.circleMarker(
+                [25.031, 121.50866],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_ca154de25cb47d9977ff91b4f44ada28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_466ad25008bd0e90f2baf17bd990935a = $(`<div id="html_466ad25008bd0e90f2baf17bd990935a" style="width: 100.0%; height: 100.0%;">臺北植物園，景點類型：戶外踏青</div>`)[0];
+                popup_ca154de25cb47d9977ff91b4f44ada28.setContent(html_466ad25008bd0e90f2baf17bd990935a);
+            
+        
+
+        circle_marker_848a79ca71ea8ab130ea8a8ddf502fd5.bindPopup(popup_ca154de25cb47d9977ff91b4f44ada28)
+        ;
+
+        
+    
+    
+            var circle_marker_abad4f8e4668f976928193c3d4f3fbe6 = L.circleMarker(
+                [25.03871, 121.49522],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_6322e889e8615f352257f767227868eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82b5d7d94b4dfa3fa3ce89a838c21c02 = $(`<div id="html_82b5d7d94b4dfa3fa3ce89a838c21c02" style="width: 100.0%; height: 100.0%;">華江雁鴨自然公園，景點類型：戶外踏青</div>`)[0];
+                popup_6322e889e8615f352257f767227868eb.setContent(html_82b5d7d94b4dfa3fa3ce89a838c21c02);
+            
+        
+
+        circle_marker_abad4f8e4668f976928193c3d4f3fbe6.bindPopup(popup_6322e889e8615f352257f767227868eb)
+        ;
+
+        
+    
+    
+            var circle_marker_76af1b61ad671f1c1b2ae6955d6881ba = L.circleMarker(
+                [25.03244, 121.5349],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_e596781096083699196e241f0b1d92f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d30f114a14b4690bde781bcfbe4f52c = $(`<div id="html_6d30f114a14b4690bde781bcfbe4f52c" style="width: 100.0%; height: 100.0%;">大安森林公園，景點類型：戶外踏青</div>`)[0];
+                popup_e596781096083699196e241f0b1d92f8.setContent(html_6d30f114a14b4690bde781bcfbe4f52c);
+            
+        
+
+        circle_marker_76af1b61ad671f1c1b2ae6955d6881ba.bindPopup(popup_e596781096083699196e241f0b1d92f8)
+        ;
+
+        
+    
+    
+            var circle_marker_3ae0191e74044f59ced9ec3de22dfb20 = L.circleMarker(
+                [25.06986, 121.52123],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_e4a342bccaa1fa4b9f7ef3ab2b7017cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d9f660d8089da3abb96a63f2b10934c = $(`<div id="html_6d9f660d8089da3abb96a63f2b10934c" style="width: 100.0%; height: 100.0%;">花博公園，景點類型：戶外踏青</div>`)[0];
+                popup_e4a342bccaa1fa4b9f7ef3ab2b7017cf.setContent(html_6d9f660d8089da3abb96a63f2b10934c);
+            
+        
+
+        circle_marker_3ae0191e74044f59ced9ec3de22dfb20.bindPopup(popup_e4a342bccaa1fa4b9f7ef3ab2b7017cf)
+        ;
+
+        
+    
+    
+            var circle_marker_c7589cd40dff359b386a7923f937d456 = L.circleMarker(
+                [25.03271, 121.49721],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_e37b26da9651750bea367133196eaafc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cb1b69a10896a3bc7ad8d967cba67ef = $(`<div id="html_9cb1b69a10896a3bc7ad8d967cba67ef" style="width: 100.0%; height: 100.0%;">和平青草園_萬華402號公園，景點類型：戶外踏青</div>`)[0];
+                popup_e37b26da9651750bea367133196eaafc.setContent(html_9cb1b69a10896a3bc7ad8d967cba67ef);
+            
+        
+
+        circle_marker_c7589cd40dff359b386a7923f937d456.bindPopup(popup_e37b26da9651750bea367133196eaafc)
+        ;
+
+        
+    
+    
+            var circle_marker_3454681fdfa45e1cf540a3973808df8c = L.circleMarker(
+                [25.05366, 121.54224],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_2e51cbf7cf41980c1a05c0c9e51121f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c9892fc19e099c0179c0806494eeeb9 = $(`<div id="html_4c9892fc19e099c0179c0806494eeeb9" style="width: 100.0%; height: 100.0%;">遼寧公園，景點類型：戶外踏青</div>`)[0];
+                popup_2e51cbf7cf41980c1a05c0c9e51121f5.setContent(html_4c9892fc19e099c0179c0806494eeeb9);
+            
+        
+
+        circle_marker_3454681fdfa45e1cf540a3973808df8c.bindPopup(popup_2e51cbf7cf41980c1a05c0c9e51121f5)
+        ;
+
+        
+    
+    
+            var circle_marker_bf3ad650e761ce7266f7d861997964d7 = L.circleMarker(
+                [25.06935125778754, 121.5287661552429],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_482dee3d1df941080d568dff00541c3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e2506f2d0146ed53a5b68825d4fc8db = $(`<div id="html_8e2506f2d0146ed53a5b68825d4fc8db" style="width: 100.0%; height: 100.0%;">新生公園_玫瑰園，景點類型：戶外踏青</div>`)[0];
+                popup_482dee3d1df941080d568dff00541c3b.setContent(html_8e2506f2d0146ed53a5b68825d4fc8db);
+            
+        
+
+        circle_marker_bf3ad650e761ce7266f7d861997964d7.bindPopup(popup_482dee3d1df941080d568dff00541c3b)
+        ;
+
+        
+    
+    
+            var circle_marker_85dfabac27378b13a1f05cf2497fffca = L.circleMarker(
+                [25.023400174855908, 121.5131288766861],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_4ead80e22d5086587a6cc79917d3c8c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_815aaaf299ad8605f5459a002f3e6fbc = $(`<div id="html_815aaaf299ad8605f5459a002f3e6fbc" style="width: 100.0%; height: 100.0%;">中正河濱公園，景點類型：戶外踏青</div>`)[0];
+                popup_4ead80e22d5086587a6cc79917d3c8c0.setContent(html_815aaaf299ad8605f5459a002f3e6fbc);
+            
+        
+
+        circle_marker_85dfabac27378b13a1f05cf2497fffca.bindPopup(popup_4ead80e22d5086587a6cc79917d3c8c0)
+        ;
+
+        
+    
+    
+            var circle_marker_1d133e1725793fbb7f6bd2a61280da0c = L.circleMarker(
+                [25.06337, 121.53886],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_efefb3070ba7e44f7960e6e017599202 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c865559e7d5f6f6e93178971e8ba571 = $(`<div id="html_4c865559e7d5f6f6e93178971e8ba571" style="width: 100.0%; height: 100.0%;">榮星花園公園，景點類型：戶外踏青</div>`)[0];
+                popup_efefb3070ba7e44f7960e6e017599202.setContent(html_4c865559e7d5f6f6e93178971e8ba571);
+            
+        
+
+        circle_marker_1d133e1725793fbb7f6bd2a61280da0c.bindPopup(popup_efefb3070ba7e44f7960e6e017599202)
+        ;
+
+        
+    
+    
+            var circle_marker_9b0e60c0e884c35d6022187dfc2322c6 = L.circleMarker(
+                [25.07259, 121.52485],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_a9bbb2450e3f79c9c1f89cd90ea8837e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9adafbe8fca761563d78b321049a01bc = $(`<div id="html_9adafbe8fca761563d78b321049a01bc" style="width: 100.0%; height: 100.0%;">花博公園_花之隧道，景點類型：戶外踏青</div>`)[0];
+                popup_a9bbb2450e3f79c9c1f89cd90ea8837e.setContent(html_9adafbe8fca761563d78b321049a01bc);
+            
+        
+
+        circle_marker_9b0e60c0e884c35d6022187dfc2322c6.bindPopup(popup_a9bbb2450e3f79c9c1f89cd90ea8837e)
+        ;
+
+        
+    
+    
+            var circle_marker_91414957815ca5a3c99b3e72f330ec72 = L.circleMarker(
+                [25.02227, 121.50703],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_8dcaeb9bb37d2c8d47b883e2e2580333 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71e78e1b183c76b15b4a04bbeac8955c = $(`<div id="html_71e78e1b183c76b15b4a04bbeac8955c" style="width: 100.0%; height: 100.0%;">青年公園，景點類型：戶外踏青</div>`)[0];
+                popup_8dcaeb9bb37d2c8d47b883e2e2580333.setContent(html_71e78e1b183c76b15b4a04bbeac8955c);
+            
+        
+
+        circle_marker_91414957815ca5a3c99b3e72f330ec72.bindPopup(popup_8dcaeb9bb37d2c8d47b883e2e2580333)
+        ;
+
+        
+    
+    
+            var circle_marker_0c71e8b148a9fe7ba91a3fe837055dad = L.circleMarker(
+                [25.074992503671734, 121.522296667099],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_d291eafcfd141120c22e423bef04fbad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00c5abe5cff3442714691749a268892b = $(`<div id="html_00c5abe5cff3442714691749a268892b" style="width: 100.0%; height: 100.0%;">圓山自然景觀公園，景點類型：戶外踏青</div>`)[0];
+                popup_d291eafcfd141120c22e423bef04fbad.setContent(html_00c5abe5cff3442714691749a268892b);
+            
+        
+
+        circle_marker_0c71e8b148a9fe7ba91a3fe837055dad.bindPopup(popup_d291eafcfd141120c22e423bef04fbad)
+        ;
+
+        
+    
+    
+            var circle_marker_708d05cdc468efbf06940240d8f582e3 = L.circleMarker(
+                [25.07301, 121.52956],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_e4ed80ce3a9c94ac6acb29feb27ad99a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54f8e6c3177f0b75546072a74a671e47 = $(`<div id="html_54f8e6c3177f0b75546072a74a671e47" style="width: 100.0%; height: 100.0%;">基隆河河濱自行車道，景點類型：單車遊蹤</div>`)[0];
+                popup_e4ed80ce3a9c94ac6acb29feb27ad99a.setContent(html_54f8e6c3177f0b75546072a74a671e47);
+            
+        
+
+        circle_marker_708d05cdc468efbf06940240d8f582e3.bindPopup(popup_e4ed80ce3a9c94ac6acb29feb27ad99a)
+        ;
+
+        
+    
+    
+            var circle_marker_15e975cf20108c4462083e5f563c6072 = L.circleMarker(
+                [25.019817648473204, 121.52138739824296],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_a39c1853653b5657671c7d6d53075419 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2447ecf81164fc56877ae43bd5ba4fd8 = $(`<div id="html_2447ecf81164fc56877ae43bd5ba4fd8" style="width: 100.0%; height: 100.0%;">古亭河濱公園，景點類型：單車遊蹤</div>`)[0];
+                popup_a39c1853653b5657671c7d6d53075419.setContent(html_2447ecf81164fc56877ae43bd5ba4fd8);
+            
+        
+
+        circle_marker_15e975cf20108c4462083e5f563c6072.bindPopup(popup_a39c1853653b5657671c7d6d53075419)
+        ;
+
+        
+    
+    
+            var circle_marker_781ae175e165ab1f666c3780b554da74 = L.circleMarker(
+                [25.02026, 121.52535],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_8ea8bace8faf3ae843033d3bd1744852 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55512779335b0e537e35de1b30e666f7 = $(`<div id="html_55512779335b0e537e35de1b30e666f7" style="width: 100.0%; height: 100.0%;">臺北市客家文化主題公園，景點類型：藝文館所</div>`)[0];
+                popup_8ea8bace8faf3ae843033d3bd1744852.setContent(html_55512779335b0e537e35de1b30e666f7);
+            
+        
+
+        circle_marker_781ae175e165ab1f666c3780b554da74.bindPopup(popup_8ea8bace8faf3ae843033d3bd1744852)
+        ;
+
+        
+    
+    
+            var circle_marker_aa1e95f8739818127e3059f1beea81a9 = L.circleMarker(
+                [25.01886, 121.50391],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_94ba95643a890a756ef7a287b52b57bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_409565886ee5af3f24fab3232b190892 = $(`<div id="html_409565886ee5af3f24fab3232b190892" style="width: 100.0%; height: 100.0%;">馬場町河濱公園，景點類型：歷史建築</div>`)[0];
+                popup_94ba95643a890a756ef7a287b52b57bb.setContent(html_409565886ee5af3f24fab3232b190892);
+            
+        
+
+        circle_marker_aa1e95f8739818127e3059f1beea81a9.bindPopup(popup_94ba95643a890a756ef7a287b52b57bb)
+        ;
+
+        
+    
+    
+            var circle_marker_c5f3994c19fac89f2fcecc57ad2e6c1e = L.circleMarker(
+                [25.07912852335664, 121.52493998408316],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_3ad57644a42e8ee894174849617af60c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7ac08da0aa8151e78a81c7377ad9def = $(`<div id="html_c7ac08da0aa8151e78a81c7377ad9def" style="width: 100.0%; height: 100.0%;">五指山系_劍潭山親山步道，景點類型：戶外踏青</div>`)[0];
+                popup_3ad57644a42e8ee894174849617af60c.setContent(html_c7ac08da0aa8151e78a81c7377ad9def);
+            
+        
+
+        circle_marker_c5f3994c19fac89f2fcecc57ad2e6c1e.bindPopup(popup_3ad57644a42e8ee894174849617af60c)
+        ;
+
+        
+    
+    
+            var circle_marker_157d5d77982babe0eb4cd17821479df2 = L.circleMarker(
+                [25.01575376064181, 121.52717828750608],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_92e6cbb1ac68c3797c7a72471c42459b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f51236ebe77705dce2df28baaca5a64 = $(`<div id="html_1f51236ebe77705dce2df28baaca5a64" style="width: 100.0%; height: 100.0%;">嘉禾新村，景點類型：戶外踏青</div>`)[0];
+                popup_92e6cbb1ac68c3797c7a72471c42459b.setContent(html_1f51236ebe77705dce2df28baaca5a64);
+            
+        
+
+        circle_marker_157d5d77982babe0eb4cd17821479df2.bindPopup(popup_92e6cbb1ac68c3797c7a72471c42459b)
+        ;
+
+        
+    
+    
+            var circle_marker_26ecaad727a54fdfca93b754c453cf40 = L.circleMarker(
+                [25.07464, 121.54089],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_964dcc0d2bca378aac050dcea6e44f2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8baef0b3298b1284e37f07ffd42979c2 = $(`<div id="html_8baef0b3298b1284e37f07ffd42979c2" style="width: 100.0%; height: 100.0%;">大佳河濱公園，景點類型：單車遊蹤</div>`)[0];
+                popup_964dcc0d2bca378aac050dcea6e44f2a.setContent(html_8baef0b3298b1284e37f07ffd42979c2);
+            
+        
+
+        circle_marker_26ecaad727a54fdfca93b754c453cf40.bindPopup(popup_964dcc0d2bca378aac050dcea6e44f2a)
+        ;
+
+        
+    
+    
+            var circle_marker_ecf99e342797b67fa9cfa43718789915 = L.circleMarker(
+                [25.03449, 121.55382],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_af22ec7300ad997c06c1825c5818abd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea80fe16a9d74a72751ad609ccef32aa = $(`<div id="html_ea80fe16a9d74a72751ad609ccef32aa" style="width: 100.0%; height: 100.0%;">敦安公園，景點類型：戶外踏青</div>`)[0];
+                popup_af22ec7300ad997c06c1825c5818abd5.setContent(html_ea80fe16a9d74a72751ad609ccef32aa);
+            
+        
+
+        circle_marker_ecf99e342797b67fa9cfa43718789915.bindPopup(popup_af22ec7300ad997c06c1825c5818abd5)
+        ;
+
+        
+    
+    
+            var circle_marker_d64a4f51ff97b6215467a81ab3c0de4a = L.circleMarker(
+                [25.0133312, 121.5306056],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_64284f79a2fe29d79644025cdea9b2fc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_677c9b579c967b1824e98eee838a7a78 = $(`<div id="html_677c9b579c967b1824e98eee838a7a78" style="width: 100.0%; height: 100.0%;">量水室，景點類型：歷史建築</div>`)[0];
+                popup_64284f79a2fe29d79644025cdea9b2fc.setContent(html_677c9b579c967b1824e98eee838a7a78);
+            
+        
+
+        circle_marker_d64a4f51ff97b6215467a81ab3c0de4a.bindPopup(popup_64284f79a2fe29d79644025cdea9b2fc)
+        ;
+
+        
+    
+    
+            var circle_marker_8c46e72d175d0c69a454a80d5e5d5abc = L.circleMarker(
+                [25.01641, 121.4953],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_54db6b1d02218079df8ee40b20c4d23e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_268a2da9d89f7eb5a3776f983d3ceae7 = $(`<div id="html_268a2da9d89f7eb5a3776f983d3ceae7" style="width: 100.0%; height: 100.0%;">新店溪河濱自行車道，景點類型：單車遊蹤</div>`)[0];
+                popup_54db6b1d02218079df8ee40b20c4d23e.setContent(html_268a2da9d89f7eb5a3776f983d3ceae7);
+            
+        
+
+        circle_marker_8c46e72d175d0c69a454a80d5e5d5abc.bindPopup(popup_54db6b1d02218079df8ee40b20c4d23e)
+        ;
+
+        
+    
+    
+            var circle_marker_cf2a5226ffd1136cf7cf59dd9c530615 = L.circleMarker(
+                [25.04954, 121.51018],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_a00d87baedf53af0e37a916a15e84f6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3352844a1459ec6ac650bade025a911f = $(`<div id="html_3352844a1459ec6ac650bade025a911f" style="width: 100.0%; height: 100.0%;">捷運北門站_台北鐵道局，景點類型：公共藝術</div>`)[0];
+                popup_a00d87baedf53af0e37a916a15e84f6d.setContent(html_3352844a1459ec6ac650bade025a911f);
+            
+        
+
+        circle_marker_cf2a5226ffd1136cf7cf59dd9c530615.bindPopup(popup_a00d87baedf53af0e37a916a15e84f6d)
+        ;
+
+        
+    
+    
+            var circle_marker_9c17409fee71048951b7f331394766d8 = L.circleMarker(
+                [25.04270275990712, 121.50760285556316],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_5fd3ccbc6882d6bf3406f9f934085d86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29c39759fa0bb2466b1d16da0f35e6c3 = $(`<div id="html_29c39759fa0bb2466b1d16da0f35e6c3" style="width: 100.0%; height: 100.0%;">6號彩虹 / Rainbow Six，景點類型：公共藝術</div>`)[0];
+                popup_5fd3ccbc6882d6bf3406f9f934085d86.setContent(html_29c39759fa0bb2466b1d16da0f35e6c3);
+            
+        
+
+        circle_marker_9c17409fee71048951b7f331394766d8.bindPopup(popup_5fd3ccbc6882d6bf3406f9f934085d86)
+        ;
+
+        
+    
+    
+            var circle_marker_3631c7926f63c0e8c29cf63e0582fb16 = L.circleMarker(
+                [25.04, 121.50717],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_d5523f37dbc59d176e5d2d199502a5fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f8ba13ea3b0c8f33c5987471d5e22b1 = $(`<div id="html_8f8ba13ea3b0c8f33c5987471d5e22b1" style="width: 100.0%; height: 100.0%;">西本願寺廣場，景點類型：歷史建築</div>`)[0];
+                popup_d5523f37dbc59d176e5d2d199502a5fd.setContent(html_8f8ba13ea3b0c8f33c5987471d5e22b1);
+            
+        
+
+        circle_marker_3631c7926f63c0e8c29cf63e0582fb16.bindPopup(popup_d5523f37dbc59d176e5d2d199502a5fd)
+        ;
+
+        
+    
+    
+            var circle_marker_df123fb12cf9f2d4a79f0bba9cb4a93f = L.circleMarker(
+                [25.0559954, 121.5297908],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_657f5481dcb6147b861aa1248f586cc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5666a82b2caf6d80207e366f9c54e36d = $(`<div id="html_5666a82b2caf6d80207e366f9c54e36d" style="width: 100.0%; height: 100.0%;">敘舊布袋戲園，景點類型：藝文館所</div>`)[0];
+                popup_657f5481dcb6147b861aa1248f586cc9.setContent(html_5666a82b2caf6d80207e366f9c54e36d);
+            
+        
+
+        circle_marker_df123fb12cf9f2d4a79f0bba9cb4a93f.bindPopup(popup_657f5481dcb6147b861aa1248f586cc9)
+        ;
+
+        
+    
+    
+            var circle_marker_d3a8230004902d6b2ab3132cd70a6d23 = L.circleMarker(
+                [25.03356, 121.51155],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_f1ca6c11abd7b4db09f879362e483aec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0688ed318bc76de04993cd7c6d8947dd = $(`<div id="html_0688ed318bc76de04993cd7c6d8947dd" style="width: 100.0%; height: 100.0%;">孫運璿科技．人文紀念館，景點類型：歷史建築</div>`)[0];
+                popup_f1ca6c11abd7b4db09f879362e483aec.setContent(html_0688ed318bc76de04993cd7c6d8947dd);
+            
+        
+
+        circle_marker_d3a8230004902d6b2ab3132cd70a6d23.bindPopup(popup_f1ca6c11abd7b4db09f879362e483aec)
+        ;
+
+        
+    
+    
+            var circle_marker_12ff0021a7f9d7ca9a3544f75c2bfa0c = L.circleMarker(
+                [25.03252, 121.5111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_d69ca6921ee7ff36410b2ee62552bdca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eefc3df532a18ad6f16a03fe6394cfb8 = $(`<div id="html_eefc3df532a18ad6f16a03fe6394cfb8" style="width: 100.0%; height: 100.0%;">南門町三二三，景點類型：歷史建築</div>`)[0];
+                popup_d69ca6921ee7ff36410b2ee62552bdca.setContent(html_eefc3df532a18ad6f16a03fe6394cfb8);
+            
+        
+
+        circle_marker_12ff0021a7f9d7ca9a3544f75c2bfa0c.bindPopup(popup_d69ca6921ee7ff36410b2ee62552bdca)
+        ;
+
+        
+    
+    
+            var circle_marker_31100a8329409adc2c4079e1d1339ad1 = L.circleMarker(
+                [25.03167, 121.51477],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_6ecb3c93997f2266acc26182c609064a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_667cb655bf5c593619300d0d045af140 = $(`<div id="html_667cb655bf5c593619300d0d045af140" style="width: 100.0%; height: 100.0%;">郵政博物館，景點類型：藝文館所</div>`)[0];
+                popup_6ecb3c93997f2266acc26182c609064a.setContent(html_667cb655bf5c593619300d0d045af140);
+            
+        
+
+        circle_marker_31100a8329409adc2c4079e1d1339ad1.bindPopup(popup_6ecb3c93997f2266acc26182c609064a)
+        ;
+
+        
+    
+    
+            var circle_marker_4bf9f2717176b53b94fb952081815178 = L.circleMarker(
+                [25.03666, 121.50327],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_eb3d7f2d74ccb851e393b04a310441b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c51e6d3edb1c03add048448e75adc929 = $(`<div id="html_c51e6d3edb1c03add048448e75adc929" style="width: 100.0%; height: 100.0%;">臺北市鄉土教育中心_剝皮寮歷史街區，景點類型：歷史建築</div>`)[0];
+                popup_eb3d7f2d74ccb851e393b04a310441b5.setContent(html_c51e6d3edb1c03add048448e75adc929);
+            
+        
+
+        circle_marker_4bf9f2717176b53b94fb952081815178.bindPopup(popup_eb3d7f2d74ccb851e393b04a310441b5)
+        ;
+
+        
+    
+    
+            var circle_marker_1a7d176ad2af8a788b508ead9e608569 = L.circleMarker(
+                [25.03146, 121.51121],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_3649101d191c98e6c528eb896049fd19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91650c6d9f6409975fe0b80f8494fc34 = $(`<div id="html_91650c6d9f6409975fe0b80f8494fc34" style="width: 100.0%; height: 100.0%;">國立歷史博物館，景點類型：藝文館所</div>`)[0];
+                popup_3649101d191c98e6c528eb896049fd19.setContent(html_91650c6d9f6409975fe0b80f8494fc34);
+            
+        
+
+        circle_marker_1a7d176ad2af8a788b508ead9e608569.bindPopup(popup_3649101d191c98e6c528eb896049fd19)
+        ;
+
+        
+    
+    
+            var circle_marker_35f1a05dcd09f0c466a96974e369d4c6 = L.circleMarker(
+                [25.05274791849884, 121.54037676751616],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_885d77f6cdb2fdafcd0fc77dbadd18f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dcc263c9df0449fa9f7cbb5b7a56b79 = $(`<div id="html_1dcc263c9df0449fa9f7cbb5b7a56b79" style="width: 100.0%; height: 100.0%;">歪腰郵筒，景點類型：公共藝術</div>`)[0];
+                popup_885d77f6cdb2fdafcd0fc77dbadd18f7.setContent(html_1dcc263c9df0449fa9f7cbb5b7a56b79);
+            
+        
+
+        circle_marker_35f1a05dcd09f0c466a96974e369d4c6.bindPopup(popup_885d77f6cdb2fdafcd0fc77dbadd18f7)
+        ;
+
+        
+    
+    
+            var circle_marker_a6443cab499e98d36185244791922b63 = L.circleMarker(
+                [25.06966, 121.52173],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_6e5d5adf1405789950d7bc6f3e170221 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fb69fd6c8534f2a14e8e5a4c82b26dd = $(`<div id="html_7fb69fd6c8534f2a14e8e5a4c82b26dd" style="width: 100.0%; height: 100.0%;">MAJI集食行樂_圓山花博爭豔館，景點類型：藝文館所</div>`)[0];
+                popup_6e5d5adf1405789950d7bc6f3e170221.setContent(html_7fb69fd6c8534f2a14e8e5a4c82b26dd);
+            
+        
+
+        circle_marker_a6443cab499e98d36185244791922b63.bindPopup(popup_6e5d5adf1405789950d7bc6f3e170221)
+        ;
+
+        
+    
+    
+            var circle_marker_c206a480edd25f0121ae3f0a51173833 = L.circleMarker(
+                [25.07196, 121.52437],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_50d8b4e78f3f5c08535d53b9876babd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b3050261b8dfb3558df7adf1c6d0d0a = $(`<div id="html_6b3050261b8dfb3558df7adf1c6d0d0a" style="width: 100.0%; height: 100.0%;">臺北市立美術館，景點類型：藝文館所</div>`)[0];
+                popup_50d8b4e78f3f5c08535d53b9876babd2.setContent(html_6b3050261b8dfb3558df7adf1c6d0d0a);
+            
+        
+
+        circle_marker_c206a480edd25f0121ae3f0a51173833.bindPopup(popup_50d8b4e78f3f5c08535d53b9876babd2)
+        ;
+
+        
+    
+    
+            var circle_marker_39e239a0212b68d5aa45829ecf9b4baf = L.circleMarker(
+                [25.02154512463795, 121.5206715837121],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_63e8190ab1cf59c30fe186564601df24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da3615add3218c717db520aa9ed2ae4d = $(`<div id="html_da3615add3218c717db520aa9ed2ae4d" style="width: 100.0%; height: 100.0%;">紀州庵文學森林，景點類型：藝文館所</div>`)[0];
+                popup_63e8190ab1cf59c30fe186564601df24.setContent(html_da3615add3218c717db520aa9ed2ae4d);
+            
+        
+
+        circle_marker_39e239a0212b68d5aa45829ecf9b4baf.bindPopup(popup_63e8190ab1cf59c30fe186564601df24)
+        ;
+
+        
+    
+    
+            var circle_marker_207c2f615435c21399fdfc2c51a7d610 = L.circleMarker(
+                [25.02418, 121.53199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_63d39025eacbcdabda3c1646d7f5ac0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46f60a3f8a7bb961f15294c87620c06a = $(`<div id="html_46f60a3f8a7bb961f15294c87620c06a" style="width: 100.0%; height: 100.0%;">殷海光故居，景點類型：歷史建築</div>`)[0];
+                popup_63d39025eacbcdabda3c1646d7f5ac0f.setContent(html_46f60a3f8a7bb961f15294c87620c06a);
+            
+        
+
+        circle_marker_207c2f615435c21399fdfc2c51a7d610.bindPopup(popup_63d39025eacbcdabda3c1646d7f5ac0f)
+        ;
+
+        
+    
+    
+            var circle_marker_aadd9dc3196ce5efcd517e5eebaec713 = L.circleMarker(
+                [25.0753, 121.50879],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_dfc841aba2f0ae8f79b6aaae11e37741 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ae60d91a99f657c4f0b65111700601f = $(`<div id="html_3ae60d91a99f657c4f0b65111700601f" style="width: 100.0%; height: 100.0%;">迪化運動公園跨堤景觀平臺，景點類型：公共藝術</div>`)[0];
+                popup_dfc841aba2f0ae8f79b6aaae11e37741.setContent(html_3ae60d91a99f657c4f0b65111700601f);
+            
+        
+
+        circle_marker_aadd9dc3196ce5efcd517e5eebaec713.bindPopup(popup_dfc841aba2f0ae8f79b6aaae11e37741)
+        ;
+
+        
+    
+    
+            var circle_marker_e9835d74e782018abb040f56fc414089 = L.circleMarker(
+                [25.06423, 121.55082],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_b3f12391ebb0851bf3f2785c65c0782c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a508145df90d643e81ba58fb2d16f28 = $(`<div id="html_7a508145df90d643e81ba58fb2d16f28" style="width: 100.0%; height: 100.0%;">臺北松山機場觀景台，景點類型：公共藝術</div>`)[0];
+                popup_b3f12391ebb0851bf3f2785c65c0782c.setContent(html_7a508145df90d643e81ba58fb2d16f28);
+            
+        
+
+        circle_marker_e9835d74e782018abb040f56fc414089.bindPopup(popup_b3f12391ebb0851bf3f2785c65c0782c)
+        ;
+
+        
+    
+    
+            var circle_marker_23695fb446988b5934b7fae8184f6b94 = L.circleMarker(
+                [25.08348060700447, 121.5069329738617],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_44f12ffc63ad08ba8325973368c430a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_981aed1667ab437cbde155f916635c2a = $(`<div id="html_981aed1667ab437cbde155f916635c2a" style="width: 100.0%; height: 100.0%;">葫蘆國小跨堤人行陸橋，景點類型：單車遊蹤</div>`)[0];
+                popup_44f12ffc63ad08ba8325973368c430a6.setContent(html_981aed1667ab437cbde155f916635c2a);
+            
+        
+
+        circle_marker_23695fb446988b5934b7fae8184f6b94.bindPopup(popup_44f12ffc63ad08ba8325973368c430a6)
+        ;
+
+        
+    
+    
+            var circle_marker_6c88a309fdd7837d5248f53eb5b617b0 = L.circleMarker(
+                [25.08512428910412, 121.52436900883912],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_49294c5303e39d695344483625d11205 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c345c95996e9f9be2cb8bd32776f385 = $(`<div id="html_1c345c95996e9f9be2cb8bd32776f385" style="width: 100.0%; height: 100.0%;">臺北表演藝術中心，景點類型：藝文館所</div>`)[0];
+                popup_49294c5303e39d695344483625d11205.setContent(html_1c345c95996e9f9be2cb8bd32776f385);
+            
+        
+
+        circle_marker_6c88a309fdd7837d5248f53eb5b617b0.bindPopup(popup_49294c5303e39d695344483625d11205)
+        ;
+
+        
+    
+    
+            var circle_marker_cb764979e212d407f81222e3913891a5 = L.circleMarker(
+                [25.0424367, 121.5595066],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_8904963a0f04ae3a61258c286906b7d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9f9fb83cd5057d2ec1d68dcccd87841 = $(`<div id="html_b9f9fb83cd5057d2ec1d68dcccd87841" style="width: 100.0%; height: 100.0%;">臺北大巨蛋，景點類型：藝文館所</div>`)[0];
+                popup_8904963a0f04ae3a61258c286906b7d3.setContent(html_b9f9fb83cd5057d2ec1d68dcccd87841);
+            
+        
+
+        circle_marker_cb764979e212d407f81222e3913891a5.bindPopup(popup_8904963a0f04ae3a61258c286906b7d3)
+        ;
+
+        
+    
+    
+            var circle_marker_3f6e348ee9a23a4b5b13b0f8823607fd = L.circleMarker(
+                [25.01073, 121.53225],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_4614afa8974e09c9e809e5c9a2f6c724 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_991e2058987f34c0ffd34351ae0dbd05 = $(`<div id="html_991e2058987f34c0ffd34351ae0dbd05" style="width: 100.0%; height: 100.0%;">寶藏巖國際藝術村，景點類型：藝文館所</div>`)[0];
+                popup_4614afa8974e09c9e809e5c9a2f6c724.setContent(html_991e2058987f34c0ffd34351ae0dbd05);
+            
+        
+
+        circle_marker_3f6e348ee9a23a4b5b13b0f8823607fd.bindPopup(popup_4614afa8974e09c9e809e5c9a2f6c724)
+        ;
+
+        
+    
+    
+            var circle_marker_69673ff201e148d159b473a2726c850c = L.circleMarker(
+                [25.04369, 121.56063],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_bc2c3383ebb820fb945b5b5bd29224ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e26b195dcf698df978fe642540b8c10a = $(`<div id="html_e26b195dcf698df978fe642540b8c10a" style="width: 100.0%; height: 100.0%;">松山文創園區，景點類型：歷史建築</div>`)[0];
+                popup_bc2c3383ebb820fb945b5b5bd29224ba.setContent(html_e26b195dcf698df978fe642540b8c10a);
+            
+        
+
+        circle_marker_69673ff201e148d159b473a2726c850c.bindPopup(popup_bc2c3383ebb820fb945b5b5bd29224ba)
+        ;
+
+        
+    
+    
+            var circle_marker_fd95f331ac652b7db53cbde172f42c01 = L.circleMarker(
+                [25.053086883822644, 121.5249305963516],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_c2753ddcfb044752ecb0f85767d666fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a76817f92f86d8f6f91d3c89fd48321 = $(`<div id="html_4a76817f92f86d8f6f91d3c89fd48321" style="width: 100.0%; height: 100.0%;">林森_康樂公園，景點類型：親子共遊</div>`)[0];
+                popup_c2753ddcfb044752ecb0f85767d666fe.setContent(html_4a76817f92f86d8f6f91d3c89fd48321);
+            
+        
+
+        circle_marker_fd95f331ac652b7db53cbde172f42c01.bindPopup(popup_c2753ddcfb044752ecb0f85767d666fe)
+        ;
+
+        
+    
+    
+            var circle_marker_354a5fe3d94816c549ecafa66fb65fe6 = L.circleMarker(
+                [25.0564, 121.50761],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_e44cc3886e0e32dd7dd6f0bb6c8591e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d77ca832d16c849628bf186fb52539f = $(`<div id="html_8d77ca832d16c849628bf186fb52539f" style="width: 100.0%; height: 100.0%;">大稻埕碼頭_大稻埕碼頭貨櫃市集，景點類型：單車遊蹤</div>`)[0];
+                popup_e44cc3886e0e32dd7dd6f0bb6c8591e1.setContent(html_8d77ca832d16c849628bf186fb52539f);
+            
+        
+
+        circle_marker_354a5fe3d94816c549ecafa66fb65fe6.bindPopup(popup_e44cc3886e0e32dd7dd6f0bb6c8591e1)
+        ;
+
+        
+    
+    
+            var circle_marker_b00647eeb35e2ea91fb633fa7212eb11 = L.circleMarker(
+                [25.04535, 121.53111],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_2c44e11fbf36c6734a083332378cae21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e7fd5611e346d38e9a58dcf1dcd7ed7 = $(`<div id="html_1e7fd5611e346d38e9a58dcf1dcd7ed7" style="width: 100.0%; height: 100.0%;">三創生活，景點類型：親子共遊</div>`)[0];
+                popup_2c44e11fbf36c6734a083332378cae21.setContent(html_1e7fd5611e346d38e9a58dcf1dcd7ed7);
+            
+        
+
+        circle_marker_b00647eeb35e2ea91fb633fa7212eb11.bindPopup(popup_2c44e11fbf36c6734a083332378cae21)
+        ;
+
+        
+    
+    
+            var circle_marker_515d39ababfb641fd1a25d746de3540d = L.circleMarker(
+                [25.061383041216928, 121.5114488080144],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_ebb26d04b95369488aa46338e5d25751 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d5b87e2bf064e5f8ce7299212ed79f9 = $(`<div id="html_5d5b87e2bf064e5f8ce7299212ed79f9" style="width: 100.0%; height: 100.0%;">太平國小，景點類型：親子共遊</div>`)[0];
+                popup_ebb26d04b95369488aa46338e5d25751.setContent(html_5d5b87e2bf064e5f8ce7299212ed79f9);
+            
+        
+
+        circle_marker_515d39ababfb641fd1a25d746de3540d.bindPopup(popup_ebb26d04b95369488aa46338e5d25751)
+        ;
+
+        
+    
+    
+            var circle_marker_cf119753721ca1ac91c6297174310085 = L.circleMarker(
+                [25.04822, 121.53365],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_1d5969b68979ad726d26db3c9f3040b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12a9bf95a17a4fa832c67418ccd31e30 = $(`<div id="html_12a9bf95a17a4fa832c67418ccd31e30" style="width: 100.0%; height: 100.0%;">樹火紀念紙博物館，景點類型：藝文館所</div>`)[0];
+                popup_1d5969b68979ad726d26db3c9f3040b8.setContent(html_12a9bf95a17a4fa832c67418ccd31e30);
+            
+        
+
+        circle_marker_cf119753721ca1ac91c6297174310085.bindPopup(popup_1d5969b68979ad726d26db3c9f3040b8)
+        ;
+
+        
+    
+    
+            var circle_marker_501bd68d0349b84740ae216adc34545a = L.circleMarker(
+                [25.03232, 121.51205],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_455ee730ae75cb3e50572907141ad8d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_726066cd4aa69320180ed52b1654a3d1 = $(`<div id="html_726066cd4aa69320180ed52b1654a3d1" style="width: 100.0%; height: 100.0%;">國立臺灣藝術教育館，景點類型：藝文館所</div>`)[0];
+                popup_455ee730ae75cb3e50572907141ad8d2.setContent(html_726066cd4aa69320180ed52b1654a3d1);
+            
+        
+
+        circle_marker_501bd68d0349b84740ae216adc34545a.bindPopup(popup_455ee730ae75cb3e50572907141ad8d2)
+        ;
+
+        
+    
+    
+            var circle_marker_e59c2773f919a0dba342b37dc6a4a065 = L.circleMarker(
+                [25.05035, 121.53614],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_68f6ce22be9cfe8fa520dbbcb619e551 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2768984376c0f8e4170ad7a87ebc6704 = $(`<div id="html_2768984376c0f8e4170ad7a87ebc6704" style="width: 100.0%; height: 100.0%;">袖珍博物館，景點類型：藝文館所</div>`)[0];
+                popup_68f6ce22be9cfe8fa520dbbcb619e551.setContent(html_2768984376c0f8e4170ad7a87ebc6704);
+            
+        
+
+        circle_marker_e59c2773f919a0dba342b37dc6a4a065.bindPopup(popup_68f6ce22be9cfe8fa520dbbcb619e551)
+        ;
+
+        
+    
+    
+            var circle_marker_02b28725e4e23a194ee193eb51eedb31 = L.circleMarker(
+                [25.05962, 121.53211],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_98b8cc7b169ddab470a8f8923ec19bc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f807c0900074e17c4d9761492d39134e = $(`<div id="html_f807c0900074e17c4d9761492d39134e" style="width: 100.0%; height: 100.0%;">松錦公園，景點類型：親子共遊</div>`)[0];
+                popup_98b8cc7b169ddab470a8f8923ec19bc7.setContent(html_f807c0900074e17c4d9761492d39134e);
+            
+        
+
+        circle_marker_02b28725e4e23a194ee193eb51eedb31.bindPopup(popup_98b8cc7b169ddab470a8f8923ec19bc7)
+        ;
+
+        
+    
+    
+            var circle_marker_6c60116c453221aaa6326ca8a5bf4e15 = L.circleMarker(
+                [25.068709859375648, 121.52402333915234],
+                {"bubblingMouseEvents": true, "color": "beige", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "beige", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_750a5beb1fcef0f383442cc20d14218f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a7c4d59c8270d8e2e4c0bacf2f9b472 = $(`<div id="html_3a7c4d59c8270d8e2e4c0bacf2f9b472" style="width: 100.0%; height: 100.0%;">舞蝶共融遊戲場，景點類型：親子共遊</div>`)[0];
+                popup_750a5beb1fcef0f383442cc20d14218f.setContent(html_3a7c4d59c8270d8e2e4c0bacf2f9b472);
+            
+        
+
+        circle_marker_6c60116c453221aaa6326ca8a5bf4e15.bindPopup(popup_750a5beb1fcef0f383442cc20d14218f)
+        ;
+
+        
+    
+    
+            var circle_marker_aebc4b123cf39a7dded633c4ce8dae05 = L.circleMarker(
+                [25.04956, 121.51389],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_9d9cd6bd1cd9ce490fdd16b2a4ef5406 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79fad2538aee59c0f261e0a196fc6e67 = $(`<div id="html_79fad2538aee59c0f261e0a196fc6e67" style="width: 100.0%; height: 100.0%;">台北地下街，景點類型：主題商街</div>`)[0];
+                popup_9d9cd6bd1cd9ce490fdd16b2a4ef5406.setContent(html_79fad2538aee59c0f261e0a196fc6e67);
+            
+        
+
+        circle_marker_aebc4b123cf39a7dded633c4ce8dae05.bindPopup(popup_9d9cd6bd1cd9ce490fdd16b2a4ef5406)
+        ;
+
+        
+    
+    
+            var circle_marker_2dc482d0bb9730a27a0c0a29ca214797 = L.circleMarker(
+                [25.05038, 121.51357],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_a108b6ff0eccfa8a7d4d79336c6b9c83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a548aaa4365687a7cdf3417b1ce019aa = $(`<div id="html_a548aaa4365687a7cdf3417b1ce019aa" style="width: 100.0%; height: 100.0%;">後站商圈，景點類型：主題商街</div>`)[0];
+                popup_a108b6ff0eccfa8a7d4d79336c6b9c83.setContent(html_a548aaa4365687a7cdf3417b1ce019aa);
+            
+        
+
+        circle_marker_2dc482d0bb9730a27a0c0a29ca214797.bindPopup(popup_a108b6ff0eccfa8a7d4d79336c6b9c83)
+        ;
+
+        
+    
+    
+            var circle_marker_923b52e280aae9f0e27af60fa0ca527f = L.circleMarker(
+                [25.04459, 121.51322],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_89d628bf9b1a350d22d7b86de783b2a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a82bc2df8e06a7410ff9a1c51e7f0a15 = $(`<div id="html_a82bc2df8e06a7410ff9a1c51e7f0a15" style="width: 100.0%; height: 100.0%;">重慶南路_書店街，景點類型：主題商街</div>`)[0];
+                popup_89d628bf9b1a350d22d7b86de783b2a0.setContent(html_a82bc2df8e06a7410ff9a1c51e7f0a15);
+            
+        
+
+        circle_marker_923b52e280aae9f0e27af60fa0ca527f.bindPopup(popup_89d628bf9b1a350d22d7b86de783b2a0)
+        ;
+
+        
+    
+    
+            var circle_marker_a5ce14fc9e2a3e5cb2f517e910458e86 = L.circleMarker(
+                [25.04533, 121.51139],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_6d6c8d7462288c532442ac7f4b5a98f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68871b17427ee2b353b5b4780cdd2633 = $(`<div id="html_68871b17427ee2b353b5b4780cdd2633" style="width: 100.0%; height: 100.0%;">博愛路_漢口街_相機街，景點類型：主題商街</div>`)[0];
+                popup_6d6c8d7462288c532442ac7f4b5a98f5.setContent(html_68871b17427ee2b353b5b4780cdd2633);
+            
+        
+
+        circle_marker_a5ce14fc9e2a3e5cb2f517e910458e86.bindPopup(popup_6d6c8d7462288c532442ac7f4b5a98f5)
+        ;
+
+        
+    
+    
+            var circle_marker_03f3b8c05724a42032f83a6c74757e7b = L.circleMarker(
+                [25.043556619759634, 121.51222229003906],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_9c953298ba335964dfe7187ea7acda8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdb2adcc9f7c93b6288f650baec7266b = $(`<div id="html_cdb2adcc9f7c93b6288f650baec7266b" style="width: 100.0%; height: 100.0%;">城中市場，景點類型：主題商街</div>`)[0];
+                popup_9c953298ba335964dfe7187ea7acda8f.setContent(html_cdb2adcc9f7c93b6288f650baec7266b);
+            
+        
+
+        circle_marker_03f3b8c05724a42032f83a6c74757e7b.bindPopup(popup_9c953298ba335964dfe7187ea7acda8f)
+        ;
+
+        
+    
+    
+            var circle_marker_8cdc3269a573cbe3187c705dd02ac25b = L.circleMarker(
+                [25.042876812931524, 121.512708440423],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_4eb6411ed83dfd90871a1413c2b51f7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_822ac482eff18f1a65b2702497fb1f76 = $(`<div id="html_822ac482eff18f1a65b2702497fb1f76" style="width: 100.0%; height: 100.0%;">沅陵商店街_鞋子街，景點類型：主題商街</div>`)[0];
+                popup_4eb6411ed83dfd90871a1413c2b51f7d.setContent(html_822ac482eff18f1a65b2702497fb1f76);
+            
+        
+
+        circle_marker_8cdc3269a573cbe3187c705dd02ac25b.bindPopup(popup_4eb6411ed83dfd90871a1413c2b51f7d)
+        ;
+
+        
+    
+    
+            var circle_marker_27e84120b62c64d583ed09f6762d04ff = L.circleMarker(
+                [25.05165, 121.52264],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_9c66a6462e233cb28892a0d229f27720 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75e738e93da582806ad1a49e7ef1a8e5 = $(`<div id="html_75e738e93da582806ad1a49e7ef1a8e5" style="width: 100.0%; height: 100.0%;">中山北路條通商圈，景點類型：主題商街</div>`)[0];
+                popup_9c66a6462e233cb28892a0d229f27720.setContent(html_75e738e93da582806ad1a49e7ef1a8e5);
+            
+        
+
+        circle_marker_27e84120b62c64d583ed09f6762d04ff.bindPopup(popup_9c66a6462e233cb28892a0d229f27720)
+        ;
+
+        
+    
+    
+            var circle_marker_33a73d8a120e82852c6bab24a5137308 = L.circleMarker(
+                [25.05498580125868, 121.52057670056818],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_cb269098d534468fb48eca737db214af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3db9a45693639f46a9da5927e8575838 = $(`<div id="html_3db9a45693639f46a9da5927e8575838" style="width: 100.0%; height: 100.0%;">捷運中山地下書街_誠品R79，景點類型：主題商街</div>`)[0];
+                popup_cb269098d534468fb48eca737db214af.setContent(html_3db9a45693639f46a9da5927e8575838);
+            
+        
+
+        circle_marker_33a73d8a120e82852c6bab24a5137308.bindPopup(popup_cb269098d534468fb48eca737db214af)
+        ;
+
+        
+    
+    
+            var circle_marker_3816f5b5fb5629d70c3805ad9e55ef70 = L.circleMarker(
+                [25.05534602124012, 121.51960741728544],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_331e1ae213c10cc97dea35bb1eb2c116 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e4a0d4c47e598148b543bec0ccb4c53 = $(`<div id="html_3e4a0d4c47e598148b543bec0ccb4c53" style="width: 100.0%; height: 100.0%;">赤峰街，景點類型：主題商街</div>`)[0];
+                popup_331e1ae213c10cc97dea35bb1eb2c116.setContent(html_3e4a0d4c47e598148b543bec0ccb4c53);
+            
+        
+
+        circle_marker_3816f5b5fb5629d70c3805ad9e55ef70.bindPopup(popup_331e1ae213c10cc97dea35bb1eb2c116)
+        ;
+
+        
+    
+    
+            var circle_marker_f66a4092f7407ddce4dc0c66f303afa0 = L.circleMarker(
+                [25.05582, 121.5206],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_251bc98a4e684b7c8b7e0444f21290bc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4145d52455859e06e01b23a850a2963c = $(`<div id="html_4145d52455859e06e01b23a850a2963c" style="width: 100.0%; height: 100.0%;">捷運中山站街區_心中山線形公園，景點類型：主題商街</div>`)[0];
+                popup_251bc98a4e684b7c8b7e0444f21290bc.setContent(html_4145d52455859e06e01b23a850a2963c);
+            
+        
+
+        circle_marker_f66a4092f7407ddce4dc0c66f303afa0.bindPopup(popup_251bc98a4e684b7c8b7e0444f21290bc)
+        ;
+
+        
+    
+    
+            var circle_marker_22422e36e650e3db09ee36e15558de4d = L.circleMarker(
+                [25.04458, 121.50753],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_2beba551f557558ccd432d2c322519fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_88fae3d6348857a43f6c119e51bc0677 = $(`<div id="html_88fae3d6348857a43f6c119e51bc0677" style="width: 100.0%; height: 100.0%;">西門町，景點類型：主題商街</div>`)[0];
+                popup_2beba551f557558ccd432d2c322519fb.setContent(html_88fae3d6348857a43f6c119e51bc0677);
+            
+        
+
+        circle_marker_22422e36e650e3db09ee36e15558de4d.bindPopup(popup_2beba551f557558ccd432d2c322519fb)
+        ;
+
+        
+    
+    
+            var circle_marker_ffbfadc5f1c5522a08d5d423cdde3a2b = L.circleMarker(
+                [25.05491, 121.51032],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_d60885560e5969280a646f75abb26413 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2416335fe84397703df88b2d09ea9fd = $(`<div id="html_c2416335fe84397703df88b2d09ea9fd" style="width: 100.0%; height: 100.0%;">迪化街年貨大街，景點類型：主題商街</div>`)[0];
+                popup_d60885560e5969280a646f75abb26413.setContent(html_c2416335fe84397703df88b2d09ea9fd);
+            
+        
+
+        circle_marker_ffbfadc5f1c5522a08d5d423cdde3a2b.bindPopup(popup_d60885560e5969280a646f75abb26413)
+        ;
+
+        
+    
+    
+            var circle_marker_fd385b1f4e49a334ec97cc1d3b25a1eb = L.circleMarker(
+                [25.05505, 121.5105],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_64a08e2efe3235a6921c8a591598fff0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6455a07ebd5d540c99acc10334ed9d3f = $(`<div id="html_6455a07ebd5d540c99acc10334ed9d3f" style="width: 100.0%; height: 100.0%;">永樂布業商場_永樂市場，景點類型：主題商街</div>`)[0];
+                popup_64a08e2efe3235a6921c8a591598fff0.setContent(html_6455a07ebd5d540c99acc10334ed9d3f);
+            
+        
+
+        circle_marker_fd385b1f4e49a334ec97cc1d3b25a1eb.bindPopup(popup_64a08e2efe3235a6921c8a591598fff0)
+        ;
+
+        
+    
+    
+            var circle_marker_3d0932a410a72665782a9ac4f051aa3c = L.circleMarker(
+                [25.0584, 121.51297],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_e4d1b45fe63a5898e7e8b17421c1a488 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acc0f80f1576c13ed55f8c5bc4f2f18c = $(`<div id="html_acc0f80f1576c13ed55f8c5bc4f2f18c" style="width: 100.0%; height: 100.0%;">甘州街_茶葉街，景點類型：主題商街</div>`)[0];
+                popup_e4d1b45fe63a5898e7e8b17421c1a488.setContent(html_acc0f80f1576c13ed55f8c5bc4f2f18c);
+            
+        
+
+        circle_marker_3d0932a410a72665782a9ac4f051aa3c.bindPopup(popup_e4d1b45fe63a5898e7e8b17421c1a488)
+        ;
+
+        
+    
+    
+            var circle_marker_c9bbb4869cc88ac838823952b6fa56fb = L.circleMarker(
+                [25.05916, 121.52313],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_0cc0b9a15b0d5eebec0f8c2cfcaaf679 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d99c8547b6cd17a752e34836c83009b = $(`<div id="html_4d99c8547b6cd17a752e34836c83009b" style="width: 100.0%; height: 100.0%;">中山北路婚紗街，景點類型：主題商街</div>`)[0];
+                popup_0cc0b9a15b0d5eebec0f8c2cfcaaf679.setContent(html_4d99c8547b6cd17a752e34836c83009b);
+            
+        
+
+        circle_marker_c9bbb4869cc88ac838823952b6fa56fb.bindPopup(popup_0cc0b9a15b0d5eebec0f8c2cfcaaf679)
+        ;
+
+        
+    
+    
+            var circle_marker_6336a5dcf394b44b4f65aa652d70fce2 = L.circleMarker(
+                [25.06047, 121.51188],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_51787ef03ec804a1b58ca2054cd0e7a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b0fe138fb8d830b939c713b7255e0fb = $(`<div id="html_0b0fe138fb8d830b939c713b7255e0fb" style="width: 100.0%; height: 100.0%;">慈聖宮前小吃區，景點類型：主題商街</div>`)[0];
+                popup_51787ef03ec804a1b58ca2054cd0e7a4.setContent(html_0b0fe138fb8d830b939c713b7255e0fb);
+            
+        
+
+        circle_marker_6336a5dcf394b44b4f65aa652d70fce2.bindPopup(popup_51787ef03ec804a1b58ca2054cd0e7a4)
+        ;
+
+        
+    
+    
+            var circle_marker_9bc2bae65290cf7480a2be97cf5c333f = L.circleMarker(
+                [25.03348002638185, 121.5197230875492],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_985327d82c9e60b44578ea759b735d24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7173c4b1d8022bf8060765e378219bcf = $(`<div id="html_7173c4b1d8022bf8060765e378219bcf" style="width: 100.0%; height: 100.0%;">愛國東路_婚紗街，景點類型：主題商街</div>`)[0];
+                popup_985327d82c9e60b44578ea759b735d24.setContent(html_7173c4b1d8022bf8060765e378219bcf);
+            
+        
+
+        circle_marker_9bc2bae65290cf7480a2be97cf5c333f.bindPopup(popup_985327d82c9e60b44578ea759b735d24)
+        ;
+
+        
+    
+    
+            var circle_marker_41844dc1f57b65dccba50d54d9154a58 = L.circleMarker(
+                [25.04471, 121.53318],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_f79caf239667ccccb3dc00502306e33b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83cf470793bdddefa36e5d0b07153fae = $(`<div id="html_83cf470793bdddefa36e5d0b07153fae" style="width: 100.0%; height: 100.0%;">光華玉市，景點類型：主題商街</div>`)[0];
+                popup_f79caf239667ccccb3dc00502306e33b.setContent(html_83cf470793bdddefa36e5d0b07153fae);
+            
+        
+
+        circle_marker_41844dc1f57b65dccba50d54d9154a58.bindPopup(popup_f79caf239667ccccb3dc00502306e33b)
+        ;
+
+        
+    
+    
+            var circle_marker_7b11bec60244f895c1cba830349008e5 = L.circleMarker(
+                [25.05367, 121.53409],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_8a4f4020426a44e82369c639dcaf7f1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0284d2dba79facbe991839142d5e48e = $(`<div id="html_b0284d2dba79facbe991839142d5e48e" style="width: 100.0%; height: 100.0%;">四平陽光商圈，景點類型：主題商街</div>`)[0];
+                popup_8a4f4020426a44e82369c639dcaf7f1f.setContent(html_b0284d2dba79facbe991839142d5e48e);
+            
+        
+
+        circle_marker_7b11bec60244f895c1cba830349008e5.bindPopup(popup_8a4f4020426a44e82369c639dcaf7f1f)
+        ;
+
+        
+    
+    
+            var circle_marker_6dca5df7ec36ec0166c88158d6c1f78e = L.circleMarker(
+                [25.04014568122635, 121.50059979733447],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_3642a6c89a65df969dae0eef96da2cf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a41021f84ccf2303e5a778942f1eba5 = $(`<div id="html_4a41021f84ccf2303e5a778942f1eba5" style="width: 100.0%; height: 100.0%;">艋舺老街(台北第一街)，景點類型：主題商街</div>`)[0];
+                popup_3642a6c89a65df969dae0eef96da2cf5.setContent(html_4a41021f84ccf2303e5a778942f1eba5);
+            
+        
+
+        circle_marker_6dca5df7ec36ec0166c88158d6c1f78e.bindPopup(popup_3642a6c89a65df969dae0eef96da2cf5)
+        ;
+
+        
+    
+    
+            var circle_marker_4af649dbaf3c0377e4fab0db4b1cb9fe = L.circleMarker(
+                [25.06437, 121.52288],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_3bb85ce423a10ab49dea619d5a685bd5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e1523ef2c6a737439e7adec8f266a8d = $(`<div id="html_7e1523ef2c6a737439e7adec8f266a8d" style="width: 100.0%; height: 100.0%;">晴光市場，景點類型：主題商街</div>`)[0];
+                popup_3bb85ce423a10ab49dea619d5a685bd5.setContent(html_7e1523ef2c6a737439e7adec8f266a8d);
+            
+        
+
+        circle_marker_4af649dbaf3c0377e4fab0db4b1cb9fe.bindPopup(popup_3bb85ce423a10ab49dea619d5a685bd5)
+        ;
+
+        
+    
+    
+            var circle_marker_7e3bb14333a5b8897fe57d16fc227ec4 = L.circleMarker(
+                [25.03484, 121.50367],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_5a99f02910a4f9f5e89c2d90af535f58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1045dd259e91c9e1cc6b86145587765 = $(`<div id="html_a1045dd259e91c9e1cc6b86145587765" style="width: 100.0%; height: 100.0%;">和平西路三段_鳥店街，景點類型：主題商街</div>`)[0];
+                popup_5a99f02910a4f9f5e89c2d90af535f58.setContent(html_a1045dd259e91c9e1cc6b86145587765);
+            
+        
+
+        circle_marker_7e3bb14333a5b8897fe57d16fc227ec4.bindPopup(popup_5a99f02910a4f9f5e89c2d90af535f58)
+        ;
+
+        
+    
+    
+            var circle_marker_71788a13988749e773ac66fdc400a4e4 = L.circleMarker(
+                [25.03602, 121.5019],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_096bfad672b3ba129ca0d49161bd15c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cd3853177ffa959fd8b53afbe213b4e = $(`<div id="html_3cd3853177ffa959fd8b53afbe213b4e" style="width: 100.0%; height: 100.0%;">東三水街市場_新富市場，景點類型：主題商街</div>`)[0];
+                popup_096bfad672b3ba129ca0d49161bd15c5.setContent(html_3cd3853177ffa959fd8b53afbe213b4e);
+            
+        
+
+        circle_marker_71788a13988749e773ac66fdc400a4e4.bindPopup(popup_096bfad672b3ba129ca0d49161bd15c5)
+        ;
+
+        
+    
+    
+            var circle_marker_2f9859880f9ba073cedce56b8d48fd6d = L.circleMarker(
+                [25.03797, 121.49972],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_b1490926e39cdee4e86a74a189c0ae4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da2907e793f37c5d5aef0405a0d403e9 = $(`<div id="html_da2907e793f37c5d5aef0405a0d403e9" style="width: 100.0%; height: 100.0%;">西園路_佛具街，景點類型：主題商街</div>`)[0];
+                popup_b1490926e39cdee4e86a74a189c0ae4e.setContent(html_da2907e793f37c5d5aef0405a0d403e9);
+            
+        
+
+        circle_marker_2f9859880f9ba073cedce56b8d48fd6d.bindPopup(popup_b1490926e39cdee4e86a74a189c0ae4e)
+        ;
+
+        
+    
+    
+            var circle_marker_d0fa6a856939db3ee1e5c3924a1b36e5 = L.circleMarker(
+                [25.03326697678456, 121.52988281551627],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_499ec604c2edacf8e1493dcb25712431 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f2cd1fd306f378864f5bd4977f2bb6b4 = $(`<div id="html_f2cd1fd306f378864f5bd4977f2bb6b4" style="width: 100.0%; height: 100.0%;">永康街區，景點類型：主題商街</div>`)[0];
+                popup_499ec604c2edacf8e1493dcb25712431.setContent(html_f2cd1fd306f378864f5bd4977f2bb6b4);
+            
+        
+
+        circle_marker_d0fa6a856939db3ee1e5c3924a1b36e5.bindPopup(popup_499ec604c2edacf8e1493dcb25712431)
+        ;
+
+        
+    
+    
+            var circle_marker_9a90bbe319e4f3398ecc05b71f0fceb5 = L.circleMarker(
+                [25.03693608862788, 121.50026097893716],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_8e08fe1322051f84f746f6ba20ba065b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c49be6f4a89df6e685d960e22e83665 = $(`<div id="html_2c49be6f4a89df6e685d960e22e83665" style="width: 100.0%; height: 100.0%;">西昌街-青草巷，景點類型：主題商街</div>`)[0];
+                popup_8e08fe1322051f84f746f6ba20ba065b.setContent(html_2c49be6f4a89df6e685d960e22e83665);
+            
+        
+
+        circle_marker_9a90bbe319e4f3398ecc05b71f0fceb5.bindPopup(popup_8e08fe1322051f84f746f6ba20ba065b)
+        ;
+
+        
+    
+    
+            var circle_marker_e567e0dff322b257bd640c1834b25ac0 = L.circleMarker(
+                [25.03607, 121.49989],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_fe3802bb0ab5392394702cd420bedd4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_865bacd68c771fa8b3a19fde85f3e1b1 = $(`<div id="html_865bacd68c771fa8b3a19fde85f3e1b1" style="width: 100.0%; height: 100.0%;">龍山寺地下街，景點類型：主題商街</div>`)[0];
+                popup_fe3802bb0ab5392394702cd420bedd4a.setContent(html_865bacd68c771fa8b3a19fde85f3e1b1);
+            
+        
+
+        circle_marker_e567e0dff322b257bd640c1834b25ac0.bindPopup(popup_fe3802bb0ab5392394702cd420bedd4a)
+        ;
+
+        
+    
+    
+            var circle_marker_4baa59748926d44d1acb999159197746 = L.circleMarker(
+                [25.03434, 121.49936],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_74f9a4ab835cfaa88330d235d3a9fe60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_127513a8bd0f0bb3f8c1c910e0d330c7 = $(`<div id="html_127513a8bd0f0bb3f8c1c910e0d330c7" style="width: 100.0%; height: 100.0%;">艋舺服飾商圈，景點類型：主題商街</div>`)[0];
+                popup_74f9a4ab835cfaa88330d235d3a9fe60.setContent(html_127513a8bd0f0bb3f8c1c910e0d330c7);
+            
+        
+
+        circle_marker_4baa59748926d44d1acb999159197746.bindPopup(popup_74f9a4ab835cfaa88330d235d3a9fe60)
+        ;
+
+        
+    
+    
+            var circle_marker_9a6af7934000c29359c50d263fba926e = L.circleMarker(
+                [25.06262, 121.53329],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_c8c0d30ddc81455fcef0b016be14e777);
+        
+    
+        var popup_1896350f4c38e1038a4b1b861ea3ffb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaa5b7e5b8fa5f0b3ad7009d61f7d183 = $(`<div id="html_aaa5b7e5b8fa5f0b3ad7009d61f7d183" style="width: 100.0%; height: 100.0%;">命理街，景點類型：主題商街</div>`)[0];
+                popup_1896350f4c38e1038a4b1b861ea3ffb4.setContent(html_aaa5b7e5b8fa5f0b3ad7009d61f7d183);
+            
+        
+
+        circle_marker_9a6af7934000c29359c50d263fba926e.bindPopup(popup_1896350f4c38e1038a4b1b861ea3ffb4)
+        ;
+
+        
+    
+    
+            marker_cluster_c8c0d30ddc81455fcef0b016be14e777.addTo(map_c99ef032045517d0672294466089c85a);
+        
+</script>
+</html>

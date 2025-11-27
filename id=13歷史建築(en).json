@@ -1,0 +1,1842 @@
+{
+  "total": 98,
+  "data": [
+    {
+      "id": 1727,
+      "name": "Taiwan Railways (Taipei Main Station)",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Taipei Main Station is not only the most significant hub of transportation in northern Taiwan, but also the largest railway station in terms of the building scale and traffic volume. Situated in Zhongzheng District of Taipei City, it is an underground union station shared by three transportation service companies: Taiwan Railway Administration, Taiwan High Speed Rail and Taipei Metro. Thus, a passenger can get access to a train, a high-speed rail, MRT Bannan Line and MRT Tamsui&ndash;Xinyi Line at the station.\r\n\r\nTaipei Main Station has been relocated and renovated numerous times since its establishment on July 5, 1891. The station building today was completed on September 2, 1989. It is also where the headquarters of Taiwan Railway Administration was set. As Taipei Metro and Taiwan High Speed Rail started operating, the Taipei City Mall, an extensive underground market, was gradually formed.\r\n\r\nThe whole area related to Taipei Main Station is as large as 46.31 hectares, including the nearby commercial district with businesses and learning institutions, Taipei Transit Station, MRT North Gate Station, Airport MRT Taipei Station, Huashan 1914 Creative Park and other places of the &quot;Taipei Station Specific Area.&quot; It is undoubtedly the biggest hub of transportation in the Taipei&ndash;Keelung metropolitan area.",
+      "open_time": "",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "B1, No.3, Beiping W. Rd.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-21910096  ",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.04792,
+      "elong": 121.51708,
+      "official_site": "https://tip.railway.gov.tw/tra-tip-web/tip/tip00H/tipH41/viewStaInfo/1000/?lang=EN_US",
+      "facebook": "",
+      "ticket": "",
+      "remind": "Muslim Prayer Room",
+      "staytime": "",
+      "modified": "2025-04-29 14:57:04 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/1727",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 25,
+          "name": "Recommended Accessible Tourism Attractions"
+        }
+      ],
+      "target": [],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 453,
+      "name": "Museum of Contemporary Art Taipei",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "The Museum of Contemporary Art Taipei is located in a historic Japanese-era building once used as Chenggong Elementary School. After Taiwan&#39;s retrocession, the building housed the Taipei City Hall. When City Hall moved to Xinyi District in 1994, the building was turned into an art museum. The museum was officially renamed in 2000 as the Museum of Contemporary Art Taipei. Free audio guide service and group tours are available.",
+      "open_time": "Tues~Sun 10:00 to 18:00 (Last admission at 17:30)",
+      "zipcode": "103",
+      "distric": "Datong Dist.",
+      "address": "No. 39, Chang-an W. Rd.,Datong Dist.,Taipei City 103",
+      "tel": "+886-2-25523721",
+      "fax": "+886-2-25593874",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.05072,
+      "elong": 121.51892,
+      "official_site": "https://www.mocataipei.org.tw/en",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-30 21:57:31 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/453",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        },
+        {
+          "id": 20,
+          "name": "Northern Taiwan"
+        },
+        {
+          "id": 25,
+          "name": "Recommended Accessible Tourism Attractions"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [
+        {
+          "id": 387,
+          "name": "English"
+        },
+        {
+          "id": 388,
+          "name": "Japanese"
+        },
+        {
+          "id": 390,
+          "name": "Mobile Device Recharging Station"
+        },
+        {
+          "id": 392,
+          "name": "Accessibility"
+        },
+        {
+          "id": 393,
+          "name": "Gender"
+        },
+        {
+          "id": 394,
+          "name": "Convenient Payment"
+        },
+        {
+          "id": 398,
+          "name": "WiFi"
+        },
+        {
+          "id": 400,
+          "name": "Breastfeeding"
+        }
+      ],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 3688,
+      "name": "Taipei Info Hub",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "&quot;Taipei Info Hub&rdquo; is a red brick building constructed during the Japanese colonial period.\r\nIt is next to the Taipei North Gate and Taipei Station. It is adjacent to the Tamsui River and Dadaocheng Wharf, reflecting the prosperous trade development of Taipei at that time and witnessing the process of commercial transportation shifting from waterway to land transportation.\r\nThe hub focuses on trading mountain and forest resources and products with river basin and urban development stories. Through the spatial evolution of upstream, midstream, and downstream, describe how land users use and create resources while creating a platform for diverse perspectives and dialogue.",
+      "open_time": "周二至週日11:00-19:00\r\n（週一休館）",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 265, Section 1, Zhongxiao West Road,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23714597",
+      "fax": "",
+      "email": "service@taipeiinfohub.com.tw",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.047697345642476,
+      "elong": 121.5124261379242,
+      "official_site": "",
+      "facebook": "https://www.facebook.com/Taipeiinfohub",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-08-07 17:49:07 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/3688",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        },
+        {
+          "id": 25,
+          "name": "Recommended Accessible Tourism Attractions"
+        }
+      ],
+      "target": [],
+      "service": [],
+      "friendly": [
+        {
+          "id": 396,
+          "name": "Bathroom"
+        },
+        {
+          "id": 398,
+          "name": "WiFi"
+        }
+      ],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 444,
+      "name": "National Taiwan Museum",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "The oldest of its kind in Taiwan, the National Taiwan Museum can be traced back to a showroom for the Bureau of Productive Industries (Shokusankyoku) erected by the colonial-era Taiwan Viceroy&rsquo;s Office in 1899. The showroom&rsquo;s displayed items were relocated to the Lottery Bureau behind the present-day Presidential Office, and gave rise to the 1908 opening of Taiwan Viceroy&rsquo;s Office Museum. During 1913, the Qing-dynasty Tianhou Temple in what is now the 228 Peace Memorial Park was torn down to make way for the &ldquo;Viceroy Kodama Gentaro and Chief Civil Administrator Goto Shinpei Memorial Museum&rdquo;, which was a new project intended to house the Taiwan Viceroy&rsquo;s Office Museum collection. It was rechristened the &ldquo;Museum of Taiwan Province&rdquo; in 1945 and &ldquo;Taiwan Provincial Museum&rdquo; in 1949, before receiving its current title &ldquo;National Taiwan Museum&rdquo; in 1999.\r\n\r\nSitting at the other end of Guanqian Road from Taipei Main Station, the National Taiwan Museum features a Grecian fa&ccedil;ade with towering columns, an acanthus leaves-embellished pediment and a domed hall accentuated by 32 columns, each with an ornate Corinthian capital, in addition to stained-glass skylights through which sunlight filters to cast dazzling patterns on the ground. While sentimentally bearing witness to Taiwan&rsquo;s history, the Museum offers exhibitions as well as irregular events on a scale much unchanged since its founding.",
+      "open_time": "10:00 - 17:00 (Tue ~ Sun)",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 2, Xiangyang Rd.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23822566",
+      "fax": "+886-2-23822684",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.04328,
+      "elong": 121.51501,
+      "official_site": "https://www.ntm.gov.tw/en/",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-25 17:30:03 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/444",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        },
+        {
+          "id": 18,
+          "name": "Public Art"
+        },
+        {
+          "id": 25,
+          "name": "Recommended Accessible Tourism Attractions"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 614,
+      "name": "National Taiwan Museum (Natural History Branch)",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "The National Taiwan Museum is a paleontology exhibition center focusing on natural history, and located directly opposite the Taipei 2/28 Memorial Peace Park . The museum reuses the historic site of the Kangyo Bank, which was built during the Japanese Colonial Period. The museum&rsquo;s stone building has huge Roman colonnades in the exterior. The walls are made using the approach where the mortar joints are filled first. The cast iron windows use pulleys and movement weights for effort-saving up and down opening and closing, and embossed glass and hexagonal wire mesh is inserted in each window. Structural technology and workmanship are evident throughout this historic building. The three-story high lobby is decorated with plaster relief sculpture plates. A variety of paleontological specimens, large-scale dinosaur models and the specimen of elephant Lin Wang are displayed in the museum. In addition, exhibitions of the history, vault and architectural renovation of the Land Bank are permanently held in the museum.",
+      "open_time": "Tue. to Sun. 9:30 AM-5 PM\r\nClosed on Mondays, Chinese New Year’s Eve and the first day of the first lunar month\r\nOpen as usual during public holidays and long holidays",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 25, Xiangyang Rd.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23142699",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.04357,
+      "elong": 121.51416,
+      "official_site": "https://www.ntm.gov.tw/en/cl.aspx?n=5678",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-10-01 18:18:58 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/614",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        },
+        {
+          "id": 25,
+          "name": "Recommended Accessible Tourism Attractions"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 512,
+      "name": "Taipei Post Office",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "The Taipei Post Office is a gigantic four-storey building with simple lines and little ornamentation. It features an arched entrance that projects out from the fa&ccedil;ade and the front of the building has four sets of classical double columns and gable decorations. The columns and windows divide the facade into two large and one small section. The double-height grand lobby has a very simple structure complemented by the classical carvings on the columns and the ceiling. As the Taipei Post Office is located near Beimen, it is also known as the Beimen Post Office. The post office&#39;s extended business hours means there are still people sending packages in the evening.",
+      "open_time": "7:30 ~ 21:00 Mon ~ Fri; 08:30 ~ 16:30 Sat; 08:30 ~ 12:00 Sun",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 120, Sec. 1, Heping W. Rd,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23615752",
+      "fax": "+886-2-23149258、+886-2-23753160",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.04726,
+      "elong": 121.51148,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-26 18:56:04 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/512",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [
+        {
+          "src": "https://www.travel.taipei/image/74469",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/74470",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/74471",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/74472",
+          "subject": "",
+          "ext": ".jpg"
+        }
+      ],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 615,
+      "name": "Futai Street Mansion(Temporarily Closed)",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Futai Street Mansion is situated right across the North Gate Post Office. It is a two-story hybrid building of stone and wood. The overall decoration lacks complexity, yet fineness can be found in its simple, understated beauty. The architectural design of the building was deeply influenced by the classical European style. The first floor of the structure was built using heavy piling of stone materials laid to form an elegant arcade of four columns and three spaces, where the arches are composed of trapezoid Qili&rsquo;an rocks. Patterns pieced together by wood can be found in the arcade ceiling. The second floor and roof trusses are all made of wood, covered with pieces of asbestos tiles on the mansard roof. The outward appearance features steep roof and dormers on the fa&ccedil;ade, as well as stone arcade columns. It is an imitation of a Renaissance style building and is the only remaining detached western-style shop still extant today that was built during the Japanese Colonial Period.",
+      "open_time": "Mon. to Sat. 10 AM-6 PM\r\nClosed on Sundays\r\nPlease visit the official website for details of opening hours",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 26, Yanping S. Rd.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23148080",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.04671,
+      "elong": 121.51081,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-10-17 19:28:14 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/615",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [
+        {
+          "src": "https://www.travel.taipei/image/124104",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/124105",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/124106",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/124107",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/124108",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/124109",
+          "subject": "",
+          "ext": ".jpg"
+        }
+      ],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 557,
+      "name": "West Site of National Taiwan University Hospital",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "The National Taiwan University Hospital was built during the Japanese colonial era; it was previously named the Taipei Hospital, the Taipei Hospital of the Taiwan Governor&rsquo;s Office, the Taipei Imperial University Medical School Affiliated Hospital; and after the war was over, the establishment was renamed &ndash; for the last time - the National Taiwan University Hospital. It is the core of Taiwan&rsquo;s modern medical development. Currently, the buildings on the west site are used for outpatient services and wards. The Renaissance-style double storey red brick reinforced concrete building was designed by Mr. Juro Kondoh. The floor plan adopts a symmetrical pattern, with the central passage passing through the entire building, connecting the various clinics and wards. The grand and spacious main lobby features various western architecture techniques. It is considered a masterpiece of modern western architecture. At that time, it was the biggest and most modern hospital in South East Asia.",
+      "open_time": "As it is a medical premises, and to protect the patients’ interest, the interior of the building is not open to sightseeing.",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No.1, Changde Street,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23123456",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.0415,
+      "elong": 121.51718,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-26 18:11:58 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/557",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 2085,
+      "name": "Chien-Cheng Circle (Taipei Circle)",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "&ldquo;Chien-Cheng Circle&rdquo; played an important role in the history of Taipei City&#39;s old town and was viewed as the heart of downtown Dadaocheng in the past. Located at the intersection of Chongqing North Road, Nanjing West Road, Ningxia Road and, Tianshui Road, not only did the circle drove the prosperity of the area, but also the neighboring old Chien-Cheng region. It has also been the incubator of many successful entrepreneurs.\r\n\r\nIn addition to reminiscing the historical trail from the past, the brand new Chien-Cheng Circle also has plants that give out fragrance all year round planted starting from its origin, &ldquo;the 1908 Yuan Park&rdquo;. It brings back the fragrant memory form the past, reducing the interference from the surroundings while increasing the visual and sensual variety.",
+      "open_time": "",
+      "zipcode": "103",
+      "distric": "Datong Dist.",
+      "address": "The intersection between Section 1 of Chongqing North Road and Nanjing West Road,Datong Dist.,Taipei City 103",
+      "tel": "+886-2-28805456",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.05381,
+      "elong": 121.51469,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-29 15:42:09 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/2085",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 18,
+          "name": "Public Art"
+        }
+      ],
+      "target": [],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 596,
+      "name": "Pu Tian-Sheng's Residence",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Nestled in an alley off Linsen N. Road, the Former Residence of Pu Tian-Sheng, a Japanese wooden structure built more than 80 years ago, was converted from Pu Tian-Sheng&rsquo;s residence and studio by his children in honor of his lifetime contribution to the arts. Among others, the construction of the Hinoki-wood art studio was designed and overseen by Pu himself. Currently open to the public, the residence provides great opportunities for arts appreciation in Taipei City and has an exhibition layout that offers guided tours and education, including an outdoor sculpture area, a parlor displaying Pu&rsquo;s collection of masterpieces, an art corridor, a memorial studio and a room showing Pu&rsquo;s personal effects.",
+      "open_time": "Reservations are required for visits on weekdays; reservations are recommended between 2PM-5PM on Sat. and Sun.",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 16, Lane 9, Linsen N. Rd.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23213539",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.04548,
+      "elong": 121.52468,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2022-12-05 15:56:55 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/596",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [
+        {
+          "id": 146,
+          "name": "Toilets"
+        }
+      ],
+      "friendly": [],
+      "images": [
+        {
+          "src": "https://www.travel.taipei/image/69599",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/69606",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/69610",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/69575",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/69578",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/69582",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/69588",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/69595",
+          "subject": "",
+          "ext": ".jpg"
+        }
+      ],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 3721,
+      "name": "International Bookstore (Former Site)",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Xue-Hong Xie went to Moscow to study after graduating from Shanghai University in her early years. Following instructions from the Communist International, she returned to Taiwan to develop organizations and decided to run a bookstore while introducing communist ideology to protect herself. The International Bookstore was founded in 1929, mainly selling left-wing ideological books and magazines and serving as a secret liaison point for the left-wing Taiwan Communist Party. In the 228 Incident, the International Bookstore played an important communication channel with the Taiwan Communist Party and had direct or indirect relationships with the organization of the 27 Brigade and related revolutionary groups.",
+      "open_time": "",
+      "zipcode": "103",
+      "distric": "Datong Dist.",
+      "address": "No. 155, Section 1, Yanping North Road,Datong Dist.,Taipei City 103",
+      "tel": "+886-2-27208889",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.053776960868355,
+      "elong": 121.51189103722572,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2024-08-28 16:35:23 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/3721",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        }
+      ],
+      "target": [],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 3722,
+      "name": "Tian-Ma Tea House",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Founded by Tian-Ma Zhan, a famous Benshi (performer who provided live narration for silent films) during the Japanese colonial period, built the tea house. On February 27, 1947, the crackdown officer of the Tobacco and Liquor Monopoly Bureau arrested Mai Lin Jiang, a tobacco dealer near Tian-Ma Tea House, and confiscated her money and cigarettes. Lin and the crowd pleaded with the officer. During the argument, Inspector Xue-Tong Fu protested against opening fire and mistakenly killed a passerby, Wen-Xi Chen, further exacerbating the situation. The next day, the people gathered from Taipei Bridge and went to the Monopoly Bureau to appeal, which escalated into the 228 Incident.",
+      "open_time": "",
+      "zipcode": "103",
+      "distric": "Datong Dist.",
+      "address": "No. 189, Nanjing West Road,Datong Dist.,Taipei City 103",
+      "tel": "+886-2-27208889",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.05402480449286,
+      "elong": 121.51217669248581,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-03-21 14:44:15 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/3722",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        }
+      ],
+      "target": [],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 527,
+      "name": "Zhongshan Hall",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Zhongshan Hall was built in 1928, during Japanese colonial era, to commemorate the accession of Emperor Hirohito. Known at that time as the Taipei Assembly Hall, the building was faced in light green tile to make it less visible to aerial bombers. The windows are adorned with classical designs in a Spanish Islamic style. With its 1,500 person seating capacity, the hall served as an important activity center during the Japanese colonial era. After Taiwan&#39;s retrocession, the building was renamed as the Zhongshan Hall and used for the reception of foreign dignitaries. In 1992, the hall was designated as a national grade two historic site.",
+      "open_time": "",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 98, Yanping S. Rd.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23813137",
+      "fax": "+886-2-23813317",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.04323,
+      "elong": 121.51006,
+      "official_site": "https://english.zsh.gov.taipei/",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-28 14:19:17 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/527",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        },
+        {
+          "id": 25,
+          "name": "Recommended Accessible Tourism Attractions"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [
+        {
+          "id": 392,
+          "name": "Accessibility"
+        },
+        {
+          "id": 393,
+          "name": "Gender"
+        },
+        {
+          "id": 396,
+          "name": "Bathroom"
+        }
+      ],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 715,
+      "name": "Chen De-xing Hall",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "The Taipei Chen Clan Ancestral Hall, built by the Grand Architect, Chen Ing-Bin, has a front hall with a hip-and-gable and double-eave roof, wooden structure and unique dougongs (interlocking wooden brackets), and smooth curvy roof ridges and eaves. Its stone-carved dual dragon pillar is regarded as one of the earliest examples of its design, and had a great impact on the later temple architecture. The main hall&#39;s huge wood-carved shrine is large, with intricate carvings and is famous for the delicate fence design. The tin prayer tools and candle stands in front of the shrine are particularly rare in Taiwan for their preservation and unique design.\r\n\r\nThe building is worth a visit as it possesses great artistic value. It is well-maintained for its usage, not only as the Chen&#39;s Ancestral Hall, but also as a kindergarten during non-holidays.",
+      "open_time": "",
+      "zipcode": "103",
+      "distric": "Datong Dist.",
+      "address": "No. 27, Ningxia Rd,Datong Dist.,Taipei City 103",
+      "tel": "+886-2-25567150",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.05551,
+      "elong": 121.51586,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-30 21:50:26 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/715",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 14,
+          "name": "Religious Venues"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [
+        {
+          "src": "https://www.travel.taipei/image/124315",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/124316",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/124317",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/124318",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/124319",
+          "subject": "",
+          "ext": ".jpg"
+        }
+      ],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 511,
+      "name": "Taipei Guest House",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Construction of the Taipei Guest House began in 1899 and was completed in 1901. Its current form dates back a renovation in 1911. The guest house is located to the left of the Presidential Office Building and served as the residence of the governor-general during the Japanese occupation period. Visiting VIPs were also received here. In 1950, the building was renamed as the Taipei Guest House and repurposed for large state banquets, the reception of foreign dignitaries, and cultural activities. In 1998, the guest house was designated as a national historic site.",
+      "open_time": "1.Opening Hours: See website http://tgh.mofa.gov.tw/ (Chinese)",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 1, Ketagalan Blvd.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23482999",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.03978,
+      "elong": 121.51589,
+      "official_site": "https://www.mofa.gov.tw/entgh/",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-30 21:46:11 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/511",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [
+        {
+          "src": "https://www.travel.taipei/image/123923",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123924",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123925",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123926",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123927",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123928",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123929",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123930",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123931",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123932",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123933",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123934",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123935",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123936",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/123922",
+          "subject": "",
+          "ext": ".jpg"
+        }
+      ],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 567,
+      "name": "Museum of Medical Humanities, NTU",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "The earliest building of the Museum of Medical Humanities, initially belonging to the medical school of Taihoku Imperial University, was completed in 1907 by Kondo Juro under the Japanese colonial rule. The century-old main structure was unveiled later in 1913 and is largely still preserved today, thanks to frequent restoration efforts. Initially used to house classrooms and an administrative center, the main structure grew into a national hub of medical research, a fortress of medical education reform, a site of medical humanities education and, in 2008, a museum. In addition to permanent exhibits such as &ldquo;A New Born&rdquo;, &ldquo;The Peopling of Taiwan&rdquo; and &ldquo;Taiwanese People&rsquo;s Struggle against Diseases&rdquo;, the Museum offers special exhibits every six months to explore the impact of medical studies. It also displays exhibit items at medical education institutions nationwide. In the style of the later French Renaissance, the stately museum features graceful curves and carvings in the lobby, on the main wall and columns, with arched designs sumptuously used in the lobby and hallways for extra elegance. Unfortunately, a fire broke out in 1930 and destroyed the Mansard-style, slanted roof with slates, bronze and a little round window on top of it.\r\n\r\nFront entrance\r\nThe west wing was first constructed in 1907\r\nThe semi-outdoor corridor in the south wing, photographed by Jack M. S. Hsu\r\nThe restored rooftop in 1997, photographed by Jack M. S. Hsu\r\nThe indoor hallway of north wing\r\nThe restored lobby",
+      "open_time": "",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 1, Sec.1, Renai Rd.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23123456",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.03945,
+      "elong": 121.5189,
+      "official_site": "https://www.mc.ntu.edu.tw/mmh/Index.action?l=en_US",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-28 14:04:26 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/567",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        }
+      ],
+      "target": [
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 3714,
+      "name": "Former Site of “Taiwan Shin Sheng Daily News",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Originally known as the Taiwan Daily News, it was formed by merging two Japanese newspapers, Taiwan Economic Journal and Taiwan Daily. It was the most significant and longest-running newspaper at the time. On October 26, 1945, on behalf of the Chief Executive Office, Wan-Ju Lee received the Taiwan Economic Journal and renamed it the Taiwan Shin Sheng Daily News, the only official newspaper. When the 228 Incident occurred in 1947, the general manager of the newspaper, Chao-Ri Ruan, and the editor-in-chief of the Japanese version, Wu Jin-Lian, were forcibly taken away by the Chief Executive Office of Taiwan Province, and their lives are still unknown.",
+      "open_time": "Open space",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 99 Hengyang Road,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-87723058",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.04251291121312,
+      "elong": 121.50934293866156,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2024-08-28 16:40:10 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/3714",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        }
+      ],
+      "target": [],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 2103,
+      "name": "East Gate- Jingfumen",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "East Gate, also known as Jingfumen, was a tunnel connecting Old Taipei City and Xikou (old name for Songshan). It is located at the central south of the East City Wall, facing Keelung, a significant port of northern Taiwan. Thus, it served a central role for national defense. In fact, the former name of today&rsquo;s Ketagalan Blvd was &quot;East Gate Street,&quot; the way leading to the East Gate.\r\n\r\nToday, the East Gate is a place where protester rallies or parades always pass by due to its location right in front of the Office of the President. Taiwanese people can see it on videos and photographs so often that it may be the most familiar city gate to the public. Besides its fame, the East Gate is also a significant political and transport hub.",
+      "open_time": "",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "Ketagalan Blvd.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-27208889",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.03907,
+      "elong": 121.51765,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-11 16:15:07 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/2103",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 571,
+      "name": "Tsai Jui-yueh Dance Research Institute",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Tsai Jui-yueh is a pioneer who devoted her life to the Taiwanese modern dance. Born in Tainan City in 1921, she learned the basics of dancing from Ishii Baku, the Japanese &ldquo;father of modern dance&rdquo;, before committing herself to introducing modern dance into Taiwan. She was revered as &ldquo; the mother of Taiwanese modern dance&rdquo; because of her 500-odd productions that cover genres ranging from ballet to folk dances of all ethnicities; the productions she helped inspired include: &ldquo;The Song of India&rdquo; and &ldquo;We Love Our Taiwan&rdquo;. The historic structure of Tsai Jui-yueh Dance Research Institute was one of the tens of dormitories for Japanese colonial officials built around 1925 on Zhongshan N. Rd. and downtown Taipei; they were mostly wooden, Japanese-style duplexes. In 1953, Tsai purchased this former residence of a Japanese &ldquo;Haninkan&rdquo; official, with part of the house designated for choreographic rehearsals. She went on to convert it into a dance studio. In 1999, scholars insisted that Tsai&rsquo;s dance studio, once destroyed in a fire and coveted by real estate developers, should be restored as a historic site in homage to Taiwanese modern dance.",
+      "open_time": "Tue.-Sun., 10 AM-5 PM; closed on Mondays and public holidays (The restaurant is open from 10 AM-11 PM)",
+      "zipcode": "104",
+      "distric": "Zhongshan Dist.",
+      "address": "No. 10, Lane 48, Section 2, Zhongshan N. Rd.,Zhongshan Dist.,Taipei City 104",
+      "tel": "+886-2-25605724",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.05579,
+      "elong": 121.52194,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-30 21:55:29 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/571",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        },
+        {
+          "id": 18,
+          "name": "Public Art"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 719,
+      "name": "Dihua Street Post Office",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "ROC Taipei Dihua Street Post Office (No. 38) is located in the Chinese New Year Market on Dihua Street, an important market street in the Dadaocheng shopping area. It has become the best preserved old street in Taipei as most of the buildings are registered to be protected as historical architectural buildings.",
+      "open_time": "",
+      "zipcode": "103",
+      "distric": "Datong Dist.",
+      "address": "No. 38, Section 1, Dihua Street,Datong Dist.,Taipei City 103",
+      "tel": "+886-2-25560519",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.05479,
+      "elong": 121.50999,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-05-03 13:26:48 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/719",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        }
+      ],
+      "target": [
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 718,
+      "name": "Former Residence of Lee Lin-Chiu",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Mr. Lee Lin-Chiu, an acclaimed Taiwanese ballad lyricist well-known for his songs, including &quot;Bāng Chhun-hong&quot; (literally meaning &quot;Longing for the Spring Breeze&quot;) and &quot;Red in the four seasons&quot;, is an important figure in the history of Taiwanese popular folksongs; his work is highly regarded as an intangible Taiwanese cultural heritage. Serving as the former residence of Mr. Lee Lin-Chiu, this building possesses historical and artistic value. Source: Taipei City Cultural Affairs Department",
+      "open_time": "",
+      "zipcode": "103",
+      "distric": "Datong Dist.",
+      "address": ",Datong Dist.,Taipei City 103",
+      "tel": "+886-9-1063-2286",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.05481,
+      "elong": 121.50999,
+      "official_site": "",
+      "facebook": "https://www.facebook.com/people/%E8%87%A8%E7%A7%8B%E5%B1%85%E6%9D%8E%E8%87%A8%E7%A7%8B%E6%95%85%E5%B1%85/61561355090447/",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-05-03 13:31:42 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/718",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [
+        {
+          "src": "https://www.travel.taipei/image/73874",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/73857",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/73858",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/73859",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/73861",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/73863",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/73865",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/73868",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/73870",
+          "subject": "",
+          "ext": ".jpg"
+        }
+      ],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 624,
+      "name": "Academia Historica",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Academia Historica is located on Changsha St. behind the Office of the President. The building is a fusion of western classic and modern styles, and designated as a municipal historic site. In the early years, it was the site of the Communications Bureau, Transportation Department of the Taiwan Governor-General&rsquo;s Office during the Japanese Colonial Period. In October, 2010, the museum hosted the &ldquo;Artifacts Exhibition of the Presidents and Vice Presidents&rdquo; to display themes and historic relics inspired by the Presidents and Vice Presidents, and also diplomatic gifts and tokens from countries around the world. In addition to scheduled tours and group tours by appointment, the museum also holds promotional and educational activities in conjunction with the exhibitions, including a series of lectures and keynote speeches on historic relics. In addition, the museum provides digitized files of its collection for search and application by all sectors.",
+      "open_time": "Mon. to Fri. 9:30 AM~4:30 PM\r\nAlso open on dates during which the Office of the President is open to visits on holidays",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No.2, Sec. 1, Changsha St.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23161000",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.03999,
+      "elong": 121.51081,
+      "official_site": "https://www.drnh.gov.tw/?Lang=en",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-29 15:12:04 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/624",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        },
+        {
+          "id": 25,
+          "name": "Recommended Accessible Tourism Attractions"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [
+        {
+          "src": "https://www.travel.taipei/image/74886",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/74887",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/74888",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/74889",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/74891",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/74900",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/74904",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/74907",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/74908",
+          "subject": "",
+          "ext": ".jpg"
+        }
+      ],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 3720,
+      "name": "Office of the Taiwan Provincial Political Construction Association (Former Site)",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "After the outbreak of the 228 Incident, the Taiwan Provincial Political Construction Association actively coordinated with the government and the public and participated in the handling committee. On March 8th, the association issued a &quot;Message to Compatriots,&quot; proposing principles and policies for political reform. After the suppression began, the authorities arrested and killed members of the association on the grounds of communist organizations and inciting people to rebel. The association operates on the second floor of Sanmin Bookstore, Section 2, Yanping North Road, Datong District, Taipei City. The first floor is the Sanmin Bookstore. Wei-Chuan Chiang was also listed as an arrest target for assisting the Chief Executive Office in mediating and handling the 228 Incident.",
+      "open_time": "",
+      "zipcode": "103",
+      "distric": "Datong Dist.",
+      "address": "Section 2, Yanping North Road,Datong Dist.,Taipei City 103",
+      "tel": "+886-2-23326228",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.056283696686766,
+      "elong": 121.51150287522134,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2024-08-28 16:36:31 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/3720",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        }
+      ],
+      "target": [],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 488,
+      "name": "Xiahai City God Temple",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "The century-old Xiahai Chenghuang Temple is host to statues of the City God, his wife, the Chinese Cupid, and 600 other deities. The temple has the highest statue density in Taiwan. Tradition has it that if the statue of Chinese Cupid is standing, he is eagerer to find a good marriage for people. The temple therefore attracts a lot of singles for a significant other Couples visit this temple in search of a smooth going.",
+      "open_time": "06:16~19:47",
+      "zipcode": "103",
+      "distric": "Datong Dist.",
+      "address": "No. 61, Sec. 1, Dihua St.,Datong Dist.,Taipei City 103",
+      "tel": "+886-2-25580346",
+      "fax": "+886-2-25586146",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.05557,
+      "elong": 121.51009,
+      "official_site": "http://www.tpecitygod.org/en-about-xia-hai01.html",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-30 22:19:22 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/488",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 14,
+          "name": "Religious Venues"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 2434,
+      "name": "Dongher Temple",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Dongher Temple, the former Branch Temple of Chaodong School, is hidden in the alleys beside Y17 Youth Recreation Center. It was built at Taipei East Gate (junction of Renai Road and Linsen South Road) in 1908, and is one of the few Buddhist temples in Taiwan with Japanese Zen style.\r\n\r\nThe towering bell tower built in 1930 was designated as a municipal historic site due to its distinctive features.",
+      "open_time": "",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 21-33, Sec. 1, Ren'ai Rd.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23934598",
+      "fax": "+886-2-23920909",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.039189752077924,
+      "elong": 121.52280628681183,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-27 20:10:41 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/2434",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        }
+      ],
+      "target": [],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 2430,
+      "name": "Shin Hong Choon Tea",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "&ldquo;Shin Hong Choon Tea&rdquo; was built in 1934 by a Dadaocheng tea merchant who came to Taiwan to seek business opportunities. The building of the Japanese colonial period that incorporates the features of eastern and western architecture is one of the few completely preserved mansions in Taipei City that serve both residential and commercial purposes. It was designated as a municipal historic site in 2009.\r\n\r\nTargeting domestic and overseas visitors, the tea shop is converted into a four-in-one hybrid space, with zones including &ldquo;books, cultural and creative products, tea drinking, and exhibition&rdquo; for visitors to better understand Dadaocheng and glimpse the history of Shin Hong Choon Tea during the first half of the 20th century.",
+      "open_time": "",
+      "zipcode": "103",
+      "distric": "Datong Dist.",
+      "address": "No. 309, Minsheng W. Rd.,Datong Dist.,Taipei City 103",
+      "tel": "+886-2-77563910",
+      "fax": "",
+      "email": "sinhongchoon1934@gmail.com",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.05707,
+      "elong": 121.51253,
+      "official_site": "",
+      "facebook": "https://www.facebook.com/%E6%96%B0%E8%8A%B3%E6%98%A5%E8%A1%8C%E7%89%B9%E5%B1%95-1119304481426235/",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-29 14:53:05 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/2430",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        },
+        {
+          "id": 25,
+          "name": "Recommended Accessible Tourism Attractions"
+        }
+      ],
+      "target": [
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 2487,
+      "name": "Taiwan Power Corporation President’s Residence",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Established around 1930, Taiwan Power Corporation President&rsquo;s Residence served as the guesthouse of the then central government and the Provincial Governor&#39;s residence. Constructed in the western style, the building has tiled roofs, white walls and arch windows, expressing the delightful taste of Italian or Spanish villas in southern Europe.",
+      "open_time": "",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 119, Yanping S. Rd.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23651234",
+      "fax": "",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.03985,
+      "elong": 121.50942,
+      "official_site": "",
+      "facebook": "",
+      "ticket": "",
+      "remind": "Currently, the Residence is open for those who make reservations in advance. For reservation, please download the application form from Taipower website.",
+      "staytime": "",
+      "modified": "2025-04-27 18:31:42 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/2487",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        }
+      ],
+      "target": [],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 503,
+      "name": "The Red House",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "The Red House was constructed in 1908 by Japanese architect Kondo Juro, which was the first government-built public market in Taiwan and also the most well-preserved Class III historic building in the nation. The Red House consists of &ldquo;Bagua&quot; shaped Octagonal Display Hall as the grand entrance for it&rsquo;s meaning&mdash; people visiting from all around the world, a characteristic Cruciform Building as main construction and adjacent South and North squares.\r\n\r\nThe Red House has been through few functions, shifted from public market, bookstore, cinema, to a theatre. More than a decade has passed since 2007 when Department of Cultural Affairs entrusted Taipei Culture Foundation to manage The Red House as a platform to promote Cultural and Creative Industry in the goal of reviving Ximending&rsquo;s community. After gathering years of cultural and creative energies, Ximending is now considered as the most iconic location of Cultural and Creative Industry in not only Taipei, but all around Taiwan.",
+      "open_time": "",
+      "zipcode": "108",
+      "distric": "Wanhua Dist.",
+      "address": "No. 10, Chengdu Rd.,Wanhua Dist.,Taipei City 108",
+      "tel": "+886-2-23119380",
+      "fax": "+886-2-23142927",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.04206,
+      "elong": 121.50688,
+      "official_site": "https://www.redhouse.taipei/index.aspx?aspxerrorpath=/index_en.aspx",
+      "facebook": "",
+      "ticket": "",
+      "remind": "Weekend Market Opening Hour\r\nSaturday 14:00-22:00\r\nSunday 14:00-21:30",
+      "staytime": "",
+      "modified": "2025-04-29 09:18:50 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/503",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        },
+        {
+          "id": 18,
+          "name": "Public Art"
+        },
+        {
+          "id": 25,
+          "name": "Recommended Accessible Tourism Attractions"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [
+        {
+          "src": "https://www.travel.taipei/image/293086",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/293087",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/293088",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/293089",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/293090",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/293082",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/293083",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/293084",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/293085",
+          "subject": "",
+          "ext": ".jpg"
+        }
+      ],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 515,
+      "name": "Huashan 1914 Creative Park",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "Originally a winery, the Huashan 1914 Creative Park is now an important events venue. As a new cultural events platform, many large-scale exhibitions, installations, theater productions and performances now take place here.",
+      "open_time": "Daily 09:30-21:00 ",
+      "zipcode": "100",
+      "distric": "Zhongzheng Dist.",
+      "address": "No. 1, Sec. 1, Bade Rd.,Zhongzheng Dist.,Taipei City 100",
+      "tel": "+886-2-23581914",
+      "fax": "+886-2-23581262",
+      "email": "",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.04381,
+      "elong": 121.52887,
+      "official_site": "https://www.huashan1914.com/w/huashan1914_en/index",
+      "facebook": "https://www.facebook.com/1914CP/",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-29 14:22:07 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/515",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        },
+        {
+          "id": 16,
+          "name": "Outing Locations"
+        },
+        {
+          "id": 18,
+          "name": "Public Art"
+        },
+        {
+          "id": 19,
+          "name": "Family Activities"
+        },
+        {
+          "id": 25,
+          "name": "Recommended Accessible Tourism Attractions"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        },
+        {
+          "id": 62,
+          "name": "Campus teaching"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [
+        {
+          "src": "https://www.travel.taipei/image/325932",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/325933",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/325934",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/325935",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/325936",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/325937",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/325938",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/325939",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/325940",
+          "subject": "",
+          "ext": ".jpg"
+        },
+        {
+          "src": "https://www.travel.taipei/image/325941",
+          "subject": "",
+          "ext": ".jpg"
+        }
+      ],
+      "files": [],
+      "links": []
+    },
+    {
+      "id": 2382,
+      "name": "Taiwan New Cultural Movement Memorial Museum",
+      "name_zh": null,
+      "open_status": 1,
+      "introduction": "&ldquo;The Taiwan New Cultural Movement Memorial Museum&rdquo;, set up in the Old Taipei Police Department, which is a municipal historic site, adheres to the mission of preserving and promoting the historical events and spirit of the &ldquo;New Culture Movement&rdquo;, and aims to bring back the historical elegance of Dadaocheng. The 1st floor is a permanent exhibition hall, while the 2nd floor is a special exhibition hall.&nbsp;\r\n\r\nBesides collecting and exhibiting the historical materials of the New Cultural Movement, it also leads the visitors in refreshing their knowledge of the political and social movement of the Taiwanese Cultural Association during the Japanese colonial period by organizing various seminars, forums, book exhibitions, guided street tours, bazaars and concerts.&nbsp;",
+      "open_time": "",
+      "zipcode": "103",
+      "distric": "Datong Dist.",
+      "address": "No. 87, Ningxia Rd.,Datong Dist.,Taipei City 103",
+      "tel": "+886-2-2557-0087",
+      "fax": "+886-2-2557-9731",
+      "email": "taiwanncmm@gmail.com",
+      "months": "01,07,02,08,03,09,04,10,05,11,06,12",
+      "nlat": 25.059337527941743,
+      "elong": 121.51504129171371,
+      "official_site": "https://tncmmm.gov.taipei/Content_List.aspx?n=C28065816760BF47",
+      "facebook": "https://www.facebook.com/TNCMMM",
+      "ticket": "",
+      "remind": "",
+      "staytime": "",
+      "modified": "2025-04-28 10:50:39 +08:00",
+      "url": "https://www.travel.taipei/en/attraction/details/2382",
+      "category": [
+        {
+          "id": 13,
+          "name": "Historic Sites"
+        },
+        {
+          "id": 15,
+          "name": "Art and Cultural Centers"
+        },
+        {
+          "id": 25,
+          "name": "Recommended Accessible Tourism Attractions"
+        }
+      ],
+      "target": [
+        {
+          "id": 61,
+          "name": "Family"
+        }
+      ],
+      "service": [],
+      "friendly": [],
+      "images": [],
+      "files": [],
+      "links": []
+    }
+  ]
+}
