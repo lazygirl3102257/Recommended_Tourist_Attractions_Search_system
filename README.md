@@ -17,5 +17,7 @@
 * 支援輸入中文地址/地標，自動查詢附近景點的互動式系統
 * 提供地圖視覺化結果，含景點名稱、距離、類型、簡介
 * 若是牽涉到住宿問題的話，能將多個訂房網站中的同一飯店價位比較彙整成一個表格，一目瞭然
+## 成果報告
+* https://docs.google.com/presentation/d/1IbjJsua6DYCx7JF6h41LAPn5IhPwbH158SXSGrpeP7Q/edit
 
 
